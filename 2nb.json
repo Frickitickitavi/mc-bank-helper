@@ -60,13 +60,29 @@
             ]
         },
         "wood": {
-            "raw wood": [
-                "oak wood",
-                "birch wood",
-                "acacia wood",
-                "spruce wood",
-                "jungle wood",
-                "dark oak wood"
+            "logs": [
+                "oak logs",
+                "birch logs",
+                "acacia logs",
+                "spruce logs",
+                "jungle logs",
+                "dark oak logs"
+            ],
+            "stripped logs": [
+                "stripped oak logs",
+                "stripped birch logs",
+                "stripped acacia logs",
+                "stripped spruce logs",
+                "stripped jungle logs",
+                "stripped dark oak logs"
+            ],
+            "bark": [
+                "oak bark",
+                "birch bark",
+                "acacia bark",
+                "spruce bark",
+                "jungle bark",
+                "dark oak bark"
             ],
             "planks:" [
                 "oak planks",
@@ -85,9 +101,16 @@
                 "spruce doors",
                 "jungle doors",
                 "dark oak doors",
-                "iron doors",
-                "wooden trap doors",
-                "iron trap doors"
+                "iron doors"
+                ],
+            "trapdoors": [
+                "oak trapdoors",
+                "birch trapdoors",
+                "acacia trapdoors",
+                "spruce trapdoors",
+                "jungle trapdoors",
+                "dark oak trapdoors",
+                "iron trapdoors"
             ],
             "fences": [
                 "oak fences",
@@ -123,7 +146,8 @@
                 "sandstone stairs",
                 "red sandstone stairs",
                 "quartz stairs",
-                "nether brick stairs"
+                "nether brick stairs",
+                "prismarine stairs"
             ],
             "slabs": [
                 "stone slabs",
@@ -139,7 +163,8 @@
                 "red sandstone slabs",
                 "quartz slabs",
                 "nether brick slabs",
-                "brick slabs"
+                "brick slabs",
+                "prismarine slabs"
             ]
         },
         "plants and fungi": {
@@ -178,6 +203,7 @@
             "fruits": [
                 "melons",
                 "pumpkins",
+                "carved pumpkins",
                 "jack-o-lanterns"
             ],
             "mushrooms": [
@@ -193,6 +219,13 @@
                 "shrubs",
                 "double tall grass"
                 "large ferns"
+            ],
+            "arctic": [
+                "kelp",
+                "dried kelp blocks",
+                "seagrass",
+                "tall seagrass",
+                "sea pickles"
             ],
             "other": [
                 "hay bales",
@@ -431,14 +464,34 @@
         },
         "mechanical": {
             "input": [
+                {
+                    "buttons": [
+                        "oak buttons",
+                        "birch buttons",
+                        "acacia buttons",
+                        "spruce buttons",
+                        "jungle buttons",
+                        "dark oak buttons",
+                        "stone buttons"
+                    ]
+                },
+                {
+                    "pressure plates": [
+                        "oak pressure plates",
+                        "birch pressure plates",
+                        "acacia pressure plates",
+                        "spruce pressure plates",
+                        "jungle pressure plates",
+                        "dark oak pressure plates",
+                        "stone pressure plates",
+                        "gold weighted pressure plates",
+                        "iron weighted pressure plates"
+                    ]
+                },
                 "redstone torches",
-                "wooden buttons",
-                "stone buttons",
                 "levers",
                 "stone pressure plates",
                 "wooden pressure plates",
-                "gold weighted pressure plates",
-                "iron weighted pressure plates",
                 "daylight sensors",
                 "tripwire hooks",
                 "observers"
@@ -458,6 +511,47 @@
                 "dispensers",
                 "droppers"
             ]
+        },
+        "aquatic": {
+            "coral": [
+                "Tube Coral",
+                "Brain Coral",
+                "Bubble Coral",
+                "Fire Coral",
+                "Horn Coral"
+            ],
+            "coral fans": [
+                "Tube Coral Fans",
+                "Dead Tube Coral Fans",
+                "Brain Coral Fans",
+                "Dead Brain Coral Fans",
+                "Bubble Coral Fans",
+                "Dead Bubble Coral Fans",
+                "Fire Coral Fans",
+                "Dead Fire Coral Fans",
+                "Horn Coral Fans"
+                "Dead Horn Coral Fans"
+            ],
+            "coral blocks": [
+                "Tube Coral Blocks",
+                "Dead Tube Coral Blocks",
+                "Brain Coral Blocks",
+                "Dead Brain Coral Blocks",
+                "Bubble Coral Blocks",
+                "Dead Bubble Coral Blocks",
+                "Fire Coral Blocks",
+                "Dead Fire Coral Blocks",
+                "Horn Coral Blocks"
+                "Dead Horn Coral Blocks"
+            ],
+            "other": [
+                "prismarine",
+                "prismarine bricks",
+                "sea lanterns",
+                "dark prismarine blocks",
+                "sponges",
+                "wet sponges",
+            ],
         },
         "transportation": {
             "rails": [
@@ -494,7 +588,8 @@
                 "jukeboxes",
                 "enchantment tables",
                 "beacons",
-                "anvils"
+                "anvils",
+                "conduits"
             ],
             "heads": [
                 "zombie heads",
@@ -503,19 +598,12 @@
                 "creeper heads",
                 "ender dragon heads"
             ],
-            "oceanic": [
-                "prismarine",
-                "prismarine bricks",
-                "sea lanterns",
-                "dark prismarine blocks",
-                "sponges",
-                "wet sponges"
-            ],
             "arctic": [
                 "snow blocks",
                 "snow layers",
                 "ice",
-                "packed ice"
+                "packed ice",
+                "blue ice"
             ],
             "decorative": [
                 "signs",
@@ -581,7 +669,8 @@
                 "chorus fruit",
                 "popped chorus fruit",
                 "beetroots",
-                "beetroot soup"
+                "beetroot soup",
+                "dried kelp"
             ],
             "seeds": [
                 "wheat seeds",
@@ -596,7 +685,8 @@
                     "awkward potions",
                     "mundane potions",
                     "thick potions",
-                    "potions of weakness"
+                    "potions of weakness",
+                    "potions of decay"
                 ],
                 "secondary potions": [
                     "potions of healing",
@@ -608,7 +698,9 @@
                     "potions of water breathing",
                     "potions of leaping",
                     "potions of poison",
-                    "potions of weakness (extended)"
+                    "potions of weakness (extended)",
+                    "potions of the turtle master",
+                    "potions of slow falling"
                 ],
                 "tertiary potions": [
                     "potions of fire resistance (extended)",
@@ -630,7 +722,10 @@
                     "potions of poison (extended)",
                     "potions of poison II",
                     "potions of slowness",
-                    "potions of slowness (extended)"
+                    "potions of slowness (extended)",
+                    "potions of the turtle master (extended)",
+                    "potions of the turtle master II",
+                    "potions of slow falling (extended)"
                 ]
             },
             "splash potions": {
@@ -638,7 +733,8 @@
                     "splash awkward potions",
                     "splash mundane potions",
                     "splash thick potions",
-                    "splash potions of weakness"
+                    "splash potions of weakness",
+                    "splash potions of decay"
                 ],
                 "secondary splash potions": [
                     "splash potions of healing",
@@ -650,7 +746,10 @@
                     "splash potions of water breathing",
                     "splash potions of leaping",
                     "splash potions of poison",
-                    "splash potions of weakness (extended)"],
+                    "splash potions of weakness (extended)",
+                    "splash potions of the turtle master",
+                    "splash potions of slow falling"
+                ],
                 "tertiary splash potions": [
                     "splash potions of fire resistance (extended)",
                     "splash potions of healing II",
@@ -671,7 +770,10 @@
                     "splash potions of poison (extended)",
                     "splash potions of poison II",
                     "splash potions of slowness",
-                    "splash potions of slowness (extended)"
+                    "splash potions of slowness (extended)",
+                    "splash potions of the turtle master (extended)",
+                    "splash potions of the turtle master II",
+                    "splash potions of slow falling (extended)"
                 ]
             },
             "lingering potions": {
@@ -690,7 +792,10 @@
                     "lingering potions of water breathing",
                     "lingering potions of leaping",
                     "lingering potions of poison",
-                    "lingering potions of weakness (extended)"],
+                    "lingering potions of weakness (extended)",
+                    "lingering potions of the turtle master",
+                    "lingering potions of slow falling"
+                ],
                 "tertiary lingering potions": [
                     "lingering potions of fire resistance (extended)",
                     "lingering potions of healing II",
@@ -711,7 +816,10 @@
                     "lingering potions of poison (extended)",
                     "lingering potions of poison II",
                     "lingering potions of slowness",
-                    "lingering potions of slowness (extended)"
+                    "lingering potions of slowness (extended)",
+                    "lingering potions of the turtle master (extended)",
+                    "lingering potions of the turtle master II",
+                    "lingering potions of slow falling (extended)"
                 ]
             },
             "supplies": [
@@ -758,32 +866,60 @@
             ],
             "projectiles": [
                 "bows",
-                "arrows",
                 "ender pearls",
                 "snowballs",
                 "spectral arrows",
-                "tipped arrows"
+                {
+                    "arrows": [
+                        "arrows",
+                        "arrows of regeneration",
+                        "arrows of swiftness",
+                        "arrows of fire resistance",
+                        "arrows of healing",
+                        "arrows of night vision",
+                        "arrows of strength",
+                        "arrows of leaping",
+                        "arrows of invisibility",
+                        "arrows of poison",
+                        "arrows of weakness",
+                        "arrows of slowness",
+                        "arrows of harming",
+                        "arrows of water breathing",
+                        "arrows of decay",
+                        "arrows of the turtle master",
+                        "arrows of slow falling"
+                    ]
+                }
             ],
             "navigation": [
                 "maps",
                 "empty maps",
-                "explorer maps",
+                "ocean explorer maps",
+                "woodland explorer maps",
+                "buried treasure explorer maps",
                 "compi"
-            ],            
+            ],
+            "buckets": [
+                "empty buckets",
+                "water buckets",
+                "lava buckets",
+                "milk buckets",
+                "cod buckets",
+                "salmon buckets",
+                "puffer fish buckets",
+                "tropical fish buckets"
+            ],
             "other": [
                 "flints and steels",
                 "clocks",
                 "shears",
                 "fishing rods",
-                "buckets",
-                "water buckets",
-                "lava buckets",
-                "milk buckets",
                 "carrots on sticks",
                 "leads",
                 "shields",
                 "elytra",
-                "totems of undying"
+                "totems of undying",
+                "tridents"
             ]
         },
         "armor": {
@@ -904,7 +1040,13 @@
                 "rabbits' feet",
                 "rabbit hides",
                 "name tags",
-                "shulker shells"
+                "shulker shells",
+                "hearts of the sea",
+                "scutes",
+                "turtle eggs",
+                "turtle shells",
+                "phantom membranes",
+                "nautilus shells"
             ]
         }
     }
@@ -930,3 +1072,11 @@ LINKS
 •Items / Other / Minerals                        -> Items / Other / Dyes / Lapis Lazuli
 •Items / Food / Vegetarian Options               -> Blocks and Entities / Other / Miscellaneous / Cakes
 •Items / Food / Vegetarian Options               -> Blocks and Entities / Plants / Fruits
+•Items / Armor / Helmets                         -> Blocks and Entities / Plants / Fruits / Carved Pumpkins
+•Items / Armor / Helmets                         -> Items / Other / Miscellaneous / Turtle Shells
+
+
+
+
+TODO
+change potion sorting into harmful/beneficial/(mixed/neutral)
