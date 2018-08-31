@@ -76,14 +76,6 @@
                 "stripped jungle logs",
                 "stripped dark oak logs"
             ],
-            "bark": [
-                "oak bark",
-                "birch bark",
-                "acacia bark",
-                "spruce bark",
-                "jungle bark",
-                "dark oak bark"
-            ],
             "planks:" [
                 "oak planks",
                 "birch planks",
@@ -147,7 +139,11 @@
                 "red sandstone stairs",
                 "quartz stairs",
                 "nether brick stairs",
-                "prismarine stairs"
+				"brick stairs",
+                "prismarine stairs",
+				"dark prismarine stairs",
+				"prismarine brick stairs",
+				"purpur stairs"
             ],
             "slabs": [
                 "stone slabs",
@@ -164,7 +160,10 @@
                 "quartz slabs",
                 "nether brick slabs",
                 "brick slabs",
-                "prismarine slabs"
+                "prismarine slabs",
+				"dark prismarine slabs",
+				"prismarine brick slabs",
+				"purpur slabs"
             ]
         },
         "plants and fungi": {
@@ -253,12 +252,11 @@
                 "chorus plants",
                 "chorus flowers",
                 "end rods",
-                "purpur blocks",
                 "purpur pillars",
                 "end bricks"
             ]
         },
-        "colored": {
+        "chromatic": {
             "wool": [
                 "red wool",
                 "orange wool",
@@ -490,8 +488,6 @@
                 },
                 "redstone torches",
                 "levers",
-                "stone pressure plates",
-                "wooden pressure plates",
                 "daylight sensors",
                 "tripwire hooks",
                 "observers"
@@ -499,8 +495,7 @@
             "throughput": [
                 "redstone",
                 "repeaters",
-                "comparators",
-                "hoppers"
+                "comparators"
             ],
             "output": [
                 "note blocks",
@@ -509,7 +504,8 @@
                 "TNT",
                 "redstone lamps",
                 "dispensers",
-                "droppers"
+                "droppers",
+				"hoppers"
             ]
         },
         "aquatic": {
@@ -1046,7 +1042,8 @@
                 "turtle eggs",
                 "turtle shells",
                 "phantom membranes",
-                "nautilus shells"
+                "nautilus shells",
+                "bottles o' enchanting"
             ]
         }
     }
@@ -1065,8 +1062,9 @@ LINKS
 •Blocks and Entities / Mechanical / Input        -> Blocks and Entities / Transportation / Rails / Detector Rails
 •Blocks and Entities / Mechanical / Output       -> Blocks and Entities / Transportation / Rails / Powered Rails and Activator Rails
 •Blocks and Entities / Interdimensional / Nether -> Blocks and Entities / Minerals
-•Blocks and Entities / Other / Utilities         -> Blocks and Entities / Colored / Shulker Boxes
-•Blocks and Entities / Interdimensional / End    -> Blocks and Entities / Colored / Shulker Boxes
+•Blocks and Entities / Other / Utilities         -> Blocks and Entities / Chromatic / Shulker Boxes
+•Blocks and Entities / Interdimensional / End    -> Blocks and Entities / Chromatic / Shulker Boxes
+•Blocks and Entities / Interdimensional / End    -> Blocks and Entities / Other / Utilities / Ender Chests
 •Items / Other / Minerals                        -> Blocks and Entities / Mechanical / Throughput / Redstone
 •Items / Food / Vegetarian Options               -> Items / Other / Dyes / Coco Beans
 •Items / Other / Minerals                        -> Items / Other / Dyes / Lapis Lazuli
@@ -1074,6 +1072,8 @@ LINKS
 •Items / Food / Vegetarian Options               -> Blocks and Entities / Plants / Fruits
 •Items / Armor / Helmets                         -> Blocks and Entities / Plants / Fruits / Carved Pumpkins
 •Items / Armor / Helmets                         -> Items / Other / Miscellaneous / Turtle Shells
+•Items / Brewing                                 -> Items / Other / Miscellaneous / Bottles o' Enchanting
+
 
 
 
