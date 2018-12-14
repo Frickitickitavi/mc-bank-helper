@@ -231,7 +231,8 @@
                 "cacti",
                 "vines",
                 "lily pads",
-                "sugarcane"
+                "sugarcane",
+                "bamboo"
             ]
         },
         "interdimensional": {
@@ -618,6 +619,8 @@
                 "bricks",
                 "cobwebs",
                 "bone blocks",
+                "ladders",
+                "scaffolding",
                 "update blocks"
             ]
         }
@@ -666,7 +669,8 @@
                 "popped chorus fruit",
                 "beetroots",
                 "beetroot soup",
-                "dried kelp"
+                "dried kelp",
+                "coco beans"
             ],
             "seeds": [
                 "wheat seeds",
@@ -963,25 +967,26 @@
                 "iron ingots",
                 "iron nuggets",
                 "emeralds",
-                "nether quartz"
+                "nether quartz",
+                "lapis lazuli"
             ],
             "dyes": [
-                "rose red",
+                "red dye",
                 "orange dye",
-                "dandelion yellow",
-                "cactus green",
-                "lapis lazuli",
+                "yellow dye",
+                "green dye",
+                "blue dye",
                 "cyan dye",
                 "light blue dye",
                 "purple dye",
                 "magenta dye",
                 "pink dye",
                 "lime green dye",
-                "bonemeal",
-                "ink sacs",
+                "white dye",
+                "black dye",
                 "gray dye",
                 "light gray dye",
-                "coco beans"
+                "brown dye"
             ],
             "music discs": [
                 "13",
@@ -1043,7 +1048,9 @@
                 "turtle shells",
                 "phantom membranes",
                 "nautilus shells",
-                "bottles o' enchanting"
+                "bottles o' enchanting",
+                "bonemeal",
+                "ink sacs"
             ]
         }
     }
