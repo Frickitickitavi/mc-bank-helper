@@ -22,7 +22,9 @@
                 "quartz blocks",
                 "chiseled quartz blocks",
                 "pillar quartz blocks"
+                // SHORTCUT FROM INPUT
             ]
+            // SHORTCUT FROM NETHER
         },
         "rocks": {
             "stone": [
@@ -57,6 +59,7 @@
                 "chiseled red sandstone",
                 "smooth sandstone",
                 "smooth red sandstone"
+                // SHORTCUT TO SOUL SAND
             ]
         },
         "wood": {
@@ -76,7 +79,7 @@
                 "stripped jungle logs",
                 "stripped dark oak logs"
             ],
-            "planks:" [
+            "planks": [
                 "oak planks",
                 "birch planks",
                 "acacia planks",
@@ -198,12 +201,15 @@
                 "lilacs",
                 "rose bushes",
                 "peonies"
+                // SHORTCUT TO CHORUS FLOWERS
             ],
             "fruits": [
                 "melons",
                 "pumpkins",
                 "carved pumpkins",
                 "jack-o-lanterns"
+                // SHORTCUT FROM VEGAN OPTIONS
+                // SHORTCUT FROM HELMETS
             ],
             "mushrooms": [
                 "red mushrooms",
@@ -233,6 +239,7 @@
                 "lily pads",
                 "sugarcane",
                 "bamboo"
+                // SHORTCUT TO CHORUS PLANTS
             ]
         },
         "interdimensional": {
@@ -244,6 +251,8 @@
                 "soul sand",
                 "magma",
                 "nether wart blocks"
+                // SHORTCUT TO QUARTZ
+                // SHORTCUT FROM SAND
             ],
             "end": [
                 "endstone",
@@ -255,6 +264,10 @@
                 "end rods",
                 "purpur pillars",
                 "end bricks"
+                // SHORTCUT TO SHULKER BOXES
+                // SHORTCUT TO ENDER CHESTS
+                // SHORTCUT FROM FLOWERS
+                // SHORTCUT FROM OTHER PLANTS
             ]
         },
         "chromatic": {
@@ -459,6 +472,8 @@
                 "gray shulker boxes",
                 "light gray shulker boxes",
                 "brown shulker boxes"
+                // SHORTCUT FROM END
+                // SHORTCUT FROM UTILITIES
             ]
         },
         "mechanical": {
@@ -492,11 +507,16 @@
                 "daylight sensors",
                 "tripwire hooks",
                 "observers"
+                // SHORTCUT TO REDSTONE BLOCKS
+                // SHORTCUT TO TRIPWIRE
+                // SHORTCUT TO DETECTOR RAILS
+                // SHORTCUT TO TRAPPED CHESTS
             ],
             "throughput": [
                 "redstone",
                 "repeaters",
                 "comparators"
+                // SHORTCUT FROM MINERALS
             ],
             "output": [
                 "note blocks",
@@ -507,6 +527,7 @@
                 "dispensers",
                 "droppers",
 				"hoppers"
+                // SHORTCUT TO POWERED/ACTIVATOR RAILS
             ]
         },
         "aquatic": {
@@ -556,13 +577,14 @@
                 "powered rails",
                 "detector rails",
                 "activator rails"
+                // SHORTCUT FROM REDSTONE INPUT
+                // SHORTCUT FROM REDSTONE OUTPUT
             ],
             "minecarts": [
                 "minecarts",
-                "minecarts with furni",
+                "minecarts with chests",
                 "minecarts with TNT",
-                "minecarts with hoppers",
-                "minecarts with dispensers"
+                "minecarts with hoppers"                
             ],
             "boats": [
                 "oak boats",
@@ -587,6 +609,9 @@
                 "beacons",
                 "anvils",
                 "conduits"
+                // SHORTCUT TO SHULKER BOXES
+                // SHORTCUT FROM END
+                // SHORTCUT FROM REDSTONE INPUT
             ],
             "heads": [
                 "zombie heads",
@@ -622,6 +647,7 @@
                 "ladders",
                 "scaffolding",
                 "update blocks"
+                // SHORTCUT FROM VEGAN OPTIONS
             ]
         }
     },
@@ -631,11 +657,10 @@
                 "raw porkchops",
                 "porkchops",
                 "eggs",
-                "raw fish",
+                "raw cod",
                 "raw salmon",
-                "clownfish",
-                "pufferfish",
-                "cooked fish",
+                "tropical fish",
+                "cooked cod",
                 "cooked salmon",
                 "raw beef",
                 "steak",
@@ -647,8 +672,9 @@
                 "rabbit stew",
                 "raw mutton",
                 "cooked mutton"
+                // SHORTCUT TO SPIDER EYES/PUFFERFISH
             ],
-            "vegetarian options": [
+            "vegan options": [
                 "apples",
                 "golden apples",
                 "enchanted golden apples",
@@ -658,7 +684,6 @@
                 "sugar",
                 "cookies",
                 "melon slices",
-                "glistering melons",
                 "carrots",
                 "golden carrots",
                 "potatoes",
@@ -671,6 +696,9 @@
                 "beetroot soup",
                 "dried kelp",
                 "coco beans"
+                // SHORTCUT TO FRUITS
+                // SHORTCUT TO CAKES
+                // SHORTCUT TO GLISTERING MELONS/GOLDEN CARROTS
             ],
             "seeds": [
                 "wheat seeds",
@@ -679,154 +707,173 @@
                 "beetroot seeds"
             ]
         },
-        "brewing": {
+        "brewing": {  
             "potions": {
-                "primary potions": [
-                    "awkward potions",
-                    "mundane potions",
-                    "thick potions",
-                    "potions of weakness",
-                    "potions of decay"
-                ],
-                "secondary potions": [
+                "beneficial potions": [
                     "potions of healing",
-                    "potions of fire resistance",
-                    "potions of regeneration",
-                    "potions of strength",
-                    "potions of swiftness",
-                    "potions of night vision",
-                    "potions of water breathing",
-                    "potions of leaping",
-                    "potions of poison",
-                    "potions of weakness (extended)",
-                    "potions of the turtle master",
-                    "potions of slow falling"
-                ],
-                "tertiary potions": [
-                    "potions of fire resistance (extended)",
                     "potions of healing II",
+                    "potions of fire resistance",
+                    "potions of fire resistance (extended)",
+                    "potions of regeneration",
                     "potions of regeneration (extended)",
                     "potions of regeneration II",
-                    "potions of strength (exteded)",
+                    "potions of strength",
+                    "potions of strength (extended)",
                     "potions of strength II",
+                    "potions of swiftness",
                     "potions of swiftness (extended)",
                     "potions of swiftness II",
+                    "potions of night vision",
                     "potions of night vision (extended)",
+                    "potions of water breathing",
+                    "potions of water breathing (extended)",
+                    "potions of leaping",
+                    "potions of leaping II",
+                    "potions of leaping (extended)"
                     "potions of invisibility",
                     "potions of invisibility (extended)",
-                    "potions of water breathing (extended)",
-                    "potions of leaping II",
-                    "potions of leaping (extended)",
+                    "potions of slow falling",
+                    "potions of slow falling (extended)"
+                ],
+                "detrimental potions": [
+                    "potions of weakness",
+                    "potions of weakness (extended)",
+                    "potions of decay",
+                    "potions of poison",
                     "potions of harming",
                     "potions of harming II",
                     "potions of poison (extended)",
                     "potions of poison II",
                     "potions of slowness",
-                    "potions of slowness (extended)",
+                    "potions of slowness (extended)"
+                ],
+                "mixed/neutral potions": [
+                    "awkward potions",
+                    "mundane potions",
+                    "thick potions",
+                    "potions of the turtle master",
                     "potions of the turtle master (extended)",
-                    "potions of the turtle master II",
-                    "potions of slow falling (extended)"
+                    "potions of the turtle master II"
                 ]
             },
             "splash potions": {
-                "primary splash potions": [
-                    "splash awkward potions",
-                    "splash mundane potions",
-                    "splash thick potions",
-                    "splash potions of weakness",
-                    "splash potions of decay"
-                ],
-                "secondary splash potions": [
+                "beneficial splash potions": [
                     "splash potions of healing",
-                    "splash potions of fire resistance",
-                    "splash potions of regeneration",
-                    "splash potions of strength",
-                    "splash potions of swiftness",
-                    "splash potions of night vision",
-                    "splash potions of water breathing",
-                    "splash potions of leaping",
-                    "splash potions of poison",
-                    "splash potions of weakness (extended)",
-                    "splash potions of the turtle master",
-                    "splash potions of slow falling"
-                ],
-                "tertiary splash potions": [
-                    "splash potions of fire resistance (extended)",
                     "splash potions of healing II",
+                    "splash potions of fire resistance",
+                    "splash potions of fire resistance (extended)",
+                    "splash potions of regeneration",
                     "splash potions of regeneration (extended)",
                     "splash potions of regeneration II",
-                    "splash potions of strength (exteded)",
+                    "splash potions of strength",
+                    "splash potions of strength (extended)",
                     "splash potions of strength II",
+                    "splash potions of swiftness",
                     "splash potions of swiftness (extended)",
                     "splash potions of swiftness II",
+                    "splash potions of night vision",
                     "splash potions of night vision (extended)",
+                    "splash potions of water breathing",
+                    "splash potions of water breathing (extended)",
+                    "splash potions of leaping",
+                    "splash potions of leaping II",
+                    "splash potions of leaping (extended)"
                     "splash potions of invisibility",
                     "splash potions of invisibility (extended)",
-                    "splash potions of water breathing (extended)",
-                    "splash potions of leaping II",
-                    "splash potions of leaping (extended)",
+                    "splash potions of slow falling",
+                    "splash potions of slow falling (extended)"
+                ],
+                "detrimental splash potions": [
+                    "splash potions of weakness",
+                    "splash potions of weakness (extended)",
+                    "splash potions of decay",
+                    "splash potions of poison",
                     "splash potions of harming",
                     "splash potions of harming II",
                     "splash potions of poison (extended)",
                     "splash potions of poison II",
                     "splash potions of slowness",
-                    "splash potions of slowness (extended)",
+                    "splash potions of slowness (extended)"
+                ],
+                "mixed/neutral splash potions": [
+                    "awkward splash potions",
+                    "mundane splash potions",
+                    "thick splash potions",
+                    "splash potions of the turtle master",
                     "splash potions of the turtle master (extended)",
-                    "splash potions of the turtle master II",
-                    "splash potions of slow falling (extended)"
-                ]
+                    "splash potions of the turtle master II"
+                ],
             },
             "lingering potions": {
-                "primary lingering potions": [
-                    "lingering awkward potions",
-                    "lingering mundane potions",
-                    "lingering thick potions",
-                    "lingering potions of weakness"],
-                "secondary lingering potions": [
+                "beneficial lingering potions": [
                     "lingering potions of healing",
-                    "lingering potions of fire resistance",
-                    "lingering potions of regeneration",
-                    "lingering potions of strength",
-                    "lingering potions of swiftness",
-                    "lingering potions of night vision",
-                    "lingering potions of water breathing",
-                    "lingering potions of leaping",
-                    "lingering potions of poison",
-                    "lingering potions of weakness (extended)",
-                    "lingering potions of the turtle master",
-                    "lingering potions of slow falling"
-                ],
-                "tertiary lingering potions": [
-                    "lingering potions of fire resistance (extended)",
                     "lingering potions of healing II",
+                    "lingering potions of fire resistance",
+                    "lingering potions of fire resistance (extended)",
+                    "lingering potions of regeneration",
                     "lingering potions of regeneration (extended)",
                     "lingering potions of regeneration II",
-                    "lingering potions of strength (exteded)",
+                    "lingering potions of strength",
+                    "lingering potions of strength (extended)",
                     "lingering potions of strength II",
+                    "lingering potions of swiftness",
                     "lingering potions of swiftness (extended)",
                     "lingering potions of swiftness II",
+                    "lingering potions of night vision",
                     "lingering potions of night vision (extended)",
+                    "lingering potions of water breathing",
+                    "lingering potions of water breathing (extended)",
+                    "lingering potions of leaping",
+                    "lingering potions of leaping II",
+                    "lingering potions of leaping (extended)"
                     "lingering potions of invisibility",
                     "lingering potions of invisibility (extended)",
-                    "lingering potions of water breathing (extended)",
-                    "lingering potions of leaping II",
-                    "lingering potions of leaping (extended)",
+                    "lingering potions of slow falling",
+                    "lingering potions of slow falling (extended)"
+                ],
+                "detrimental lingering potions": [
+                    "lingering potions of weakness",
+                    "lingering potions of weakness (extended)",
+                    "lingering potions of decay",
+                    "lingering potions of poison",
                     "lingering potions of harming",
                     "lingering potions of harming II",
                     "lingering potions of poison (extended)",
                     "lingering potions of poison II",
                     "lingering potions of slowness",
-                    "lingering potions of slowness (extended)",
+                    "lingering potions of slowness (extended)"
+                ],
+                "mixed/neutral lingering potions": [
+                    "awkward lingering potions",
+                    "mundane lingering potions",
+                    "thick lingering potions",
+                    "lingering potions of the turtle master",
                     "lingering potions of the turtle master (extended)",
-                    "lingering potions of the turtle master II",
-                    "lingering potions of slow falling (extended)"
+                    "lingering potions of the turtle master II"
                 ]
             },
             "supplies": [
                 "bottles",
                 "water bottles",
-                "dragon's breaths"
+                "dragon's breaths",
+                "spider eyes",
+                "fermented spider eyes",
+                "glistering melons",
+                "nether warts",
+                "rabbits' feet",
+                "magma cream",
+                "golden carrots",
+                "blaze rods",
+                "blaze powder",
+                "ghast tears",
+                "turtle shells",
+                "phantom membranes"
+                // SHORTCUT TO REDSTONE DUST
+                // SHORTCUT TO GUNPOWDER
+                // SHORTCUT TO GLOWSTONE DUST
+                // SHORTCUT TO SUGAR
             ]
+            // SHORTCUT TO MILK BUCKETS
         },
         "tools and weapons": {
             "pickaxes": [
@@ -869,6 +916,7 @@
                 "ender pearls",
                 "snowballs",
                 "spectral arrows",
+                "fire charges",
                 {
                     "arrows": [
                         "arrows",
@@ -890,6 +938,7 @@
                         "arrows of slow falling"
                     ]
                 }
+                // SHORTCUT FROM FIREWORK SUPPLIES
             ],
             "navigation": [
                 "maps",
@@ -908,6 +957,7 @@
                 "salmon buckets",
                 "puffer fish buckets",
                 "tropical fish buckets"
+                // SHORTCUT FROM BREWING
             ],
             "other": [
                 "flints and steels",
@@ -929,6 +979,8 @@
                 "iron helmets",
                 "gold helmets",
                 "diamond helmets"
+                // SHORTCUT TO CARVED PUMPKINS
+                // SHORTCUT TO TURTLE SHELLS
             ],
             "chestplates": [
                 "leather tunics",
@@ -955,6 +1007,54 @@
                 "iron horse armor",
                 "golden horse armor",
                 "diamond horse armor"
+            ]
+        },
+        "pyrotechnics" : {
+            "firework rockets": [
+                "red firework rockets",
+                "orange firework rockets",
+                "yellow firework rockets",
+                "green firework rockets",
+                "blue firework rockets",
+                "cyan firework rockets",
+                "light blue firework rockets",
+                "purple firework rockets",
+                "magenta firework rockets",
+                "pink firework rockets",
+                "lime green firework rockets",
+                "white firework rockets",
+                "black firework rockets",
+                "gray firework rockets",
+                "light gray firework rockets",
+                "brown firework rockets"
+            ],
+            "firework stars": [
+                "red firework stars",
+                "orange firework stars",
+                "yellow firework stars",
+                "green firework stars",
+                "blue firework stars",
+                "cyan firework stars",
+                "light blue firework stars",
+                "purple firework stars",
+                "magenta firework stars",
+                "pink firework stars",
+                "lime green firework stars",
+                "white firework stars",
+                "black firework stars",
+                "gray firework stars",
+                "light gray firework stars",
+                "brown firework stars"
+            ],
+            "supplies": [
+                "gunpowder",
+                "paper"
+                // SHORTCUT FROM BREWING SUPPLIES
+                // SHORTCUT TO GLOWSTONE DUST
+                // SHORTCUT TO GOLD NUGGETS
+                // SHORTCUT TO FEATHERS
+                // SHORTCUT TO FIRE CHARGES
+                // SHORTCUT TO DYES
             ]
         },
         "other": {
@@ -1022,31 +1122,17 @@
                 "clay",
                 "paper",
                 "slimeballs",
-                "glowstone dust",
                 "bones",
-                "blaze rods",
-                "blaze powder",
-                "ghast tears",
-                "nether warts",
-                "spider eyes",
-                "fermented spider eyes",
-                "magma cream",
                 "eyes of ender",
-                "fire charges",
                 "nether stars",
-                "firework rockets",
-                "firework stars",
                 "prismarine shards",
                 "prismarine crystals",
-                "rabbits' feet",
                 "rabbit hides",
                 "name tags",
                 "shulker shells",
                 "hearts of the sea",
                 "scutes",
                 "turtle eggs",
-                "turtle shells",
-                "phantom membranes",
                 "nautilus shells",
                 "bottles o' enchanting",
                 "bonemeal",
@@ -1055,35 +1141,3 @@
         }
     }
 }
-
-
-
-LINKS
-•Blocks and Entities / Rocks / Sand              -> Blocks and Entities / Interdimensional / Nether / Soul Sand
-•Blocks and Entities / Plants / Flowers          -> Blocks and Entities / Interdimensional / End / Chorus Flowers
-•Blocks and Entities / Plants / Other            -> Blocks and Entities / Interdimensional / End / Chorus Plants
-•Blocks and Entities / Interdimensional / End    -> Blocks and Entities / Other / Utilities / Ender Chest
-•Blocks and Entities / Mechanical / Input        -> Items / Other / Miscellaneous / String (tripwire)
-•Blocks and Entities / Mechanical / Input        -> Blocks and Entities / Minerals / Blocks / Redstone Blocks
-•Blocks and Entities / Mechanical / Input        -> Blocks and Entities / Other / Utilities / Trapped Chests
-•Blocks and Entities / Mechanical / Input        -> Blocks and Entities / Transportation / Rails / Detector Rails
-•Blocks and Entities / Mechanical / Output       -> Blocks and Entities / Transportation / Rails / Powered Rails and Activator Rails
-•Blocks and Entities / Interdimensional / Nether -> Blocks and Entities / Minerals
-•Blocks and Entities / Other / Utilities         -> Blocks and Entities / Chromatic / Shulker Boxes
-•Blocks and Entities / Interdimensional / End    -> Blocks and Entities / Chromatic / Shulker Boxes
-•Blocks and Entities / Interdimensional / End    -> Blocks and Entities / Other / Utilities / Ender Chests
-•Items / Other / Minerals                        -> Blocks and Entities / Mechanical / Throughput / Redstone
-•Items / Food / Vegetarian Options               -> Items / Other / Dyes / Coco Beans
-•Items / Other / Minerals                        -> Items / Other / Dyes / Lapis Lazuli
-•Items / Food / Vegetarian Options               -> Blocks and Entities / Other / Miscellaneous / Cakes
-•Items / Food / Vegetarian Options               -> Blocks and Entities / Plants / Fruits
-•Items / Armor / Helmets                         -> Blocks and Entities / Plants / Fruits / Carved Pumpkins
-•Items / Armor / Helmets                         -> Items / Other / Miscellaneous / Turtle Shells
-•Items / Brewing                                 -> Items / Other / Miscellaneous / Bottles o' Enchanting
-
-
-
-
-
-TODO
-change potion sorting into harmful/beneficial/(mixed/neutral)
