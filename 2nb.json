@@ -29,6 +29,7 @@
         "rocks": {
             "stone": [
                 "cobblestone",
+                "stone",
                 "smooth stone",
                 "stone bricks",
                 "chiseled stone bricks",
@@ -88,7 +89,7 @@
                 "dark oak planks"
             ]
         },
-        "doors and walls": {
+        "barriers": {
             "doors": [
                 "oak doors",
                 "birch doors",
@@ -107,6 +108,22 @@
                 "dark oak trapdoors",
                 "iron trapdoors"
             ],
+            "walls": [  
+                "cobblestone walls",
+                "moss stone walls",
+                "stone brick walls",
+                "mossy stone brick walls",
+                "granite walls",
+                "diorite walls",
+                "andesite walls",
+                "sandstone walls",
+                "red sandstone walls",
+                "brick walls",
+                "nether brick walls",
+                "red nether brick walls",
+                "end stone brick walls",
+                "prismarine walls"
+            ],
             "fences": [
                 "oak fences",
                 "birch fences",
@@ -115,10 +132,7 @@
                 "jungle fences",
                 "dark oak fences",
                 "nether brick fences",
-                "cobblestone walls",
-                "moss stone walls",
-                "iron bars"
-            ],
+            ],           
             "fencegates": [
                 "oak fencegates",
                 "birch fencegates",
@@ -129,45 +143,90 @@
                 "nether brick fencegates"]
         },
         "partial": {
-            "stairs": [
-                "stone brick stairs",
-                "cobblestone stairs",
-                "oak stairs",
-                "birch stairs",
-                "acacia stairs",
-                "spruce stairs",
-                "jungle stairs",
-                "dark oak stairs",
-                "sandstone stairs",
-                "red sandstone stairs",
-                "quartz stairs",
-                "nether brick stairs",
-				"brick stairs",
-                "prismarine stairs",
-				"dark prismarine stairs",
-				"prismarine brick stairs",
-				"purpur stairs"
-            ],
-            "slabs": [
-                "stone slabs",
-                "stone brick slabs",
-                "cobblestone slabs",
-                "oak slabs",
-                "birch slabs",
-                "acacia slabs",
-                "spruce slabs",
-                "jungle slabs",
-                "dark oak slabs",
-                "sandstone slabs",
-                "red sandstone slabs",
-                "quartz slabs",
-                "nether brick slabs",
-                "brick slabs",
-                "prismarine slabs",
-				"dark prismarine slabs",
-				"prismarine brick slabs",
-				"purpur slabs"
-            ]
+            "stairs": {
+                "stone": [
+                    "stone brick stairs",
+                    "mossy stone brick stairs",
+                    "cobblestone stairs",
+                    "mossy cobblestone stairs",
+                    "stone stairs",
+                    "granite stairs",
+                    "polished granite stairs",
+                    "diorite stairs",
+                    "polished diorite stairs",
+                    "andesite stairs",
+                    "polished andesite stairs"
+                ],
+                "wood": [
+                    "oak stairs",
+                    "birch stairs",
+                    "acacia stairs",
+                    "spruce stairs",
+                    "jungle stairs",
+                    "dark oak stairs"
+                ],
+                "sandstone": [
+                    "sandstone stairs",
+                    "smooth sandstone stairs",
+                    "red sandstone stairs",
+                    "smooth red sandstone stairs"
+                ],
+                "other": [
+                    "quartz stairs",
+                    "smooth quartz stairs",
+                    "nether brick stairs",
+                    "red nether brick stairs",
+                    "brick stairs",
+                    "prismarine stairs",
+                    "dark prismarine stairs",
+                    "prismarine brick stairs",
+                    "end stone brick stairs",
+                    "purpur stairs"
+                ]
+            },
+            "slabs": {
+                "stone": [
+                    "stone slabs",
+                    "smooth stone slabs",
+                    "stone brick slabs",
+                    "mossy stone brick slabs",
+                    "cobblestone slabs",
+                    "mossy cobblestone slabs",
+                    "granite slabs",
+                    "polished granite slabs",
+                    "diorite slabs",
+                    "polished diorite slabs",
+                    "andesite slabs",
+                    "polished andesite slabs"
+                ],
+                "wood": [
+                    "oak slabs",
+                    "birch slabs",
+                    "acacia slabs",
+                    "spruce slabs",
+                    "jungle slabs",
+                    "dark oak slabs",
+                    "petrified oak slabs"
+                ],
+                "sandstone": [
+                    "sandstone slabs",
+                    "smooth sandstone slabs",
+                    "red sandstone slabs",
+                    "smooth red sandstone slabs",
+                ],
+                "other": [
+                    "quartz slabs",
+                    "smooth quartz slabs",
+                    "nether brick slabs",
+                    "red nether brick slabs",
+                    "brick slabs",
+                    "prismarine slabs",
+                    "dark prismarine slabs",
+                    "prismarine brick slabs",
+                    "end stone brick slabs",
+                    "purpur slabs"
+                ]
+            }
         },
         "plants and fungi": {
             "saplings": [
@@ -200,7 +259,9 @@
                 "sunflowers",
                 "lilacs",
                 "rose bushes",
-                "peonies"
+                "peonies",
+                "lilies of the valley",
+                "cornflowers"
                 // SHORTCUT TO CHORUS FLOWERS
             ],
             "fruits": [
@@ -307,7 +368,7 @@
                 "light gray carpets",
                 "brown carpets"
             ],
-            "clay and terracotta": [
+            "clay and unglazed terracotta": [
                 "clay",
                 "terracotta",
                 "red terracotta",
@@ -628,13 +689,19 @@
                 "blue ice"
             ],
             "decorative": [
-                "signs",
+                "oak signs",
+                "birch signs",
+                "spruce signs",
+                "acacia signs",
+                "jungle signs",
+                "dark oak signs",
                 "banners",
                 "paintings",
                 "item frames",
                 "armor stands",
                 "flower pots",
-                "bookshelves"
+                "bookshelves",
+                "iron bars"
             ],
             "miscellaneous": [
                 "torches",
