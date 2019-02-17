@@ -124,7 +124,7 @@
                 "end stone brick walls",
                 "prismarine walls"
             ],
-            "fences": [
+            "fences & bars": [
                 "oak fences",
                 "birch fences",
                 "acacia fences",
@@ -132,6 +132,7 @@
                 "jungle fences",
                 "dark oak fences",
                 "nether brick fences",
+		"iron bars"
             ],           
             "fencegates": [
                 "oak fencegates",
@@ -587,7 +588,7 @@
                 "redstone lamps",
                 "dispensers",
                 "droppers",
-				"hoppers"
+		"hoppers"
                 // SHORTCUT TO POWERED/ACTIVATOR RAILS
             ]
         },
@@ -700,8 +701,7 @@
                 "item frames",
                 "armor stands",
                 "flower pots",
-                "bookshelves",
-                "iron bars"
+                "bookshelves"
             ],
             "miscellaneous": [
                 "torches",
