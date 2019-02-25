@@ -765,7 +765,7 @@
                 "coco beans"
                 // SHORTCUT TO FRUITS
                 // SHORTCUT TO CAKES
-                // SHORTCUT TO GLISTERING MELONS/GOLDEN CARROTS
+                // SHORTCUT TO GLISTERING MELONS/FROM BREWING SUPPLIES
             ],
             "seeds": [
                 "wheat seeds",
@@ -929,7 +929,6 @@
                 "nether warts",
                 "rabbits' feet",
                 "magma cream",
-                "golden carrots",
                 "blaze rods",
                 "blaze powder",
                 "ghast tears",
@@ -938,7 +937,7 @@
                 // SHORTCUT TO REDSTONE DUST
                 // SHORTCUT TO GUNPOWDER
                 // SHORTCUT TO GLOWSTONE DUST
-                // SHORTCUT TO SUGAR
+                // SHORTCUT TO SUGAR/GOLDEN CARROTS//FROM VEGAN OPTIONS
             ]
             // SHORTCUT TO MILK BUCKETS
         },
