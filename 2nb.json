@@ -1203,6 +1203,7 @@
                 "bottles o' enchanting",
                 "bonemeal",
                 "ink sacs"
+		// SHORTCUT FROM REDSTONE INPUT
             ]
         }
     }
