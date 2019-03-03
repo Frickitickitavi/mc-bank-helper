@@ -940,6 +940,7 @@
                 // SHORTCUT TO SUGAR/GOLDEN CARROTS//FROM VEGAN OPTIONS
             ]
             // SHORTCUT TO MILK BUCKETS
+	    // SHORTCUT TO BOTTLES O' ENCHANTING
         },
         "tools and weapons": {
             "pickaxes": [
@@ -1203,7 +1204,8 @@
                 "bottles o' enchanting",
                 "bonemeal",
                 "ink sacs"
-		// SHORTCUT FROM REDSTONE INPUT
+		// SHORTCUT FROM INPUT
+		// SHORTCUT FROM BREWING
             ]
         }
     }
