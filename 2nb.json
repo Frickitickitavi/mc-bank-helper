@@ -681,6 +681,7 @@
                 "wither skeleton heads",
                 "creeper heads",
                 "ender dragon heads"
+		// SHORTCUT FROM HELMETS
             ],
             "arctic": [
                 "snow blocks",
@@ -1048,6 +1049,7 @@
                 "diamond helmets"
                 // SHORTCUT TO CARVED PUMPKINS
                 // SHORTCUT TO TURTLE SHELLS
+		// SHORTCUT TO HEADS
             ],
             "chestplates": [
                 "leather tunics",
