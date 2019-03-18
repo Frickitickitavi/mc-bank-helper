@@ -670,6 +670,8 @@
                 "enchantment tables",
                 "beacons",
                 "anvils",
+		"slightly damaged anvils",
+		"very damaged anvils",
                 "conduits"
                 // SHORTCUT TO SHULKER BOXES
                 // SHORTCUT FROM END
@@ -816,6 +818,7 @@
                     "potions of slowness (extended)"
                 ],
                 "mixed/neutral potions": [
+		    "water bottles",
                     "awkward potions",
                     "mundane potions",
                     "thick potions",
@@ -864,6 +867,7 @@
                     "splash potions of slowness (extended)"
                 ],
                 "mixed/neutral splash potions": [
+                    "splash water bottles",
                     "awkward splash potions",
                     "mundane splash potions",
                     "thick splash potions",
@@ -912,6 +916,7 @@
                     "lingering potions of slowness (extended)"
                 ],
                 "mixed/neutral lingering potions": [
+		    "lingering water bottles",
                     "awkward lingering potions",
                     "mundane lingering potions",
                     "thick lingering potions",
@@ -922,7 +927,6 @@
             },
             "supplies": [
                 "bottles",
-                "water bottles",
                 "dragon's breaths",
                 "spider eyes",
                 "fermented spider eyes",
