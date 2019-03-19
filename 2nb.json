@@ -87,7 +87,15 @@
                 "spruce planks",
                 "jungle planks",
                 "dark oak planks"
-            ]
+            ],
+	    "wood": [
+		"oak wood",
+                "birch wood",
+                "acacia wood",
+                "spruce wood",
+                "jungle wood",
+                "dark oak wood"
+	    ]
         },
         "barriers": {
             "doors": [
@@ -672,7 +680,9 @@
                 "anvils",
 		"slightly damaged anvils",
 		"very damaged anvils",
-                "conduits"
+                "conduits",
+		"lecterns",
+		"looms"
                 // SHORTCUT TO SHULKER BOXES
                 // SHORTCUT FROM END
                 // SHORTCUT FROM REDSTONE INPUT
@@ -708,6 +718,7 @@
             ],
             "miscellaneous": [
                 "torches",
+		"lanters",
                 "obsidian",
                 "slime blocks",
                 "cakes",
@@ -947,7 +958,7 @@
             // SHORTCUT TO MILK BUCKETS
 	    // SHORTCUT TO BOTTLES O' ENCHANTING
         },
-        "tools and weapons": {
+        "equipment": {
             "pickaxes": [
                 "wooden pickaxes",
                 "stone pickaxes",
@@ -985,6 +996,7 @@
             ],
             "projectiles": [
                 "bows",
+		"crossbows",
                 "ender pearls",
                 "snowballs",
                 "spectral arrows",
@@ -1041,7 +1053,8 @@
                 "shields",
                 "elytra",
                 "totems of undying",
-                "tridents"
+                "tridents",
+		"shields"
             ]
         },
         "armor": {
