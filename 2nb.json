@@ -140,7 +140,7 @@
                 "jungle fences",
                 "dark oak fences",
                 "nether brick fences",
-		"iron bars"
+		        "iron bars"
             ],           
             "fencegates": [
                 "oak fencegates",
