@@ -678,11 +678,11 @@
                 "enchantment tables",
                 "beacons",
                 "anvils",
-		"slightly damaged anvils",
-		"very damaged anvils",
+                "slightly damaged anvils",
+                "very damaged anvils",
                 "conduits",
-		"lecterns",
-		"looms"
+                "lecterns",
+                "looms"
                 // SHORTCUT TO SHULKER BOXES
                 // SHORTCUT FROM END
                 // SHORTCUT FROM REDSTONE INPUT
@@ -693,7 +693,7 @@
                 "wither skeleton heads",
                 "creeper heads",
                 "ender dragon heads"
-		// SHORTCUT FROM HELMETS
+		        // SHORTCUT FROM HELMETS
             ],
             "arctic": [
                 "snow blocks",
@@ -718,7 +718,7 @@
             ],
             "miscellaneous": [
                 "torches",
-		"lanters",
+		        "lanters",
                 "obsidian",
                 "slime blocks",
                 "cakes",
