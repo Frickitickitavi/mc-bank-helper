@@ -88,14 +88,14 @@
                 "jungle planks",
                 "dark oak planks"
             ],
-	    "wood": [
-		"oak wood",
+        "wood": [
+        "oak wood",
                 "birch wood",
                 "acacia wood",
                 "spruce wood",
                 "jungle wood",
                 "dark oak wood"
-	    ]
+        ]
         },
         "barriers": {
             "doors": [
@@ -140,7 +140,7 @@
                 "jungle fences",
                 "dark oak fences",
                 "nether brick fences",
-		        "iron bars"
+                "iron bars"
             ],           
             "fencegates": [
                 "oak fencegates",
@@ -596,7 +596,7 @@
                 "redstone lamps",
                 "dispensers",
                 "droppers",
-		"hoppers"
+        "hoppers"
                 // SHORTCUT TO POWERED/ACTIVATOR RAILS
             ]
         },
@@ -693,7 +693,7 @@
                 "wither skeleton heads",
                 "creeper heads",
                 "ender dragon heads"
-		        // SHORTCUT FROM HELMETS
+                // SHORTCUT FROM HELMETS
             ],
             "arctic": [
                 "snow blocks",
@@ -718,7 +718,7 @@
             ],
             "miscellaneous": [
                 "torches",
-		        "lanters",
+                "lanters",
                 "obsidian",
                 "slime blocks",
                 "cakes",
@@ -829,7 +829,7 @@
                     "potions of slowness (extended)"
                 ],
                 "mixed/neutral potions": [
-		    "water bottles",
+                    "water bottles",
                     "awkward potions",
                     "mundane potions",
                     "thick potions",
@@ -927,7 +927,7 @@
                     "lingering potions of slowness (extended)"
                 ],
                 "mixed/neutral lingering potions": [
-		    "lingering water bottles",
+                    "lingering water bottles",
                     "awkward lingering potions",
                     "mundane lingering potions",
                     "thick lingering potions",
@@ -956,7 +956,7 @@
                 // SHORTCUT TO SUGAR/GOLDEN CARROTS//FROM VEGAN OPTIONS
             ]
             // SHORTCUT TO MILK BUCKETS
-	    // SHORTCUT TO BOTTLES O' ENCHANTING
+            // SHORTCUT TO BOTTLES O' ENCHANTING
         },
         "equipment": {
             "pickaxes": [
@@ -996,7 +996,7 @@
             ],
             "projectiles": [
                 "bows",
-		"crossbows",
+                "crossbows",
                 "ender pearls",
                 "snowballs",
                 "spectral arrows",
@@ -1054,7 +1054,7 @@
                 "elytra",
                 "totems of undying",
                 "tridents",
-		"shields"
+        "shields"
             ]
         },
         "armor": {
@@ -1066,7 +1066,7 @@
                 "diamond helmets"
                 // SHORTCUT TO CARVED PUMPKINS
                 // SHORTCUT TO TURTLE SHELLS
-		// SHORTCUT TO HEADS
+        // SHORTCUT TO HEADS
             ],
             "chestplates": [
                 "leather tunics",
@@ -1194,6 +1194,14 @@
                 "written books",
                 "enchanted books"
             ],
+            "banner patterns": [
+                "thing",
+                "skull",
+                "creeper",
+                "flower",
+                "field masoned",
+                "bordure indented"
+            ]
             "miscellaneous": [
                 "sticks",
                 "bowls",
@@ -1223,8 +1231,8 @@
                 "bottles o' enchanting",
                 "bonemeal",
                 "ink sacs"
-		// SHORTCUT FROM INPUT
-		// SHORTCUT FROM BREWING
+                // SHORTCUT FROM INPUT
+                // SHORTCUT FROM BREWING
             ]
         }
     }
