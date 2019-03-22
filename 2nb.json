@@ -596,7 +596,7 @@
                 "redstone lamps",
                 "dispensers",
                 "droppers",
-        "hoppers"
+                "hoppers"
                 // SHORTCUT TO POWERED/ACTIVATOR RAILS
             ]
         },
@@ -709,7 +709,6 @@
                 "acacia signs",
                 "jungle signs",
                 "dark oak signs",
-                "banners",
                 "paintings",
                 "item frames",
                 "armor stands",
