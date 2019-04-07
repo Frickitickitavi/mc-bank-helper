@@ -278,7 +278,7 @@
                 "pumpkins",
                 "carved pumpkins",
                 "jack-o-lanterns"
-                // SHORTCUT FROM VEGAN OPTIONS
+                // SHORTCUT FROM VEGETARIAN OPTIONS
                 // SHORTCUT FROM HELMETS
             ],
             "mushrooms": [
@@ -286,6 +286,7 @@
                 "red mushroom blocks",
                 "brown mushrooms",
                 "brown mushroom blocks"
+                // SHORTCUT FROM VEGETARIAN OPTIONS
             ],
             "weeds": [
                 "ferns",
@@ -727,7 +728,7 @@
                 "ladders",
                 "scaffolding",
                 "update blocks"
-                // SHORTCUT FROM VEGAN OPTIONS
+                // SHORTCUT FROM VEGETARIAN OPTIONS
             ]
         }
     },
@@ -754,7 +755,7 @@
                 "cooked mutton"
                 // SHORTCUT TO SPIDER EYES/PUFFERFISH
             ],
-            "vegan options": [
+            "vegetarian options": [
                 "apples",
                 "golden apples",
                 "enchanted golden apples",
@@ -776,9 +777,12 @@
                 "beetroot soup",
                 "dried kelp",
                 "coco beans"
-                // SHORTCUT TO FRUITS
+                // SHORTCUT TO PUMPKINS & MELONS
                 // SHORTCUT TO CAKES
                 // SHORTCUT TO GLISTERING MELONS/FROM BREWING SUPPLIES
+                // SHORTCUT TO MUSHROOMS
+                // SHORTCUT TO MILK BUCKETS
+                // SHORTCUT FROM DYES
             ],
             "seeds": [
                 "wheat seeds",
@@ -835,6 +839,7 @@
                     "potions of the turtle master",
                     "potions of the turtle master (extended)",
                     "potions of the turtle master II"
+                    // SHORTCUT FROM BREWING SUPPLIES
                 ]
             },
             "splash potions": {
@@ -952,7 +957,8 @@
                 // SHORTCUT TO REDSTONE DUST
                 // SHORTCUT TO GUNPOWDER
                 // SHORTCUT TO GLOWSTONE DUST
-                // SHORTCUT TO SUGAR/GOLDEN CARROTS//FROM VEGAN OPTIONS
+                // SHORTCUT TO SUGAR & GOLDEN CARROTS//FROM VEGETARIAN OPTIONS
+                // SHORTCUT TO WATER BOTTLES
             ]
             // SHORTCUT TO MILK BUCKETS
             // SHORTCUT TO BOTTLES O' ENCHANTING
@@ -1154,6 +1160,7 @@
                 "emeralds",
                 "nether quartz",
                 "lapis lazuli"
+                // SHORTCUT FROM DYES
             ],
             "dyes": [
                 "red dye",
@@ -1172,6 +1179,9 @@
                 "gray dye",
                 "light gray dye",
                 "brown dye"
+                // SHORTCUT TO BONEMEAL & INK SACS
+                // SHORTCUT TO COCOA BEANS
+                // SHORTCUT TO LAPIS LAZULI
             ],
             "music discs": [
                 "13",
@@ -1232,6 +1242,7 @@
                 "ink sacs"
                 // SHORTCUT FROM INPUT
                 // SHORTCUT FROM BREWING
+                // SHORTCUT FROM DYES
             ]
         }
     }
