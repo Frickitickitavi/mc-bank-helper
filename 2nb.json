@@ -1056,10 +1056,9 @@
                 "carrots on sticks",
                 "leads",
                 "shields",
-                "elytra",
                 "totems of undying",
                 "tridents",
-        "shields"
+               "shields"
             ]
         },
         "armor": {
@@ -1071,7 +1070,7 @@
                 "diamond helmets"
                 // SHORTCUT TO CARVED PUMPKINS
                 // SHORTCUT TO TURTLE SHELLS
-        // SHORTCUT TO HEADS
+                // SHORTCUT TO HEADS
             ],
             "chestplates": [
                 "leather tunics",
@@ -1079,6 +1078,7 @@
                 "iron chestplates",
                 "gold chestplates",
                 "diamond chestplates"
+                // SHORTCUT TO ELYTRA
             ],
             "leggings": [
                 "leather pants",
@@ -1094,10 +1094,12 @@
                 "gold boots",
                 "diamond boots"
             ],
-            "horse armor": [
+            "other": [
                 "iron horse armor",
                 "golden horse armor",
-                "diamond horse armor"
+                "diamond horse armor",
+                "elytra"
+                // SHORTCUT FROM CHESTPLATES
             ]
         },
         "pyrotechnics" : {
