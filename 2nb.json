@@ -1,1251 +1,1278 @@
 {
-    "blocks and entities": {
-        "minerals": {
-            "ore": [
-                "coal ore",
-                "iron ore",
-                "gold ore",
-                "diamond ore",
-                "redstone ore",
-                "emerald ore",
-                "lapis lazuli ore",
-                "quartz ore"
-            ],
-            "blocks": [
-                "coal blocks",
-                "iron blocks",
-                "gold blocks",
-                "diamond blocks",
-                "redstone blocks",
-                "emerald blocks",
-                "lapis lazuli blocks",
-                "quartz blocks",
-                "chiseled quartz blocks",
-                "pillar quartz blocks"
-                // SHORTCUT FROM INPUT
-            ]
-            // SHORTCUT FROM NETHER
-        },
-        "rocks": {
-            "stone": [
-                "cobblestone",
-                "stone",
-                "smooth stone",
-                "stone bricks",
-                "chiseled stone bricks",
-                "mossy stone bricks",
-                "cracked stone bricks",
-                "moss stone",
-                "granite",
-                "polished granite",
-                "diorite",
-                "polished diorite",
-                "andesite",
-                "polished andesite"
-            ],
-            "soil": [
-                "dirt",
-                "coarse dirt",
-                "grass",
-                "podzol",
-                "mycelium",
-                "gravel"
-            ],
-            "sand": [
-                "sand",
-                "red sand",
-                "sandstone",
-                "red sandstone",
-                "chiseled sandstone",
-                "chiseled red sandstone",
-                "smooth sandstone",
-                "smooth red sandstone"
-                // SHORTCUT TO SOUL SAND
-            ]
-        },
-        "wood": {
-            "logs": [
-                "oak logs",
-                "birch logs",
-                "acacia logs",
-                "spruce logs",
-                "jungle logs",
-                "dark oak logs"
-            ],
-            "stripped logs": [
-                "stripped oak logs",
-                "stripped birch logs",
-                "stripped acacia logs",
-                "stripped spruce logs",
-                "stripped jungle logs",
-                "stripped dark oak logs"
-            ],
-            "planks": [
-                "oak planks",
-                "birch planks",
-                "acacia planks",
-                "spruce planks",
-                "jungle planks",
-                "dark oak planks"
-            ],
-        "wood": [
-        "oak wood",
-                "birch wood",
-                "acacia wood",
-                "spruce wood",
-                "jungle wood",
-                "dark oak wood"
-        ]
-        },
-        "barriers": {
-            "doors": [
-                "oak doors",
-                "birch doors",
-                "acacia doors",
-                "spruce doors",
-                "jungle doors",
-                "dark oak doors",
-                "iron doors"
-                ],
-            "trapdoors": [
-                "oak trapdoors",
-                "birch trapdoors",
-                "acacia trapdoors",
-                "spruce trapdoors",
-                "jungle trapdoors",
-                "dark oak trapdoors",
-                "iron trapdoors"
-            ],
-            "walls": [  
-                "cobblestone walls",
-                "moss stone walls",
-                "stone brick walls",
-                "mossy stone brick walls",
-                "granite walls",
-                "diorite walls",
-                "andesite walls",
-                "sandstone walls",
-                "red sandstone walls",
-                "brick walls",
-                "nether brick walls",
-                "red nether brick walls",
-                "end stone brick walls",
-                "prismarine walls"
-            ],
-            "fences & bars": [
-                "oak fences",
-                "birch fences",
-                "acacia fences",
-                "spruce fences",
-                "jungle fences",
-                "dark oak fences",
-                "nether brick fences",
-                "iron bars"
-            ],           
-            "fencegates": [
-                "oak fencegates",
-                "birch fencegates",
-                "acacia fencegates",
-                "spruce fencegates",
-                "jungle fencegates",
-                "dark oak fencegates",
-                "nether brick fencegates"]
-        },
-        "partial": {
-            "stairs": {
-                "stone": [
-                    "stone brick stairs",
-                    "mossy stone brick stairs",
-                    "cobblestone stairs",
-                    "mossy cobblestone stairs",
-                    "stone stairs",
-                    "granite stairs",
-                    "polished granite stairs",
-                    "diorite stairs",
-                    "polished diorite stairs",
-                    "andesite stairs",
-                    "polished andesite stairs"
-                ],
-                "wood": [
-                    "oak stairs",
-                    "birch stairs",
-                    "acacia stairs",
-                    "spruce stairs",
-                    "jungle stairs",
-                    "dark oak stairs"
-                ],
-                "sandstone": [
-                    "sandstone stairs",
-                    "smooth sandstone stairs",
-                    "red sandstone stairs",
-                    "smooth red sandstone stairs"
-                ],
-                "other": [
-                    "quartz stairs",
-                    "smooth quartz stairs",
-                    "nether brick stairs",
-                    "red nether brick stairs",
-                    "brick stairs",
-                    "prismarine stairs",
-                    "dark prismarine stairs",
-                    "prismarine brick stairs",
-                    "end stone brick stairs",
-                    "purpur stairs"
-                ]
-            },
-            "slabs": {
-                "stone": [
-                    "stone slabs",
-                    "smooth stone slabs",
-                    "stone brick slabs",
-                    "mossy stone brick slabs",
-                    "cobblestone slabs",
-                    "mossy cobblestone slabs",
-                    "granite slabs",
-                    "polished granite slabs",
-                    "diorite slabs",
-                    "polished diorite slabs",
-                    "andesite slabs",
-                    "polished andesite slabs"
-                ],
-                "wood": [
-                    "oak slabs",
-                    "birch slabs",
-                    "acacia slabs",
-                    "spruce slabs",
-                    "jungle slabs",
-                    "dark oak slabs",
-                    "petrified oak slabs"
-                ],
-                "sandstone": [
-                    "sandstone slabs",
-                    "smooth sandstone slabs",
-                    "red sandstone slabs",
-                    "smooth red sandstone slabs",
-                ],
-                "other": [
-                    "quartz slabs",
-                    "smooth quartz slabs",
-                    "nether brick slabs",
-                    "red nether brick slabs",
-                    "brick slabs",
-                    "prismarine slabs",
-                    "dark prismarine slabs",
-                    "prismarine brick slabs",
-                    "end stone brick slabs",
-                    "purpur slabs"
-                ]
-            }
-        },
-        "plants and fungi": {
-            "saplings": [
-                "oak sapling",
-                "birch sapling",
-                "acacia sapling",
-                "spruce sapling",
-                "jungle sapling",
-                "dark oak sapling"
-            ],
-            "leaves": [
-                "oak leaves",
-                "birch leaves",
-                "acacia leaves",
-                "spruce leaves",
-                "jungle leaves",
-                "dark oak leaves"
-            ],
-            "flowers": [
-                "dandelions",
-                "poppies",
-                "blue orchids",
-                "alliums",
-                "azure bluets",
-                "red tulips",
-                "orange tulips",
-                "white tulips",
-                "pink tulips",
-                "oxeye daisies",
-                "sunflowers",
-                "lilacs",
-                "rose bushes",
-                "peonies",
-                "lilies of the valley",
-                "cornflowers"
-                // SHORTCUT TO CHORUS FLOWERS
-            ],
-            "fruits": [
-                "melons",
-                "pumpkins",
-                "carved pumpkins",
-                "jack-o-lanterns"
-                // SHORTCUT FROM VEGETARIAN OPTIONS
-                // SHORTCUT FROM HELMETS
-            ],
-            "mushrooms": [
-                "red mushrooms",
-                "red mushroom blocks",
-                "brown mushrooms",
-                "brown mushroom blocks"
-                // SHORTCUT FROM VEGETARIAN OPTIONS
-            ],
-            "weeds": [
-                "ferns",
-                "dead bushes",
-                "tall grass",
-                "shrubs",
-                "double tall grass"
-                "large ferns"
-            ],
-            "aquatic": [
-                "kelp",
-                "dried kelp blocks",
-                "seagrass",
-                "tall seagrass",
-                "sea pickles"
-            ],
-            "other": [
-                "hay bales",
-                "cacti",
-                "vines",
-                "lily pads",
-                "sugarcane",
-                "bamboo"
-                // SHORTCUT TO CHORUS PLANTS
-            ]
-        },
-        "interdimensional": {
-            "nether": [
-                "netherrack",
-                "nether brick",
-                "red nether brick",
-                "glowstone",
-                "soul sand",
-                "magma",
-                "nether wart blocks"
-                // SHORTCUT TO QUARTZ
-                // SHORTCUT FROM SAND
-            ],
-            "end": [
-                "endstone",
-                "purpur blocks",
-                "ender crystals",
-                "dragon eggs",
-                "chorus plants",
-                "chorus flowers",
-                "end rods",
-                "purpur pillars",
-                "end bricks"
-                // SHORTCUT TO SHULKER BOXES
-                // SHORTCUT TO ENDER CHESTS
-                // SHORTCUT FROM FLOWERS
-                // SHORTCUT FROM OTHER PLANTS
-            ]
-        },
-        "chromatic": {
-            "wool": [
-                "red wool",
-                "orange wool",
-                "yellow wool",
-                "green wool",
-                "blue wool",
-                "cyan wool",
-                "light blue wool",
-                "purple wool",
-                "magenta wool",
-                "pink wool",
-                "lime green wool",
-                "white wool",
-                "black wool",
-                "gray wool",
-                "light gray wool",
-                "brown wool"
-            ],
-            "carpets": [
-                "red carpets",
-                "orange carpets",
-                "yellow carpets",
-                "green carpets",
-                "blue carpets",
-                "cyan carpets",
-                "light blue carpets",
-                "purple carpets",
-                "magenta carpets",
-                "pink carpets",
-                "lime green carpets",
-                "white carpets",
-                "black carpets",
-                "gray carpets",
-                "light gray carpets",
-                "brown carpets"
-            ],
-            "clay and unglazed terracotta": [
-                "clay",
-                "terracotta",
-                "red terracotta",
-                "orange terracotta",
-                "yellow terracotta",
-                "green terracotta",
-                "blue terracotta",
-                "cyan terracotta",
-                "light blue terracotta",
-                "purple terracotta",
-                "magenta terracotta",
-                "pink terracotta",
-                "lime green terracotta",
-                "white terracotta",
-                "black terracotta",
-                "gray terracotta",
-                "light gray terracotta",
-                "brown terracotta"
-            ],
-            "glazed terracotta": [
-                "red glazed terracotta",
-                "orange glazed terracotta",
-                "yellow glazed terracotta",
-                "green glazed terracotta",
-                "blue glazed terracotta",
-                "cyan glazed terracotta",
-                "light blue glazed terracotta",
-                "purple glazed terracotta",
-                "magenta glazed terracotta",
-                "pink glazed terracotta",
-                "lime green glazed terracotta",
-                "white glazed terracotta",
-                "black glazed terracotta",
-                "gray glazed terracotta",
-                "light gray glazed terracotta",
-                "brown glazed terracotta"
-            ],
-            "concrete powder": [
-                "red concrete powder",
-                "orange concrete powder",
-                "yellow concrete powder",
-                "green concrete powder",
-                "blue concrete powder",
-                "cyan concrete powder",
-                "light blue concrete powder",
-                "purple concrete powder",
-                "magenta concrete powder",
-                "pink concrete powder",
-                "lime green concrete powder",
-                "white concrete powder",
-                "black concrete powder",
-                "gray concrete powder",
-                "light gray concrete powder",
-                "brown concrete powder"
-            ],
-            "concrete": [
-                "red concrete",
-                "orange concrete",
-                "yellow concrete",
-                "green concrete",
-                "blue concrete",
-                "cyan concrete",
-                "light blue concrete",
-                "purple concrete",
-                "magenta concrete",
-                "pink concrete",
-                "lime green concrete",
-                "white concrete",
-                "black concrete",
-                "gray concrete",
-                "light gray concrete",
-                "brown concrete"
-            ],
-            "beds": [
-                "red beds",
-                "orange beds",
-                "yellow beds",
-                "green beds",
-                "blue beds",
-                "cyan beds",
-                "light blue beds",
-                "purple beds",
-                "magenta beds",
-                "pink beds",
-                "lime green beds",
-                "white beds",
-                "black beds",
-                "gray beds",
-                "light gray beds",
-                "brown beds"
-            ],
-            "banners": [
-                "red banners",
-                "orange banners",
-                "yellow banners",
-                "green banners",
-                "blue banners",
-                "cyan banners",
-                "light blue banners",
-                "purple banners",
-                "magenta banners",
-                "pink banners",
-                "lime green banners",
-                "white banners",
-                "black banners",
-                "gray banners",
-                "light gray banners",
-                "brown banners"
-            ],
-            "glass": [
-                "glass",
-                "red glass",
-                "orange glass",
-                "yellow glass",
-                "green glass",
-                "blue glass",
-                "cyan glass",
-                "light blue glass",
-                "purple glass",
-                "magenta glass",
-                "pink glass",
-                "lime green glass",
-                "white glass",
-                "black glass",
-                "gray glass",
-                "light gray glass",
-                "brown glass"
-            ],
-            "glass panes": [
-                "glass panes",
-                "red glass panes",
-                "orange glass panes",
-                "yellow glass panes",
-                "green glass panes",
-                "blue glass panes",
-                "cyan glass panes",
-                "light blue glass panes",
-                "purple glass panes",
-                "magenta glass panes",
-                "pink glass panes",
-                "lime green glass panes",
-                "white glass panes",
-                "black glass panes",
-                "gray glass panes",
-                "light gray glass panes",
-                "brown glass panes"
-            ],
-            "shulker boxes": [
-                "red shulker boxes",
-                "orange shulker boxes",
-                "yellow shulker boxes",
-                "green shulker boxes",
-                "blue shulker boxes",
-                "cyan shulker boxes",
-                "light blue shulker boxes",
-                "purple shulker boxes",
-                "magenta shulker boxes",
-                "pink shulker boxes",
-                "lime green shulker boxes",
-                "white shulker boxes",
-                "black shulker boxes",
-                "gray shulker boxes",
-                "light gray shulker boxes",
-                "brown shulker boxes"
-                // SHORTCUT FROM END
-                // SHORTCUT FROM UTILITIES
-            ]
-        },
-        "mechanical": {
-            "input": [
-                {
-                    "buttons": [
-                        "oak buttons",
-                        "birch buttons",
-                        "acacia buttons",
-                        "spruce buttons",
-                        "jungle buttons",
-                        "dark oak buttons",
-                        "stone buttons"
-                    ]
-                },
-                {
-                    "pressure plates": [
-                        "oak pressure plates",
-                        "birch pressure plates",
-                        "acacia pressure plates",
-                        "spruce pressure plates",
-                        "jungle pressure plates",
-                        "dark oak pressure plates",
-                        "stone pressure plates",
-                        "gold weighted pressure plates",
-                        "iron weighted pressure plates"
-                    ]
-                },
-                "redstone torches",
-                "levers",
-                "daylight sensors",
-                "tripwire hooks",
-                "observers"
-                // SHORTCUT TO REDSTONE BLOCKS
-                // SHORTCUT TO TRIPWIRE
-                // SHORTCUT TO DETECTOR RAILS
-                // SHORTCUT TO TRAPPED CHESTS
-            ],
-            "throughput": [
-                "redstone",
-                "repeaters",
-                "comparators"
-                // SHORTCUT FROM MINERALS
-            ],
-            "output": [
-                "note blocks",
-                "pistons",
-                "sticky pistons",
-                "TNT",
-                "redstone lamps",
-                "dispensers",
-                "droppers",
-                "hoppers"
-                // SHORTCUT TO POWERED/ACTIVATOR RAILS
-            ]
-        },
-        "aquatic": {
-            "coral": [
-                "Tube Coral",
-                "Brain Coral",
-                "Bubble Coral",
-                "Fire Coral",
-                "Horn Coral"
-            ],
-            "coral fans": [
-                "Tube Coral Fans",
-                "Dead Tube Coral Fans",
-                "Brain Coral Fans",
-                "Dead Brain Coral Fans",
-                "Bubble Coral Fans",
-                "Dead Bubble Coral Fans",
-                "Fire Coral Fans",
-                "Dead Fire Coral Fans",
-                "Horn Coral Fans"
-                "Dead Horn Coral Fans"
-            ],
-            "coral blocks": [
-                "Tube Coral Blocks",
-                "Dead Tube Coral Blocks",
-                "Brain Coral Blocks",
-                "Dead Brain Coral Blocks",
-                "Bubble Coral Blocks",
-                "Dead Bubble Coral Blocks",
-                "Fire Coral Blocks",
-                "Dead Fire Coral Blocks",
-                "Horn Coral Blocks"
-                "Dead Horn Coral Blocks"
-            ],
-            "other": [
-                "prismarine",
-                "prismarine bricks",
-                "sea lanterns",
-                "dark prismarine blocks",
-                "sponges",
-                "wet sponges",
-            ],
-        },
-        "transportation": {
-            "rails": [
-                "rails",
-                "powered rails",
-                "detector rails",
-                "activator rails"
-                // SHORTCUT FROM REDSTONE INPUT
-                // SHORTCUT FROM REDSTONE OUTPUT
-            ],
-            "minecarts": [
-                "minecarts",
-                "minecarts with chests",
-                "minecarts with TNT",
-                "minecarts with hoppers"                
-            ],
-            "boats": [
-                "oak boats",
-                "birch boats",
-                "acacia boats",
-                "spruce boats",
-                "jungle boats",
-                "dark oak boats"
-            ]
-        },
-        "other": {
-            "utilities": [
-                "crafting tables",
-                "furni",
-                "chests",
-                "trapped chests",
-                "ender chests",
-                "brewing stands",
-                "cauldrons",
-                "jukeboxes",
-                "enchantment tables",
-                "beacons",
-                "anvils",
-                "slightly damaged anvils",
-                "very damaged anvils",
-                "conduits",
-                "lecterns",
-                "looms"
-                // SHORTCUT TO SHULKER BOXES
-                // SHORTCUT FROM END
-                // SHORTCUT FROM REDSTONE INPUT
-            ],
-            "heads": [
-                "zombie heads",
-                "skeleton heads",
-                "wither skeleton heads",
-                "creeper heads",
-                "ender dragon heads"
-                // SHORTCUT FROM HELMETS
-            ],
-            "arctic": [
-                "snow blocks",
-                "snow layers",
-                "ice",
-                "packed ice",
-                "blue ice"
-            ],
-            "decorative": [
-                "oak signs",
-                "birch signs",
-                "spruce signs",
-                "acacia signs",
-                "jungle signs",
-                "dark oak signs",
-                "paintings",
-                "item frames",
-                "armor stands",
-                "flower pots",
-                "bookshelves"
-            ],
-            "miscellaneous": [
-                "torches",
-                "lanters",
-                "obsidian",
-                "slime blocks",
-                "cakes",
-                "bricks",
-                "cobwebs",
-                "bone blocks",
-                "ladders",
-                "scaffolding",
-                "update blocks"
-                // SHORTCUT FROM VEGETARIAN OPTIONS
-            ]
-        }
+  "blocks and entities": {
+    "minerals": {
+      "ore": [
+        "coal ore",
+        "iron ore",
+        "gold ore",
+        "diamond ore",
+        "redstone ore",
+        "emerald ore",
+        "lapis lazuli ore",
+        "quartz ore"
+      ],
+      "blocks": [
+        "coal blocks",
+        "iron blocks",
+        "gold blocks",
+        "diamond blocks",
+        "redstone blocks",
+        "emerald blocks",
+        "lapis lazuli blocks",
+        "quartz blocks",
+        "chiseled quartz blocks",
+        "pillar quartz blocks"
+        // SHORTCUT FROM INPUT
+      ]
+      // SHORTCUT FROM NETHER
     },
-    "items": {
-        "food": {
-            "meat": [
-                "raw porkchops",
-                "porkchops",
-                "eggs",
-                "raw cod",
-                "raw salmon",
-                "tropical fish",
-                "cooked cod",
-                "cooked salmon",
-                "raw beef",
-                "steak",
-                "raw chicken",
-                "cooked chicken",
-                "rotten flesh",
-                "raw rabbit",
-                "cooked rabbit",
-                "rabbit stew",
-                "raw mutton",
-                "cooked mutton"
-                // SHORTCUT TO SPIDER EYES/PUFFERFISH
-            ],
-            "vegetarian options": [
-                "apples",
-                "golden apples",
-                "enchanted golden apples",
-                "mushroom stew",
-                "wheat",
-                "bread",
-                "sugar",
-                "cookies",
-                "melon slices",
-                "carrots",
-                "golden carrots",
-                "potatoes",
-                "baked potatoes",
-                "poisonous potatoes",
-                "pumpkin pies",
-                "chorus fruit",
-                "popped chorus fruit",
-                "beetroots",
-                "beetroot soup",
-                "dried kelp",
-                "coco beans"
-                // SHORTCUT TO PUMPKINS & MELONS
-                // SHORTCUT TO CAKES
-                // SHORTCUT TO GLISTERING MELONS/FROM BREWING SUPPLIES
-                // SHORTCUT TO MUSHROOMS
-                // SHORTCUT TO MILK BUCKETS
-                // SHORTCUT FROM DYES
-            ],
-            "seeds": [
-                "wheat seeds",
-                "pumpkin seeds",
-                "melon seeds",
-                "beetroot seeds"
-            ]
+    "rocks": {
+      "stone": [
+        "cobblestone",
+        "stone",
+        "smooth stone",
+        "stone bricks",
+        "chiseled stone bricks",
+        "mossy stone bricks",
+        "cracked stone bricks",
+        "moss stone",
+        "granite",
+        "polished granite",
+        "diorite",
+        "polished diorite",
+        "andesite",
+        "polished andesite"
+      ],
+      "soil": [
+        "dirt",
+        "coarse dirt",
+        "grass",
+        "podzol",
+        "mycelium",
+        "gravel"
+      ],
+      "sand": [
+        "sand",
+        "red sand",
+        "sandstone",
+        "red sandstone",
+        "chiseled sandstone",
+        "chiseled red sandstone",
+        "smooth sandstone",
+        "smooth red sandstone"
+        // SHORTCUT TO SOUL SAND
+      ]
+    },
+    "wood": {
+      "logs": [
+        "oak logs",
+        "birch logs",
+        "acacia logs",
+        "spruce logs",
+        "jungle logs",
+        "dark oak logs"
+      ],
+      "stripped logs": [
+        "stripped oak logs",
+        "stripped birch logs",
+        "stripped acacia logs",
+        "stripped spruce logs",
+        "stripped jungle logs",
+        "stripped dark oak logs"
+      ],
+      "planks": [
+        "oak planks",
+        "birch planks",
+        "acacia planks",
+        "spruce planks",
+        "jungle planks",
+        "dark oak planks"
+      ],
+      "wood": [
+        "oak wood",
+        "birch wood",
+        "acacia wood",
+        "spruce wood",
+        "jungle wood",
+        "dark oak wood"
+      ]
+    },
+    "barriers": {
+      "doors": [
+        "oak doors",
+        "birch doors",
+        "acacia doors",
+        "spruce doors",
+        "jungle doors",
+        "dark oak doors",
+        "iron doors"
+      ],
+      "trapdoors": [
+        "oak trapdoors",
+        "birch trapdoors",
+        "acacia trapdoors",
+        "spruce trapdoors",
+        "jungle trapdoors",
+        "dark oak trapdoors",
+        "iron trapdoors"
+      ],
+      "walls": [
+        "cobblestone walls",
+        "moss stone walls",
+        "stone brick walls",
+        "mossy stone brick walls",
+        "granite walls",
+        "diorite walls",
+        "andesite walls",
+        "sandstone walls",
+        "red sandstone walls",
+        "brick walls",
+        "nether brick walls",
+        "red nether brick walls",
+        "end stone brick walls",
+        "prismarine walls"
+      ],
+      "fences & bars": [
+        "oak fences",
+        "birch fences",
+        "acacia fences",
+        "spruce fences",
+        "jungle fences",
+        "dark oak fences",
+        "nether brick fences",
+        "iron bars"
+      ],
+      "fencegates": [
+        "oak fencegates",
+        "birch fencegates",
+        "acacia fencegates",
+        "spruce fencegates",
+        "jungle fencegates",
+        "dark oak fencegates",
+        "nether brick fencegates"]
+    },
+    "partial": {
+      "stairs": {
+        "stone": [
+          "stone brick stairs",
+          "mossy stone brick stairs",
+          "cobblestone stairs",
+          "mossy cobblestone stairs",
+          "stone stairs",
+          "granite stairs",
+          "polished granite stairs",
+          "diorite stairs",
+          "polished diorite stairs",
+          "andesite stairs",
+          "polished andesite stairs"
+        ],
+        "wood": [
+          "oak stairs",
+          "birch stairs",
+          "acacia stairs",
+          "spruce stairs",
+          "jungle stairs",
+          "dark oak stairs"
+        ],
+        "sandstone": [
+          "sandstone stairs",
+          "smooth sandstone stairs",
+          "red sandstone stairs",
+          "smooth red sandstone stairs"
+        ],
+        "other": [
+          "quartz stairs",
+          "smooth quartz stairs",
+          "nether brick stairs",
+          "red nether brick stairs",
+          "brick stairs",
+          "prismarine stairs",
+          "dark prismarine stairs",
+          "prismarine brick stairs",
+          "end stone brick stairs",
+          "purpur stairs"
+        ]
+      },
+      "slabs": {
+        "stone": [
+          "stone slabs",
+          "smooth stone slabs",
+          "stone brick slabs",
+          "mossy stone brick slabs",
+          "cobblestone slabs",
+          "mossy cobblestone slabs",
+          "granite slabs",
+          "polished granite slabs",
+          "diorite slabs",
+          "polished diorite slabs",
+          "andesite slabs",
+          "polished andesite slabs"
+        ],
+        "wood": [
+          "oak slabs",
+          "birch slabs",
+          "acacia slabs",
+          "spruce slabs",
+          "jungle slabs",
+          "dark oak slabs",
+          "petrified oak slabs"
+        ],
+        "sandstone": [
+          "sandstone slabs",
+          "smooth sandstone slabs",
+          "red sandstone slabs",
+          "smooth red sandstone slabs"
+        ],
+        "other": [
+          "quartz slabs",
+          "smooth quartz slabs",
+          "nether brick slabs",
+          "red nether brick slabs",
+          "brick slabs",
+          "prismarine slabs",
+          "dark prismarine slabs",
+          "prismarine brick slabs",
+          "end stone brick slabs",
+          "purpur slabs"
+        ]
+      }
+    },
+    "plants and fungi": {
+      "saplings": [
+        "oak sapling",
+        "birch sapling",
+        "acacia sapling",
+        "spruce sapling",
+        "jungle sapling",
+        "dark oak sapling"
+      ],
+      "leaves": [
+        "oak leaves",
+        "birch leaves",
+        "acacia leaves",
+        "spruce leaves",
+        "jungle leaves",
+        "dark oak leaves"
+      ],
+      "flowers": [
+        "dandelions",
+        "poppies",
+        "blue orchids",
+        "alliums",
+        "azure bluets",
+        "red tulips",
+        "orange tulips",
+        "white tulips",
+        "pink tulips",
+        "oxeye daisies",
+        "sunflowers",
+        "lilacs",
+        "rose bushes",
+        "peonies",
+        "lilies of the valley",
+        "cornflowers"
+        // SHORTCUT TO CHORUS FLOWERS
+      ],
+      "fruits": [
+        "melons",
+        "pumpkins",
+        "carved pumpkins",
+        "jack-o-lanterns"
+        // SHORTCUT FROM VEGETARIAN OPTIONS
+        // SHORTCUT FROM HELMETS
+      ],
+      "mushrooms": [
+        "red mushrooms",
+        "red mushroom blocks",
+        "brown mushrooms",
+        "brown mushroom blocks"
+        // SHORTCUT FROM VEGETARIAN OPTIONS
+      ],
+      "weeds": [
+        "ferns",
+        "dead bushes",
+        "tall grass",
+        "shrubs",
+        "double tall grass"
+        "large ferns"
+      ],
+      "aquatic": [
+        "kelp",
+        "dried kelp blocks",
+        "seagrass",
+        "tall seagrass",
+        "sea pickles"
+      ],
+      "other": [
+        "hay bales",
+        "cacti",
+        "vines",
+        "lily pads",
+        "sugarcane",
+        "bamboo"
+        // SHORTCUT TO CHORUS PLANTS
+      ]
+    },
+    "interdimensional": {
+      "nether": [
+        "netherrack",
+        "nether brick",
+        "red nether brick",
+        "glowstone",
+        "soul sand",
+        "magma",
+        "nether wart blocks"
+        // SHORTCUT TO QUARTZ
+        // SHORTCUT FROM SAND
+      ],
+      "end": [
+        "endstone",
+        "purpur blocks",
+        "ender crystals",
+        "dragon eggs",
+        "chorus plants",
+        "chorus flowers",
+        "end rods",
+        "purpur pillars",
+        "end bricks"
+        // SHORTCUT TO SHULKER BOXES
+        // SHORTCUT TO ENDER CHESTS
+        // SHORTCUT FROM FLOWERS
+        // SHORTCUT FROM OTHER PLANTS
+      ]
+    },
+    "chromatic": {
+      "wool": [
+        "red wool",
+        "orange wool",
+        "yellow wool",
+        "green wool",
+        "blue wool",
+        "cyan wool",
+        "light blue wool",
+        "purple wool",
+        "magenta wool",
+        "pink wool",
+        "lime green wool",
+        "white wool",
+        "black wool",
+        "gray wool",
+        "light gray wool",
+        "brown wool"
+      ],
+      "carpets": [
+        "red carpets",
+        "orange carpets",
+        "yellow carpets",
+        "green carpets",
+        "blue carpets",
+        "cyan carpets",
+        "light blue carpets",
+        "purple carpets",
+        "magenta carpets",
+        "pink carpets",
+        "lime green carpets",
+        "white carpets",
+        "black carpets",
+        "gray carpets",
+        "light gray carpets",
+        "brown carpets"
+      ],
+      "clay and unglazed terracotta": [
+        "clay",
+        "terracotta",
+        "red terracotta",
+        "orange terracotta",
+        "yellow terracotta",
+        "green terracotta",
+        "blue terracotta",
+        "cyan terracotta",
+        "light blue terracotta",
+        "purple terracotta",
+        "magenta terracotta",
+        "pink terracotta",
+        "lime green terracotta",
+        "white terracotta",
+        "black terracotta",
+        "gray terracotta",
+        "light gray terracotta",
+        "brown terracotta"
+      ],
+      "glazed terracotta": [
+        "red glazed terracotta",
+        "orange glazed terracotta",
+        "yellow glazed terracotta",
+        "green glazed terracotta",
+        "blue glazed terracotta",
+        "cyan glazed terracotta",
+        "light blue glazed terracotta",
+        "purple glazed terracotta",
+        "magenta glazed terracotta",
+        "pink glazed terracotta",
+        "lime green glazed terracotta",
+        "white glazed terracotta",
+        "black glazed terracotta",
+        "gray glazed terracotta",
+        "light gray glazed terracotta",
+        "brown glazed terracotta"
+      ],
+      "concrete powder": [
+        "red concrete powder",
+        "orange concrete powder",
+        "yellow concrete powder",
+        "green concrete powder",
+        "blue concrete powder",
+        "cyan concrete powder",
+        "light blue concrete powder",
+        "purple concrete powder",
+        "magenta concrete powder",
+        "pink concrete powder",
+        "lime green concrete powder",
+        "white concrete powder",
+        "black concrete powder",
+        "gray concrete powder",
+        "light gray concrete powder",
+        "brown concrete powder"
+      ],
+      "concrete": [
+        "red concrete",
+        "orange concrete",
+        "yellow concrete",
+        "green concrete",
+        "blue concrete",
+        "cyan concrete",
+        "light blue concrete",
+        "purple concrete",
+        "magenta concrete",
+        "pink concrete",
+        "lime green concrete",
+        "white concrete",
+        "black concrete",
+        "gray concrete",
+        "light gray concrete",
+        "brown concrete"
+      ],
+      "beds": [
+        "red beds",
+        "orange beds",
+        "yellow beds",
+        "green beds",
+        "blue beds",
+        "cyan beds",
+        "light blue beds",
+        "purple beds",
+        "magenta beds",
+        "pink beds",
+        "lime green beds",
+        "white beds",
+        "black beds",
+        "gray beds",
+        "light gray beds",
+        "brown beds"
+      ],
+      "banners": [
+        "red banners",
+        "orange banners",
+        "yellow banners",
+        "green banners",
+        "blue banners",
+        "cyan banners",
+        "light blue banners",
+        "purple banners",
+        "magenta banners",
+        "pink banners",
+        "lime green banners",
+        "white banners",
+        "black banners",
+        "gray banners",
+        "light gray banners",
+        "brown banners"
+      ],
+      "glass": [
+        "glass",
+        "red glass",
+        "orange glass",
+        "yellow glass",
+        "green glass",
+        "blue glass",
+        "cyan glass",
+        "light blue glass",
+        "purple glass",
+        "magenta glass",
+        "pink glass",
+        "lime green glass",
+        "white glass",
+        "black glass",
+        "gray glass",
+        "light gray glass",
+        "brown glass"
+      ],
+      "glass panes": [
+        "glass panes",
+        "red glass panes",
+        "orange glass panes",
+        "yellow glass panes",
+        "green glass panes",
+        "blue glass panes",
+        "cyan glass panes",
+        "light blue glass panes",
+        "purple glass panes",
+        "magenta glass panes",
+        "pink glass panes",
+        "lime green glass panes",
+        "white glass panes",
+        "black glass panes",
+        "gray glass panes",
+        "light gray glass panes",
+        "brown glass panes"
+      ],
+      "shulker boxes": [
+        "red shulker boxes",
+        "orange shulker boxes",
+        "yellow shulker boxes",
+        "green shulker boxes",
+        "blue shulker boxes",
+        "cyan shulker boxes",
+        "light blue shulker boxes",
+        "purple shulker boxes",
+        "magenta shulker boxes",
+        "pink shulker boxes",
+        "lime green shulker boxes",
+        "white shulker boxes",
+        "black shulker boxes",
+        "gray shulker boxes",
+        "light gray shulker boxes",
+        "brown shulker boxes"
+        // SHORTCUT FROM END
+        // SHORTCUT FROM UTILITIES
+      ]
+    },
+    "mechanical": {
+      "input": [
+        {
+          "buttons": [
+            "oak buttons",
+            "birch buttons",
+            "acacia buttons",
+            "spruce buttons",
+            "jungle buttons",
+            "dark oak buttons",
+            "stone buttons"
+          ]
         },
-        "brewing": {  
-            "potions": {
-                "beneficial potions": [
-                    "potions of healing",
-                    "potions of healing II",
-                    "potions of fire resistance",
-                    "potions of fire resistance (extended)",
-                    "potions of regeneration",
-                    "potions of regeneration (extended)",
-                    "potions of regeneration II",
-                    "potions of strength",
-                    "potions of strength (extended)",
-                    "potions of strength II",
-                    "potions of swiftness",
-                    "potions of swiftness (extended)",
-                    "potions of swiftness II",
-                    "potions of night vision",
-                    "potions of night vision (extended)",
-                    "potions of water breathing",
-                    "potions of water breathing (extended)",
-                    "potions of leaping",
-                    "potions of leaping II",
-                    "potions of leaping (extended)"
-                    "potions of invisibility",
-                    "potions of invisibility (extended)",
-                    "potions of slow falling",
-                    "potions of slow falling (extended)"
-                ],
-                "detrimental potions": [
-                    "potions of weakness",
-                    "potions of weakness (extended)",
-                    "potions of decay",
-                    "potions of poison",
-                    "potions of harming",
-                    "potions of harming II",
-                    "potions of poison (extended)",
-                    "potions of poison II",
-                    "potions of slowness",
-                    "potions of slowness (extended)"
-                ],
-                "mixed/neutral potions": [
-                    "water bottles",
-                    "awkward potions",
-                    "mundane potions",
-                    "thick potions",
-                    "potions of the turtle master",
-                    "potions of the turtle master (extended)",
-                    "potions of the turtle master II"
-                    // SHORTCUT FROM BREWING SUPPLIES
-                ]
-            },
-            "splash potions": {
-                "beneficial splash potions": [
-                    "splash potions of healing",
-                    "splash potions of healing II",
-                    "splash potions of fire resistance",
-                    "splash potions of fire resistance (extended)",
-                    "splash potions of regeneration",
-                    "splash potions of regeneration (extended)",
-                    "splash potions of regeneration II",
-                    "splash potions of strength",
-                    "splash potions of strength (extended)",
-                    "splash potions of strength II",
-                    "splash potions of swiftness",
-                    "splash potions of swiftness (extended)",
-                    "splash potions of swiftness II",
-                    "splash potions of night vision",
-                    "splash potions of night vision (extended)",
-                    "splash potions of water breathing",
-                    "splash potions of water breathing (extended)",
-                    "splash potions of leaping",
-                    "splash potions of leaping II",
-                    "splash potions of leaping (extended)"
-                    "splash potions of invisibility",
-                    "splash potions of invisibility (extended)",
-                    "splash potions of slow falling",
-                    "splash potions of slow falling (extended)"
-                ],
-                "detrimental splash potions": [
-                    "splash potions of weakness",
-                    "splash potions of weakness (extended)",
-                    "splash potions of decay",
-                    "splash potions of poison",
-                    "splash potions of harming",
-                    "splash potions of harming II",
-                    "splash potions of poison (extended)",
-                    "splash potions of poison II",
-                    "splash potions of slowness",
-                    "splash potions of slowness (extended)"
-                ],
-                "mixed/neutral splash potions": [
-                    "splash water bottles",
-                    "awkward splash potions",
-                    "mundane splash potions",
-                    "thick splash potions",
-                    "splash potions of the turtle master",
-                    "splash potions of the turtle master (extended)",
-                    "splash potions of the turtle master II"
-                ],
-            },
-            "lingering potions": {
-                "beneficial lingering potions": [
-                    "lingering potions of healing",
-                    "lingering potions of healing II",
-                    "lingering potions of fire resistance",
-                    "lingering potions of fire resistance (extended)",
-                    "lingering potions of regeneration",
-                    "lingering potions of regeneration (extended)",
-                    "lingering potions of regeneration II",
-                    "lingering potions of strength",
-                    "lingering potions of strength (extended)",
-                    "lingering potions of strength II",
-                    "lingering potions of swiftness",
-                    "lingering potions of swiftness (extended)",
-                    "lingering potions of swiftness II",
-                    "lingering potions of night vision",
-                    "lingering potions of night vision (extended)",
-                    "lingering potions of water breathing",
-                    "lingering potions of water breathing (extended)",
-                    "lingering potions of leaping",
-                    "lingering potions of leaping II",
-                    "lingering potions of leaping (extended)"
-                    "lingering potions of invisibility",
-                    "lingering potions of invisibility (extended)",
-                    "lingering potions of slow falling",
-                    "lingering potions of slow falling (extended)"
-                ],
-                "detrimental lingering potions": [
-                    "lingering potions of weakness",
-                    "lingering potions of weakness (extended)",
-                    "lingering potions of decay",
-                    "lingering potions of poison",
-                    "lingering potions of harming",
-                    "lingering potions of harming II",
-                    "lingering potions of poison (extended)",
-                    "lingering potions of poison II",
-                    "lingering potions of slowness",
-                    "lingering potions of slowness (extended)"
-                ],
-                "mixed/neutral lingering potions": [
-                    "lingering water bottles",
-                    "awkward lingering potions",
-                    "mundane lingering potions",
-                    "thick lingering potions",
-                    "lingering potions of the turtle master",
-                    "lingering potions of the turtle master (extended)",
-                    "lingering potions of the turtle master II"
-                ]
-            },
-            "supplies": [
-                "bottles",
-                "dragon's breaths",
-                "spider eyes",
-                "fermented spider eyes",
-                "glistering melons",
-                "nether warts",
-                "rabbits' feet",
-                "magma cream",
-                "blaze rods",
-                "blaze powder",
-                "ghast tears",
-                "turtle shells",
-                "phantom membranes"
-                // SHORTCUT TO REDSTONE DUST
-                // SHORTCUT TO GUNPOWDER
-                // SHORTCUT TO GLOWSTONE DUST
-                // SHORTCUT TO SUGAR & GOLDEN CARROTS//FROM VEGETARIAN OPTIONS
-                // SHORTCUT TO WATER BOTTLES
-            ]
-            // SHORTCUT TO MILK BUCKETS
-            // SHORTCUT TO BOTTLES O' ENCHANTING
+        {
+          "pressure plates": [
+            "oak pressure plates",
+            "birch pressure plates",
+            "acacia pressure plates",
+            "spruce pressure plates",
+            "jungle pressure plates",
+            "dark oak pressure plates",
+            "stone pressure plates",
+            "gold weighted pressure plates",
+            "iron weighted pressure plates"
+          ]
         },
-        "equipment": {
-            "pickaxes": [
-                "wooden pickaxes",
-                "stone pickaxes",
-                "iron pickaxes",
-                "gold pickaxes",
-                "diamond pickaxes"
-            ],
-            "shovels": [
-                "wooden shovels",
-                "stone shovels",
-                "iron shovels",
-                "gold shovels",
-                "diamond shovels"
-            ],
-            "axes": [
-                "wooden axes",
-                "stone axes",
-                "iron axes",
-                "gold axes",
-                "diamond axes"
-            ],
-            "hoes": [
-                "wooden hoes",
-                "stone hoes",
-                "iron hoes",
-                "gold hoes",
-                "diamond hoes"
-            ],
-            "swords": [
-                "wooden swords",
-                "stone swords",
-                "iron swords",
-                "gold swords",
-                "diamond swords"
-            ],
-            "projectiles": [
-                "bows",
-                "crossbows",
-                "ender pearls",
-                "snowballs",
-                "spectral arrows",
-                "fire charges",
-                {
-                    "arrows": [
-                        "arrows",
-                        "arrows of regeneration",
-                        "arrows of swiftness",
-                        "arrows of fire resistance",
-                        "arrows of healing",
-                        "arrows of night vision",
-                        "arrows of strength",
-                        "arrows of leaping",
-                        "arrows of invisibility",
-                        "arrows of poison",
-                        "arrows of weakness",
-                        "arrows of slowness",
-                        "arrows of harming",
-                        "arrows of water breathing",
-                        "arrows of decay",
-                        "arrows of the turtle master",
-                        "arrows of slow falling"
-                    ]
-                }
-                // SHORTCUT FROM FIREWORK SUPPLIES
-            ],
-            "navigation": [
-                "maps",
-                "empty maps",
-                "ocean explorer maps",
-                "woodland explorer maps",
-                "buried treasure explorer maps",
-                "compi"
-            ],
-            "buckets": [
-                "empty buckets",
-                "water buckets",
-                "lava buckets",
-                "milk buckets",
-                "cod buckets",
-                "salmon buckets",
-                "puffer fish buckets",
-                "tropical fish buckets"
-                // SHORTCUT FROM BREWING
-            ],
-            "other": [
-                "flints and steels",
-                "clocks",
-                "shears",
-                "fishing rods",
-                "carrots on sticks",
-                "leads",
-                "shields",
-                "totems of undying",
-                "tridents",
-               "shields"
-            ]
-        },
-        "armor": {
-            "helmets": [
-                "leather helmets",
-                "chainmail helmets",
-                "iron helmets",
-                "gold helmets",
-                "diamond helmets"
-                // SHORTCUT TO CARVED PUMPKINS
-                // SHORTCUT TO TURTLE SHELLS
-                // SHORTCUT TO HEADS
-            ],
-            "chestplates": [
-                "leather tunics",
-                "chainmail chestplates",
-                "iron chestplates",
-                "gold chestplates",
-                "diamond chestplates"
-                // SHORTCUT TO ELYTRA
-            ],
-            "leggings": [
-                "leather pants",
-                "chainmail leggings",
-                "iron leggings",
-                "gold leggings",
-                "diamond leggings"
-            ],
-            "boots": [
-                "leather boots",
-                "chainmail boots",
-                "iron boots",
-                "gold boots",
-                "diamond boots"
-            ],
-            "other": [
-                "iron horse armor",
-                "golden horse armor",
-                "diamond horse armor",
-                "elytra"
-                // SHORTCUT FROM CHESTPLATES
-            ]
-        },
-        "pyrotechnics" : {
-            "firework rockets": [
-                "red firework rockets",
-                "orange firework rockets",
-                "yellow firework rockets",
-                "green firework rockets",
-                "blue firework rockets",
-                "cyan firework rockets",
-                "light blue firework rockets",
-                "purple firework rockets",
-                "magenta firework rockets",
-                "pink firework rockets",
-                "lime green firework rockets",
-                "white firework rockets",
-                "black firework rockets",
-                "gray firework rockets",
-                "light gray firework rockets",
-                "brown firework rockets"
-            ],
-            "firework stars": [
-                "red firework stars",
-                "orange firework stars",
-                "yellow firework stars",
-                "green firework stars",
-                "blue firework stars",
-                "cyan firework stars",
-                "light blue firework stars",
-                "purple firework stars",
-                "magenta firework stars",
-                "pink firework stars",
-                "lime green firework stars",
-                "white firework stars",
-                "black firework stars",
-                "gray firework stars",
-                "light gray firework stars",
-                "brown firework stars"
-            ],
-            "supplies": [
-                "gunpowder",
-                "paper"
-                // SHORTCUT FROM BREWING SUPPLIES
-                // SHORTCUT TO GLOWSTONE DUST
-                // SHORTCUT TO GOLD NUGGETS
-                // SHORTCUT TO FEATHERS
-                // SHORTCUT TO FIRE CHARGES
-                // SHORTCUT TO DYES
-            ]
-        },
-        "other": {
-            "minerals": [
-                "coal",
-                "charcoal",
-                "diamonds",
-                "gold ingots",
-                "gold nuggets",
-                "iron ingots",
-                "iron nuggets",
-                "emeralds",
-                "nether quartz",
-                "lapis lazuli"
-                // SHORTCUT FROM DYES
-            ],
-            "dyes": [
-                "red dye",
-                "orange dye",
-                "yellow dye",
-                "green dye",
-                "blue dye",
-                "cyan dye",
-                "light blue dye",
-                "purple dye",
-                "magenta dye",
-                "pink dye",
-                "lime green dye",
-                "white dye",
-                "black dye",
-                "gray dye",
-                "light gray dye",
-                "brown dye"
-                // SHORTCUT TO BONEMEAL & INK SACS
-                // SHORTCUT TO COCOA BEANS
-                // SHORTCUT TO LAPIS LAZULI
-            ],
-            "music discs": [
-                "13",
-                "cat",
-                "blocks",
-                "chirp",
-                "far",
-                "mall",
-                "mellohi",
-                "stal",
-                "strad",
-                "ward",
-                "11",
-                "wait"
-            ],
-            "books": [
-                "books",
-                "books and quills",
-                "written books",
-                "enchanted books"
-            ],
-            "banner patterns": [
-                "thing",
-                "skull",
-                "creeper",
-                "flower",
-                "field masoned",
-                "bordure indented"
-            ],
-            "miscellaneous": [
-                "sticks",
-                "bowls",
-                "string",
-                "feathers",
-                "gunpowder",
-                "flint",
-                "saddles",
-                "leather",
-                "bricks",
-                "nether bricks",
-                "clay",
-                "paper",
-                "slimeballs",
-                "bones",
-                "eyes of ender",
-                "nether stars",
-                "prismarine shards",
-                "prismarine crystals",
-                "rabbit hides",
-                "name tags",
-                "shulker shells",
-                "hearts of the sea",
-                "scutes",
-                "turtle eggs",
-                "nautilus shells",
-                "bottles o' enchanting",
-                "bonemeal",
-                "ink sacs"
-                // SHORTCUT FROM INPUT
-                // SHORTCUT FROM BREWING
-                // SHORTCUT FROM DYES
-            ]
-        }
+        "redstone torches",
+        "levers",
+        "daylight sensors",
+        "tripwire hooks",
+        "observers"
+        // SHORTCUT TO REDSTONE BLOCKS
+        // SHORTCUT TO TRIPWIRE
+        // SHORTCUT TO DETECTOR RAILS
+        // SHORTCUT TO TRAPPED CHESTS
+      ],
+      "throughput": [
+        "redstone",
+        "repeaters",
+        "comparators"
+        // SHORTCUT FROM MINERALS
+      ],
+      "output": [
+        "note blocks",
+        "pistons",
+        "sticky pistons",
+        "TNT",
+        "redstone lamps",
+        "dispensers",
+        "droppers",
+        "hoppers"
+        // SHORTCUT TO POWERED/ACTIVATOR RAILS
+      ]
+    },
+    "aquatic": {
+      "coral": [
+        "Tube Coral",
+        "Brain Coral",
+        "Bubble Coral",
+        "Fire Coral",
+        "Horn Coral"
+      ],
+      "coral fans": [
+        "Tube Coral Fans",
+        "Dead Tube Coral Fans",
+        "Brain Coral Fans",
+        "Dead Brain Coral Fans",
+        "Bubble Coral Fans",
+        "Dead Bubble Coral Fans",
+        "Fire Coral Fans",
+        "Dead Fire Coral Fans",
+        "Horn Coral Fans"
+        "Dead Horn Coral Fans"
+      ],
+      "coral blocks": [
+        "Tube Coral Blocks",
+        "Dead Tube Coral Blocks",
+        "Brain Coral Blocks",
+        "Dead Brain Coral Blocks",
+        "Bubble Coral Blocks",
+        "Dead Bubble Coral Blocks",
+        "Fire Coral Blocks",
+        "Dead Fire Coral Blocks",
+        "Horn Coral Blocks"
+        "Dead Horn Coral Blocks"
+      ],
+      "other": [
+        "prismarine",
+        "prismarine bricks",
+        "sea lanterns",
+        "dark prismarine blocks",
+        "sponges",
+        "wet sponges"
+      ]
+    },
+    "transportation": {
+      "rails": [
+        "rails",
+        "powered rails",
+        "detector rails",
+        "activator rails"
+        // SHORTCUT FROM REDSTONE INPUT
+        // SHORTCUT FROM REDSTONE OUTPUT
+      ],
+      "minecarts": [
+        "minecarts",
+        "minecarts with chests",
+        "minecarts with TNT",
+        "minecarts with hoppers"
+      ],
+      "boats": [
+        "oak boats",
+        "birch boats",
+        "acacia boats",
+        "spruce boats",
+        "jungle boats",
+        "dark oak boats"
+      ]
+    },
+    "other": {
+      "utilities": [
+        "crafting tables",
+        "furni",
+        "chests",
+        "trapped chests",
+        "ender chests",
+        "brewing stands",
+        "cauldrons",
+        "jukeboxes",
+        "enchantment tables",
+        "beacons",
+        "anvils",
+        "slightly damaged anvils",
+        "very damaged anvils",
+        "conduits",
+        "lecterns",
+        "looms"
+        // SHORTCUT TO SHULKER BOXES
+        // SHORTCUT FROM END
+        // SHORTCUT FROM REDSTONE INPUT
+      ],
+      "heads": [
+        "zombie heads",
+        "skeleton heads",
+        "wither skeleton heads",
+        "creeper heads",
+        "ender dragon heads"
+        // SHORTCUT FROM HELMETS
+      ],
+      "arctic": [
+        "snow blocks",
+        "snow layers",
+        "ice",
+        "packed ice",
+        "blue ice"
+      ],
+      "decorative": [
+        "oak signs",
+        "birch signs",
+        "spruce signs",
+        "acacia signs",
+        "jungle signs",
+        "dark oak signs",
+        "paintings",
+        "item frames",
+        "armor stands",
+        "flower pots",
+        "bookshelves"
+      ],
+      "miscellaneous": [
+        "torches",
+        "lanters",
+        "obsidian",
+        "slime blocks",
+        "cakes",
+        "bricks",
+        "cobwebs",
+        "bone blocks",
+        "ladders",
+        "scaffolding",
+        "update blocks"
+        // SHORTCUT FROM VEGETARIAN OPTIONS
+      ]
     }
+  },
+  "items": {
+    "food": {
+      "meat": [
+        "raw porkchops",
+        "porkchops",
+        "eggs",
+        "raw cod",
+        "raw salmon",
+        "tropical fish",
+        "cooked cod",
+        "cooked salmon",
+        "raw beef",
+        "steak",
+        "raw chicken",
+        "cooked chicken",
+        "rotten flesh",
+        "raw rabbit",
+        "cooked rabbit",
+        "rabbit stew",
+        "raw mutton",
+        "cooked mutton"
+        // SHORTCUT TO SPIDER EYES/PUFFERFISH
+      ],
+      "vegetarian options": [
+        "apples",
+        "golden apples",
+        "enchanted golden apples",
+        "mushroom stew",
+        "wheat",
+        "bread",
+        "sugar",
+        "cookies",
+        "melon slices",
+        "carrots",
+        "golden carrots",
+        "potatoes",
+        "baked potatoes",
+        "poisonous potatoes",
+        "pumpkin pies",
+        "chorus fruit",
+        "popped chorus fruit",
+        "beetroots",
+        "beetroot soup",
+        "dried kelp",
+        "coco beans"
+        // SHORTCUT TO PUMPKINS & MELONS
+        // SHORTCUT TO CAKES
+        // SHORTCUT TO GLISTERING MELONS/FROM BREWING SUPPLIES
+        // SHORTCUT TO MUSHROOMS
+        // SHORTCUT TO MILK BUCKETS
+        // SHORTCUT FROM DYES
+      ],
+      "seeds": [
+        "wheat seeds",
+        "pumpkin seeds",
+        "melon seeds",
+        "beetroot seeds"
+      ]
+    },
+    "brewing": {
+      "potions": {
+        "beneficial potions": [
+          "potions of healing",
+          "potions of healing II",
+          "potions of fire resistance",
+          "potions of fire resistance (extended)",
+          "potions of regeneration",
+          "potions of regeneration (extended)",
+          "potions of regeneration II",
+          "potions of strength",
+          "potions of strength (extended)",
+          "potions of strength II",
+          "potions of swiftness",
+          "potions of swiftness (extended)",
+          "potions of swiftness II",
+          "potions of night vision",
+          "potions of night vision (extended)",
+          "potions of water breathing",
+          "potions of water breathing (extended)",
+          "potions of leaping",
+          "potions of leaping II",
+          "potions of leaping (extended)"
+          "potions of invisibility",
+          "potions of invisibility (extended)",
+          "potions of slow falling",
+          "potions of slow falling (extended)"
+        ],
+        "detrimental potions": [
+          "potions of weakness",
+          "potions of weakness (extended)",
+          "potions of decay",
+          "potions of poison",
+          "potions of harming",
+          "potions of harming II",
+          "potions of poison (extended)",
+          "potions of poison II",
+          "potions of slowness",
+          "potions of slowness (extended)"
+        ],
+        "mixed/neutral potions": [
+          "water bottles",
+          "awkward potions",
+          "mundane potions",
+          "thick potions",
+          "potions of the turtle master",
+          "potions of the turtle master (extended)",
+          "potions of the turtle master II"
+          // SHORTCUT FROM BREWING SUPPLIES
+        ]
+      },
+      "splash potions": {
+        "beneficial splash potions": [
+          "splash potions of healing",
+          "splash potions of healing II",
+          "splash potions of fire resistance",
+          "splash potions of fire resistance (extended)",
+          "splash potions of regeneration",
+          "splash potions of regeneration (extended)",
+          "splash potions of regeneration II",
+          "splash potions of strength",
+          "splash potions of strength (extended)",
+          "splash potions of strength II",
+          "splash potions of swiftness",
+          "splash potions of swiftness (extended)",
+          "splash potions of swiftness II",
+          "splash potions of night vision",
+          "splash potions of night vision (extended)",
+          "splash potions of water breathing",
+          "splash potions of water breathing (extended)",
+          "splash potions of leaping",
+          "splash potions of leaping II",
+          "splash potions of leaping (extended)"
+          "splash potions of invisibility",
+          "splash potions of invisibility (extended)",
+          "splash potions of slow falling",
+          "splash potions of slow falling (extended)"
+        ],
+        "detrimental splash potions": [
+          "splash potions of weakness",
+          "splash potions of weakness (extended)",
+          "splash potions of decay",
+          "splash potions of poison",
+          "splash potions of harming",
+          "splash potions of harming II",
+          "splash potions of poison (extended)",
+          "splash potions of poison II",
+          "splash potions of slowness",
+          "splash potions of slowness (extended)"
+        ],
+        "mixed/neutral splash potions": [
+          "splash water bottles",
+          "awkward splash potions",
+          "mundane splash potions",
+          "thick splash potions",
+          "splash potions of the turtle master",
+          "splash potions of the turtle master (extended)",
+          "splash potions of the turtle master II"
+        ]
+      },
+      "lingering potions": {
+        "beneficial lingering potions": [
+          "lingering potions of healing",
+          "lingering potions of healing II",
+          "lingering potions of fire resistance",
+          "lingering potions of fire resistance (extended)",
+          "lingering potions of regeneration",
+          "lingering potions of regeneration (extended)",
+          "lingering potions of regeneration II",
+          "lingering potions of strength",
+          "lingering potions of strength (extended)",
+          "lingering potions of strength II",
+          "lingering potions of swiftness",
+          "lingering potions of swiftness (extended)",
+          "lingering potions of swiftness II",
+          "lingering potions of night vision",
+          "lingering potions of night vision (extended)",
+          "lingering potions of water breathing",
+          "lingering potions of water breathing (extended)",
+          "lingering potions of leaping",
+          "lingering potions of leaping II",
+          "lingering potions of leaping (extended)"
+          "lingering potions of invisibility",
+          "lingering potions of invisibility (extended)",
+          "lingering potions of slow falling",
+          "lingering potions of slow falling (extended)"
+        ],
+        "detrimental lingering potions": [
+          "lingering potions of weakness",
+          "lingering potions of weakness (extended)",
+          "lingering potions of decay",
+          "lingering potions of poison",
+          "lingering potions of harming",
+          "lingering potions of harming II",
+          "lingering potions of poison (extended)",
+          "lingering potions of poison II",
+          "lingering potions of slowness",
+          "lingering potions of slowness (extended)"
+        ],
+        "mixed/neutral lingering potions": [
+          "lingering water bottles",
+          "awkward lingering potions",
+          "mundane lingering potions",
+          "thick lingering potions",
+          "lingering potions of the turtle master",
+          "lingering potions of the turtle master (extended)",
+          "lingering potions of the turtle master II"
+        ]
+      },
+      "supplies": [
+        "bottles",
+        "dragon's breaths",
+        "spider eyes",
+        "fermented spider eyes",
+        "glistering melons",
+        "nether warts",
+        "rabbits' feet",
+        "magma cream",
+        "blaze rods",
+        "blaze powder",
+        "ghast tears",
+        "turtle shells",
+        "phantom membranes",
+        "glowstone dust"
+        // SHORTCUT TO REDSTONE DUST
+        // SHORTCUT TO GUNPOWDER//FROM PYROTECHNIC SUPPLIES
+        // SHORTCUT TO SUGAR & GOLDEN CARROTS//FROM VEGETARIAN OPTIONS
+        // SHORTCUT TO WATER BOTTLES
+      ]
+      // SHORTCUT TO MILK BUCKETS
+      // SHORTCUT TO BOTTLES O' ENCHANTING
+    },
+    "equipment": {
+      "pickaxes": [
+        "wooden pickaxes",
+        "stone pickaxes",
+        "iron pickaxes",
+        "gold pickaxes",
+        "diamond pickaxes"
+      ],
+      "shovels": [
+        "wooden shovels",
+        "stone shovels",
+        "iron shovels",
+        "gold shovels",
+        "diamond shovels"
+      ],
+      "axes": [
+        "wooden axes",
+        "stone axes",
+        "iron axes",
+        "gold axes",
+        "diamond axes"
+      ],
+      "hoes": [
+        "wooden hoes",
+        "stone hoes",
+        "iron hoes",
+        "gold hoes",
+        "diamond hoes"
+      ],
+      "swords": [
+        "wooden swords",
+        "stone swords",
+        "iron swords",
+        "gold swords",
+        "diamond swords"
+      ],
+      "projectiles": [
+        "bows",
+        "crossbows",
+        "ender pearls",
+        "snowballs",
+        "fire charges",
+        "arrows",
+        {
+          "tipped arrows": {,
+            "beneficial tipped arrows": [
+              "tipped arrows of healing",
+              "tipped arrows of healing II",
+              "tipped arrows of fire resistance",
+              "tipped arrows of fire resistance (extended)",
+              "tipped arrows of regeneration",
+              "tipped arrows of regeneration (extended)",
+              "tipped arrows of regeneration II",
+              "tipped arrows of strength",
+              "tipped arrows of strength (extended)",
+              "tipped arrows of strength II",
+              "tipped arrows of swiftness",
+              "tipped arrows of swiftness (extended)",
+              "tipped arrows of swiftness II",
+              "tipped arrows of night vision",
+              "tipped arrows of night vision (extended)",
+              "tipped arrows of water breathing",
+              "tipped arrows of water breathing (extended)",
+              "tipped arrows of leaping",
+              "tipped arrows of leaping II",
+              "tipped arrows of leaping (extended)"
+              "tipped arrows of invisibility",
+              "tipped arrows of invisibility (extended)",
+              "tipped arrows of slow falling",
+              "tipped arrows of slow falling (extended)"
+            ],
+            "detrimental tipped arrows": [
+              "tipped arrows of weakness",
+              "tipped arrows of weakness (extended)",
+              "tipped arrows of decay",
+              "tipped arrows of poison",
+              "tipped arrows of harming",
+              "tipped arrows of harming II",
+              "tipped arrows of poison (extended)",
+              "tipped arrows of poison II",
+              "tipped arrows of slowness",
+              "tipped arrows of slowness (extended)"
+            ],
+            "mixed tipped arrows": [
+              "tipped arrows of the turtle master",
+              "tipped arrows of the turtle master (extended)",
+              "tipped arrows of the turtle master II"
+            ]
+          }
+        }
+        // SHORTCUT FROM FIREWORK SUPPLIES
+        // SHORTCUT TO FIREWORKS
+      ],
+      "navigation": [
+        "maps",
+        "empty maps",
+        "ocean explorer maps",
+        "woodland explorer maps",
+        "buried treasure explorer maps",
+        "compi"
+      ],
+      "buckets": [
+        "empty buckets",
+        "water buckets",
+        "lava buckets",
+        "milk buckets",
+        "cod buckets",
+        "salmon buckets",
+        "puffer fish buckets",
+        "tropical fish buckets"
+        // SHORTCUT FROM BREWING
+      ],
+      "other": [
+        "flints and steels",
+        "clocks",
+        "shears",
+        "fishing rods",
+        "carrots on sticks",
+        "leads",
+        "shields",
+        "totems of undying",
+        "tridents",
+        "shields"
+      ]
+    },
+    "armor": {
+      "helmets": [
+        "leather helmets",
+        "chainmail helmets",
+        "iron helmets",
+        "gold helmets",
+        "diamond helmets"
+        // SHORTCUT TO CARVED PUMPKINS
+        // SHORTCUT TO TURTLE SHELLS
+        // SHORTCUT TO HEADS
+      ],
+      "chestplates": [
+        "leather tunics",
+        "chainmail chestplates",
+        "iron chestplates",
+        "gold chestplates",
+        "diamond chestplates"
+        // SHORTCUT TO ELYTRA
+      ],
+      "leggings": [
+        "leather pants",
+        "chainmail leggings",
+        "iron leggings",
+        "gold leggings",
+        "diamond leggings"
+      ],
+      "boots": [
+        "leather boots",
+        "chainmail boots",
+        "iron boots",
+        "gold boots",
+        "diamond boots"
+      ],
+      "other": [
+        "iron horse armor",
+        "golden horse armor",
+        "diamond horse armor",
+        "elytra"
+        // SHORTCUT FROM CHESTPLATES
+      ]
+    },
+    "pyrotechnics" : {
+      "firework rockets": [
+        "red firework rockets",
+        "orange firework rockets",
+        "yellow firework rockets",
+        "green firework rockets",
+        "blue firework rockets",
+        "cyan firework rockets",
+        "light blue firework rockets",
+        "purple firework rockets",
+        "magenta firework rockets",
+        "pink firework rockets",
+        "lime green firework rockets",
+        "white firework rockets",
+        "black firework rockets",
+        "gray firework rockets",
+        "light gray firework rockets",
+        "brown firework rockets"
+      ],
+      "firework stars": [
+        "red firework stars",
+        "orange firework stars",
+        "yellow firework stars",
+        "green firework stars",
+        "blue firework stars",
+        "cyan firework stars",
+        "light blue firework stars",
+        "purple firework stars",
+        "magenta firework stars",
+        "pink firework stars",
+        "lime green firework stars",
+        "white firework stars",
+        "black firework stars",
+        "gray firework stars",
+        "light gray firework stars",
+        "brown firework stars"
+      ],
+      "supplies": [
+        "gunpowder",
+        "paper"
+        // SHORTCUT FROM BREWING SUPPLIES
+        // SHORTCUT TO GLOWSTONE DUST
+        // SHORTCUT TO GOLD NUGGETS
+        // SHORTCUT TO FEATHERS
+        // SHORTCUT TO FIRE CHARGES
+        // SHORTCUT TO DYES
+      ]
+    },
+    "other": {
+      "minerals": [
+        "coal",
+        "charcoal",
+        "diamonds",
+        "gold ingots",
+        "gold nuggets",
+        "iron ingots",
+        "iron nuggets",
+        "emeralds",
+        "nether quartz",
+        "lapis lazuli"
+        // SHORTCUT FROM DYES
+      ],
+      "dyes": [
+        "red dye",
+        "orange dye",
+        "yellow dye",
+        "green dye",
+        "blue dye",
+        "cyan dye",
+        "light blue dye",
+        "purple dye",
+        "magenta dye",
+        "pink dye",
+        "lime green dye",
+        "white dye",
+        "black dye",
+        "gray dye",
+        "light gray dye",
+        "brown dye"
+        // SHORTCUT TO BONEMEAL & INK SACS
+        // SHORTCUT TO COCOA BEANS
+        // SHORTCUT TO LAPIS LAZULI
+      ],
+      "music discs": [
+        "13",
+        "cat",
+        "blocks",
+        "chirp",
+        "far",
+        "mall",
+        "mellohi",
+        "stal",
+        "strad",
+        "ward",
+        "11",
+        "wait"
+      ],
+      "books": [
+        "books",
+        "books and quills",
+        "written books",
+        "enchanted books"
+      ],
+      "banner patterns": [
+        "thing",
+        "skull",
+        "creeper",
+        "flower",
+        "field masoned",
+        "bordure indented"
+      ],
+      "miscellaneous": [
+        "sticks",
+        "bowls",
+        "string",
+        "feathers",
+        "gunpowder",
+        "flint",
+        "saddles",
+        "leather",
+        "bricks",
+        "nether bricks",
+        "clay",
+        "paper",
+        "slimeballs",
+        "bones",
+        "eyes of ender",
+        "nether stars",
+        "prismarine shards",
+        "prismarine crystals",
+        "rabbit hides",
+        "name tags",
+        "shulker shells",
+        "hearts of the sea",
+        "scutes",
+        "turtle eggs",
+        "nautilus shells",
+        "bottles o' enchanting",
+        "bonemeal",
+        "ink sacs"
+        // SHORTCUT FROM INPUT
+        // SHORTCUT FROM BREWING
+        // SHORTCUT FROM DYES
+      ]
+    }
+  }
 }
