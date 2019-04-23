@@ -683,7 +683,18 @@
         "very damaged anvils",
         "conduits",
         "lecterns",
-        "looms"
+        "looms",
+        "cartography tables",
+        "grindstones",
+        "barrels",
+        "smokers",
+        "blast furni",
+        "composters",
+        "stonecutters",
+        "smithing tables",
+        "fletching tables",
+        "bells",
+        "campfires"
         // SHORTCUT TO SHULKER BOXES
         // SHORTCUT FROM END
         // SHORTCUT FROM REDSTONE INPUT
@@ -776,7 +787,8 @@
         "beetroots",
         "beetroot soup",
         "dried kelp",
-        "coco beans"
+        "coco beans",
+        "sweet berries"
         // SHORTCUT TO PUMPKINS & MELONS
         // SHORTCUT TO CAKES
         // SHORTCUT TO GLISTERING MELONS/FROM BREWING SUPPLIES
