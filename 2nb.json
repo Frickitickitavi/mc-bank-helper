@@ -544,7 +544,7 @@
         "light gray shulker boxes",
         "brown shulker boxes"
         // SHORTCUT FROM END
-        // SHORTCUT FROM UTILITIES
+        // SHORTCUT FROM STORAGE
       ]
     },
     "mechanical": {
@@ -582,6 +582,7 @@
         // SHORTCUT TO TRIPWIRE
         // SHORTCUT TO DETECTOR RAILS
         // SHORTCUT TO TRAPPED CHESTS
+        // SHORTCUT TO LECTERNS
       ],
       "throughput": [
         "redstone",
@@ -599,6 +600,7 @@
         "droppers",
         "hoppers"
         // SHORTCUT TO POWERED/ACTIVATOR RAILS
+        // SHORTCUT TO BELLS
       ]
     },
     "aquatic": {
@@ -642,6 +644,50 @@
         "wet sponges"
       ]
     },
+    "utilities": {
+      "crafting": [
+        "crafting tables",
+        "looms",
+        "cartography tables",
+        "smithing tables",
+        "fletching tables",
+        "stonecutters"
+      ],
+      "processing": [
+        "furni",
+        "blast furni",
+        "smokers",
+        "campfires",
+        "composters",
+        "brewing stands"
+      ],
+      "enchanting": [
+        "enchantment tables",
+        "grindstones",
+        "anvils",
+        "slightly damaged anvils",
+        "very damaged anvils"
+      ],
+      "storage": [
+        "chests",
+        "trapped chests",
+        "ender chests",
+        "barrels",
+        "cauldrons"
+        // SHORTCUT FROM REDSTONE INPUT
+        // SHORTCUT TO SHULKER BOXES
+        // SHORTCUT FROM END
+      ],
+      "other": [
+        "jukeboxes",
+        "bells",
+        "beacons",
+        "conduits",
+        "lecterns"
+        // SHORTCUT FROM REDSTONE INPUT
+        // SHORTCUT FROM REDSTONE OUTPUT
+      ]
+    },
     "transportation": {
       "rails": [
         "rails",
@@ -667,38 +713,6 @@
       ]
     },
     "other": {
-      "utilities": [
-        "crafting tables",
-        "furni",
-        "chests",
-        "trapped chests",
-        "ender chests",
-        "brewing stands",
-        "cauldrons",
-        "jukeboxes",
-        "enchantment tables",
-        "beacons",
-        "anvils",
-        "slightly damaged anvils",
-        "very damaged anvils",
-        "conduits",
-        "lecterns",
-        "looms",
-        "cartography tables",
-        "grindstones",
-        "barrels",
-        "smokers",
-        "blast furni",
-        "composters",
-        "stonecutters",
-        "smithing tables",
-        "fletching tables",
-        "bells",
-        "campfires"
-        // SHORTCUT TO SHULKER BOXES
-        // SHORTCUT FROM END
-        // SHORTCUT FROM REDSTONE INPUT
-      ],
       "heads": [
         "zombie heads",
         "skeleton heads",
