@@ -779,6 +779,7 @@
         "raw mutton",
         "cooked mutton"
         // SHORTCUT TO SPIDER EYES/PUFFERFISH
+        // SHORTCUT FROM RANGED WEAPONS & PROJECTILES
       ],
       "vegetarian options": [
         "apples",
@@ -1025,12 +1026,13 @@
         "gold swords",
         "diamond swords"
       ],
-      "projectiles": [
+      "ranged weapons & projectiles": [
         "bows",
         "crossbows",
         "ender pearls",
         "snowballs",
         "fire charges",
+        "tridents",
         "arrows",
         {
           "tipped arrows": {
@@ -1081,6 +1083,7 @@
         }
         // SHORTCUT FROM FIREWORK SUPPLIES
         // SHORTCUT TO FIREWORKS
+        // SHORTCUT TO EGGS
       ],
       "navigation": [
         "maps",
@@ -1110,7 +1113,6 @@
         "leads",
         "shields",
         "totems of undying",
-        "tridents",
         "shields"
       ]
     },
