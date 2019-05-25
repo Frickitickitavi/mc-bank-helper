@@ -1116,9 +1116,9 @@
         "shields"
       ]
     },
-    "armor": {
-      "helmets": [
-        "leather helmets",
+    "wearables": {
+      "head": [
+        "leather caps",
         "chainmail helmets",
         "iron helmets",
         "gold helmets",
@@ -1127,38 +1127,37 @@
         // SHORTCUT TO TURTLE SHELLS
         // SHORTCUT TO HEADS
       ],
-      "chestplates": [
+      "chest": [
         "leather tunics",
         "chainmail chestplates",
         "iron chestplates",
         "gold chestplates",
-        "diamond chestplates"
-        // SHORTCUT TO ELYTRA
+        "diamond chestplates",
+        "elytra"
       ],
-      "leggings": [
+      "legs": [
         "leather pants",
         "chainmail leggings",
         "iron leggings",
         "gold leggings",
         "diamond leggings"
       ],
-      "boots": [
+      "feet": [
         "leather boots",
         "chainmail boots",
         "iron boots",
         "gold boots",
         "diamond boots"
       ],
-      "other": [
+      "horse": [
         "iron horse armor",
         "golden horse armor",
         "diamond horse armor",
-        "elytra"
-        // SHORTCUT FROM CHESTPLATES
+        "saddles"
       ]
     },
     "pyrotechnics" : {
-      "firework rockets": [
+      "fireworks": [
         "red firework rockets",
         "orange firework rockets",
         "yellow firework rockets",
@@ -1175,8 +1174,9 @@
         "gray firework rockets",
         "light gray firework rockets",
         "brown firework rockets"
+        // SHORTCUT FROM RANGED WEAPONS & PROJECTILES
       ],
-      "firework stars": [
+      "supplies": [
         "red firework stars",
         "orange firework stars",
         "yellow firework stars",
@@ -1192,15 +1192,11 @@
         "black firework stars",
         "gray firework stars",
         "light gray firework stars",
-        "brown firework stars"
-      ],
-      "supplies": [
-        "gunpowder",
-        "paper"
-        // SHORTCUT FROM BREWING SUPPLIES
-        // SHORTCUT TO GLOWSTONE DUST
+        "brown firework stars",
+        "gunpowder"
+        // SHORTCUT FROM BREWING SUPPLIES / TO GLOWSTONE DUST
         // SHORTCUT TO GOLD NUGGETS
-        // SHORTCUT TO FEATHERS
+        // SHORTCUT TO FEATHERS / PAPER
         // SHORTCUT TO FIRE CHARGES
         // SHORTCUT TO DYES
       ]
@@ -1216,7 +1212,8 @@
         "iron nuggets",
         "emeralds",
         "nether quartz",
-        "lapis lazuli"
+        "lapis lazuli",
+        "flint"
         // SHORTCUT FROM DYES
       ],
       "dyes": [
@@ -1273,9 +1270,6 @@
         "bowls",
         "string",
         "feathers",
-        "gunpowder",
-        "flint",
-        "saddles",
         "leather",
         "bricks",
         "nether bricks",
@@ -1297,9 +1291,10 @@
         "bottles o' enchanting",
         "bonemeal",
         "ink sacs"
-        // SHORTCUT FROM INPUT
+        // SHORTCUT FROM REDSTONE INPUT
         // SHORTCUT FROM BREWING
         // SHORTCUT FROM DYES
+        // SHORTCUT FROM FIREWORK SUPPLIES
       ]
     }
   }
