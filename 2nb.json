@@ -270,7 +270,8 @@
         "rose bushes",
         "peonies",
         "lilies of the valley",
-        "cornflowers"
+        "cornflowers",
+        "wither roses"
         // SHORTCUT TO CHORUS FLOWERS
       ],
       "fruits": [
@@ -605,35 +606,40 @@
     },
     "aquatic": {
       "coral": [
-        "Tube Coral",
-        "Brain Coral",
-        "Bubble Coral",
-        "Fire Coral",
-        "Horn Coral"
+        "tube coral",
+        "dead tube coral",
+        "brain coral",
+        "dead brain coral",
+        "bubble coral",
+        "dead bubble coral",
+        "fire coral",
+        "dead fire coral",
+        "horn coral",
+        "dead horn coral"
       ],
       "coral fans": [
-        "Tube Coral Fans",
-        "Dead Tube Coral Fans",
-        "Brain Coral Fans",
-        "Dead Brain Coral Fans",
-        "Bubble Coral Fans",
-        "Dead Bubble Coral Fans",
-        "Fire Coral Fans",
-        "Dead Fire Coral Fans",
-        "Horn Coral Fans"
-        "Dead Horn Coral Fans"
+        "tube coral fans",
+        "dead tube coral fans",
+        "brain coral fans",
+        "dead brain coral fans",
+        "bubble coral fans",
+        "dead bubble coral fans",
+        "fire coral fans",
+        "dead fire coral fans",
+        "horn coral fans"
+        "dead horn coral fans"
       ],
       "coral blocks": [
-        "Tube Coral Blocks",
-        "Dead Tube Coral Blocks",
-        "Brain Coral Blocks",
-        "Dead Brain Coral Blocks",
-        "Bubble Coral Blocks",
-        "Dead Bubble Coral Blocks",
-        "Fire Coral Blocks",
-        "Dead Fire Coral Blocks",
-        "Horn Coral Blocks"
-        "Dead Horn Coral Blocks"
+        "tube coral blocks",
+        "dead tube coral blocks",
+        "brain coral blocks",
+        "dead brain coral blocks",
+        "bubble coral blocks",
+        "dead bubble coral blocks",
+        "fire coral blocks",
+        "dead fire coral blocks",
+        "horn coral blocks"
+        "dead horn coral blocks"
       ],
       "other": [
         "prismarine",
@@ -803,7 +809,8 @@
         "beetroot soup",
         "dried kelp",
         "coco beans",
-        "sweet berries"
+        "sweet berries",
+        "suspicious stew"
         // SHORTCUT TO PUMPKINS & MELONS
         // SHORTCUT TO CAKES
         // SHORTCUT TO GLISTERING MELONS/FROM BREWING SUPPLIES
