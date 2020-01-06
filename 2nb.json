@@ -49,7 +49,8 @@
         "grass",
         "podzol",
         "mycelium",
-        "gravel"
+        "gravel",
+        "grass paths"
       ],
       "sand": [
         "sand",
@@ -719,6 +720,12 @@
       ]
     },
     "other": {
+      "beekeeping": [
+        "honey blocks",
+        "honeycombs",
+        "beehives",
+        "bee nests"
+      ],
       "heads": [
         "zombie heads",
         "skeleton heads",
@@ -810,7 +817,8 @@
         "dried kelp",
         "coco beans",
         "sweet berries",
-        "suspicious stew"
+        "suspicious stew",
+        "honey bottles"
         // SHORTCUT TO PUMPKINS & MELONS
         // SHORTCUT TO CAKES
         // SHORTCUT TO GLISTERING MELONS/FROM BREWING SUPPLIES
@@ -1297,7 +1305,8 @@
         "nautilus shells",
         "bottles o' enchanting",
         "bonemeal",
-        "ink sacs"
+        "ink sacs",
+        "honeycombs"
         // SHORTCUT FROM REDSTONE INPUT
         // SHORTCUT FROM BREWING
         // SHORTCUT FROM DYES
