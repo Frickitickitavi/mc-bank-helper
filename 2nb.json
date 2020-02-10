@@ -60,7 +60,9 @@
         "chiseled sandstone",
         "chiseled red sandstone",
         "smooth sandstone",
-        "smooth red sandstone"
+        "smooth red sandstone",
+        "cut sandstone",
+        "cut red sandstone"
         // SHORTCUT TO SOUL SAND
       ]
     },
