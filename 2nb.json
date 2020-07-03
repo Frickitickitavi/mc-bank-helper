@@ -9,7 +9,9 @@
         "redstone ore",
         "emerald ore",
         "lapis lazuli ore",
-        "quartz ore"
+        "quartz ore",
+		"ancient debris",
+		"nether gold ore"
       ],
       "blocks": [
         "coal blocks",
@@ -21,7 +23,9 @@
         "lapis lazuli blocks",
         "quartz blocks",
         "chiseled quartz blocks",
-        "pillar quartz blocks"
+        "pillar quartz blocks",
+		"quartz bricks",
+		"netherite blocks"
         // SHORTCUT FROM INPUT
       ]
       // SHORTCUT FROM NETHER
@@ -41,7 +45,14 @@
         "diorite",
         "polished diorite",
         "andesite",
-        "polished andesite"
+        "polished andesite",
+		"basalt",
+		"polished basalt",
+		"blackstone",
+		"gilded blackstone",
+		"polished blackstone",
+		"polished blackstone bricks"
+		// SHORTCUT FROM NETHER
       ],
       "soil": [
         "dirt",
@@ -51,6 +62,7 @@
         "mycelium",
         "gravel",
         "grass paths"
+		// SHORTCUT TO SOUL SOIL
       ],
       "sand": [
         "sand",
@@ -99,6 +111,7 @@
         "jungle wood",
         "dark oak wood"
       ]
+	  // SHORTCUT TO NETHER FUNGI
     },
     "barriers": {
       "doors": [
@@ -108,6 +121,8 @@
         "spruce doors",
         "jungle doors",
         "dark oak doors",
+		"crimson doors",
+		"warped doors",
         "iron doors"
       ],
       "trapdoors": [
@@ -117,6 +132,8 @@
         "spruce trapdoors",
         "jungle trapdoors",
         "dark oak trapdoors",
+		"crimson trapdoors",
+		"warped trapdoors",
         "iron trapdoors"
       ],
       "walls": [
@@ -143,6 +160,8 @@
         "jungle fences",
         "dark oak fences",
         "nether brick fences",
+		"crimson fences",
+		"warped fences",
         "iron bars"
       ],
       "fencegates": [
@@ -152,6 +171,8 @@
         "spruce fencegates",
         "jungle fencegates",
         "dark oak fencegates",
+		"crimson fencegates",
+		"warped fencegates",
         "nether brick fencegates"]
     },
     "partial": {
@@ -169,13 +190,15 @@
           "andesite stairs",
           "polished andesite stairs"
         ],
-        "wood": [
+        "wood/fungus": [
           "oak stairs",
           "birch stairs",
           "acacia stairs",
           "spruce stairs",
           "jungle stairs",
-          "dark oak stairs"
+          "dark oak stairs",
+		  "warped stairs",
+		  "crimson stairs"
         ],
         "sandstone": [
           "sandstone stairs",
@@ -211,14 +234,16 @@
           "andesite slabs",
           "polished andesite slabs"
         ],
-        "wood": [
+        "wood/fungus": [
           "oak slabs",
           "birch slabs",
           "acacia slabs",
           "spruce slabs",
           "jungle slabs",
           "dark oak slabs",
-          "petrified oak slabs"
+          "petrified oak slabs",
+		  "warped slabs",
+		  "crimson slabs"
         ],
         "sandstone": [
           "sandstone slabs",
@@ -285,13 +310,35 @@
         // SHORTCUT FROM VEGETARIAN OPTIONS
         // SHORTCUT FROM HELMETS
       ],
-      "mushrooms": [
-        "red mushrooms",
-        "red mushroom blocks",
-        "brown mushrooms",
-        "brown mushroom blocks"
-        // SHORTCUT FROM VEGETARIAN OPTIONS
-      ],
+      "fungi": {
+		"terrestrial": [
+			"red mushrooms",
+			"red mushroom blocks",
+			"brown mushrooms",
+			"brown mushroom blocks"
+			// SHORTCUT FROM VEGETARIAN OPTIONS
+		],
+		"nether": [
+			"nether wart blocks",
+			"warped wart blocks",
+			"crimson fungus",
+			"warped fungus",
+			"crimson stems",
+			"warped stems",
+			"stripped crimson stems",
+			"stripped warped stems",
+			"crimson hyphae",
+			"warped hyphae",
+			"stripped crimson hyphae",
+			"stripped warped hyphae",
+			"crimson planks",
+			"warped planks",
+			"crimson roots",
+			"warped roots",
+			"shroomlight"
+			// SHORTCUT FROM NETHER
+		]
+      },
       "weeds": [
         "ferns",
         "dead bushes",
@@ -315,6 +362,7 @@
         "sugarcane",
         "bamboo"
         // SHORTCUT TO CHORUS PLANTS
+		// SHORTCUT TO NETHER SPROUTS//TWISTING/WEEPING VINES
       ]
     },
     "interdimensional": {
@@ -325,9 +373,21 @@
         "glowstone",
         "soul sand",
         "magma",
-        "nether wart blocks"
-        // SHORTCUT TO QUARTZ
+		"ancient debris",
+		"chiseled nether brick",
+		"cracked nether brick",
+		"soul soil",
+		"warped nylium",
+		"crimson nylium",
+		"nether sprouts",
+		"twisting vines",
+		"weeping vines"
+        // SHORTCUT TO MINERALS (QUARTZ/NETHERITE/ANCIENT DEBRIS/NETHER GOLD ORE)
         // SHORTCUT FROM SAND
+		// SHORTCUT TO CRYING OBSIDIAN
+		// SHORTCUT FROM SOIL
+		// SHORTCUT TO FUNGI
+		// SHORTCUT TO BASALT/BLACKSTONE
       ],
       "end": [
         "endstone",
@@ -562,6 +622,8 @@
             "spruce buttons",
             "jungle buttons",
             "dark oak buttons",
+			"crimson buttons",
+			"warped buttons",
             "stone buttons"
           ]
         },
@@ -575,14 +637,17 @@
             "dark oak pressure plates",
             "stone pressure plates",
             "gold weighted pressure plates",
-            "iron weighted pressure plates"
+            "iron weighted pressure plates",
+			"crimson pressure plates",
+			"warped pressure plates"
           ]
         },
         "redstone torches",
         "levers",
         "daylight sensors",
         "tripwire hooks",
-        "observers"
+        "observers",
+		"targets"
         // SHORTCUT TO REDSTONE BLOCKS
         // SHORTCUT TO TRIPWIRE
         // SHORTCUT TO DETECTOR RAILS
@@ -668,6 +733,7 @@
         "blast furni",
         "smokers",
         "campfires",
+		"soul campfires",
         "composters",
         "brewing stands"
       ],
@@ -693,7 +759,9 @@
         "bells",
         "beacons",
         "conduits",
-        "lecterns"
+        "lecterns",
+		"lodestones",
+		"respawn anchors"
         // SHORTCUT FROM REDSTONE INPUT
         // SHORTCUT FROM REDSTONE OUTPUT
       ]
@@ -751,16 +819,22 @@
         "acacia signs",
         "jungle signs",
         "dark oak signs",
+		"crimson signs",
+		"warped signs",
         "paintings",
         "item frames",
         "armor stands",
         "flower pots",
-        "bookshelves"
+        "bookshelves",
+		"chain"
       ],
       "miscellaneous": [
         "torches",
-        "lanters",
+		"soul torches",
+        "lanterns",
+		"soul lanterns",
         "obsidian",
+		"crying obsidian",
         "slime blocks",
         "cakes",
         "bricks",
@@ -770,6 +844,7 @@
         "scaffolding",
         "update blocks"
         // SHORTCUT FROM VEGETARIAN OPTIONS
+		// SHORTCUT FROM NETHER
       ]
     }
   },
@@ -825,7 +900,7 @@
         // SHORTCUT TO PUMPKINS & MELONS
         // SHORTCUT TO CAKES
         // SHORTCUT TO GLISTERING MELONS/FROM BREWING SUPPLIES
-        // SHORTCUT TO MUSHROOMS
+        // SHORTCUT TO TERRESTRIAL FUNGI
         // SHORTCUT TO MILK BUCKETS
         // SHORTCUT FROM DYES
       ],
@@ -874,7 +949,8 @@
           "potions of poison (extended)",
           "potions of poison II",
           "potions of slowness",
-          "potions of slowness (extended)"
+          "potions of slowness (extended)",
+		  "potions of slowness iv"
         ],
         "mixed/neutral potions": [
           "water bottles",
@@ -924,7 +1000,8 @@
           "splash potions of poison (extended)",
           "splash potions of poison II",
           "splash potions of slowness",
-          "splash potions of slowness (extended)"
+          "splash potions of slowness (extended)",
+		  "splash potions of slowness iv"
         ],
         "mixed/neutral splash potions": [
           "splash water bottles",
@@ -973,7 +1050,8 @@
           "lingering potions of poison (extended)",
           "lingering potions of poison II",
           "lingering potions of slowness",
-          "lingering potions of slowness (extended)"
+          "lingering potions of slowness (extended)",
+		  "lingering potions of slowness iv"
         ],
         "mixed/neutral lingering potions": [
           "lingering water bottles",
@@ -1014,35 +1092,40 @@
         "stone pickaxes",
         "iron pickaxes",
         "gold pickaxes",
-        "diamond pickaxes"
+        "diamond pickaxes",
+		"netherite pickaxes"
       ],
       "shovels": [
         "wooden shovels",
         "stone shovels",
         "iron shovels",
         "gold shovels",
-        "diamond shovels"
+        "diamond shovels",
+		"netherite shovels"
       ],
       "axes": [
         "wooden axes",
         "stone axes",
         "iron axes",
         "gold axes",
-        "diamond axes"
+        "diamond axes",
+		"netherite axes"
       ],
       "hoes": [
         "wooden hoes",
         "stone hoes",
         "iron hoes",
         "gold hoes",
-        "diamond hoes"
+        "diamond hoes",
+		"netherite hoes"
       ],
       "swords": [
         "wooden swords",
         "stone swords",
         "iron swords",
         "gold swords",
-        "diamond swords"
+        "diamond swords",
+		"netherite swords"
       ],
       "ranged weapons & projectiles": [
         "bows",
@@ -1090,7 +1173,8 @@
               "tipped arrows of poison (extended)",
               "tipped arrows of poison II",
               "tipped arrows of slowness",
-              "tipped arrows of slowness (extended)"
+              "tipped arrows of slowness (extended)",
+			  "tipped arrows of slowness iv"
             ],
             "mixed tipped arrows": [
               "tipped arrows of the turtle master",
@@ -1128,6 +1212,7 @@
         "shears",
         "fishing rods",
         "carrots on sticks",
+		"warped fungi on sticks",
         "leads",
         "shields",
         "totems of undying",
@@ -1140,7 +1225,8 @@
         "chainmail helmets",
         "iron helmets",
         "gold helmets",
-        "diamond helmets"
+        "diamond helmets",
+		"netherite helmets"
         // SHORTCUT TO CARVED PUMPKINS
         // SHORTCUT TO TURTLE SHELLS
         // SHORTCUT TO HEADS
@@ -1151,6 +1237,7 @@
         "iron chestplates",
         "gold chestplates",
         "diamond chestplates",
+		"netherite chestplates",
         "elytra"
       ],
       "legs": [
@@ -1158,14 +1245,16 @@
         "chainmail leggings",
         "iron leggings",
         "gold leggings",
-        "diamond leggings"
+        "diamond leggings",
+		"netherite leggings"
       ],
       "feet": [
         "leather boots",
         "chainmail boots",
         "iron boots",
         "gold boots",
-        "diamond boots"
+        "diamond boots",
+		"netherite boots"
       ],
       "horse": [
         "iron horse armor",
@@ -1231,7 +1320,9 @@
         "emeralds",
         "nether quartz",
         "lapis lazuli",
-        "flint"
+        "flint",
+		"netherite scraps",
+		"netherite ingots"
         // SHORTCUT FROM DYES
       ],
       "dyes": [
@@ -1267,7 +1358,8 @@
         "strad",
         "ward",
         "11",
-        "wait"
+        "wait",
+		"pigstep"
       ],
       "books": [
         "books",
@@ -1281,7 +1373,8 @@
         "creeper",
         "flower",
         "field masoned",
-        "bordure indented"
+        "bordure indented",
+		"snout"
       ],
       "miscellaneous": [
         "sticks",
