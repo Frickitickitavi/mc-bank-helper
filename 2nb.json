@@ -150,7 +150,8 @@
         "nether brick walls",
         "red nether brick walls",
         "end stone brick walls",
-        "prismarine walls"
+        "prismarine walls",
+	"blackstone walls"
       ],
       "fences & bars": [
         "oak fences",
@@ -188,7 +189,8 @@
           "diorite stairs",
           "polished diorite stairs",
           "andesite stairs",
-          "polished andesite stairs"
+          "polished andesite stairs",
+	  "blackstone stairs"
         ],
         "wood/fungus": [
           "oak stairs",
@@ -233,6 +235,7 @@
           "polished diorite slabs",
           "andesite slabs",
           "polished andesite slabs"
+	  "blackstone slabs"
         ],
         "wood/fungus": [
           "oak slabs",
