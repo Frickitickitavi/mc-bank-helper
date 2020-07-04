@@ -46,13 +46,14 @@
         "polished diorite",
         "andesite",
         "polished andesite",
-		"basalt",
-		"polished basalt",
-		"blackstone",
-		"gilded blackstone",
-		"polished blackstone",
-		"polished blackstone bricks"
-		// SHORTCUT FROM NETHER
+	"basalt",
+	"polished basalt",
+	"blackstone",
+	"gilded blackstone",
+	"polished blackstone",
+	"polished blackstone bricks",
+	"chiseled polished blackstone"
+	// SHORTCUT FROM NETHER
       ],
       "soil": [
         "dirt",
@@ -151,7 +152,9 @@
         "red nether brick walls",
         "end stone brick walls",
         "prismarine walls",
-	"blackstone walls"
+	"blackstone walls",
+	"polished blackstone walls",
+	"polished blackstone brick walls"
       ],
       "fences & bars": [
         "oak fences",
@@ -190,7 +193,9 @@
           "polished diorite stairs",
           "andesite stairs",
           "polished andesite stairs",
-	  "blackstone stairs"
+	  "blackstone stairs",
+	  "polished blackstone stairs",
+	  "polished blackstone brick stairs"
         ],
         "wood/fungus": [
           "oak stairs",
@@ -235,7 +240,9 @@
           "polished diorite slabs",
           "andesite slabs",
           "polished andesite slabs"
-	  "blackstone slabs"
+	  "blackstone slabs",
+	  "polished blackstone slabs",
+	  "polished blackstone brick slabs"
         ],
         "wood/fungus": [
           "oak slabs",
