@@ -112,7 +112,7 @@
         "jungle wood",
         "dark oak wood"
       ]
-	  // SHORTCUT TO NETHER FUNGI
+      // SHORTCUT TO NETHER FUNGI
     },
     "barriers": {
       "doors": [
@@ -347,6 +347,7 @@
 			"warped roots",
 			"shroomlight"
 			// SHORTCUT FROM NETHER
+			// SHORTCUT FROM WOOD
 		]
       },
       "weeds": [
