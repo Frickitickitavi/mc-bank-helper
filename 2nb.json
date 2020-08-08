@@ -63,7 +63,8 @@
         "mycelium",
         "gravel",
         "grass paths"
-		// SHORTCUT TO SOUL SOIL
+	// SHORTCUT TO SOUL SOIL
+	// SHORTCUT TO NYLIUM
       ],
       "sand": [
         "sand",
@@ -345,8 +346,11 @@
 			"warped planks",
 			"crimson roots",
 			"warped roots",
+			"warped nylium",
+			"crimson nylium",
 			"shroomlight"
 			// SHORTCUT FROM NETHER
+			// SHORTCUT FROM SOIL
 			// SHORTCUT FROM WOOD
 		]
       },
@@ -384,21 +388,19 @@
         "glowstone",
         "soul sand",
         "magma",
-		"ancient debris",
-		"chiseled nether brick",
-		"cracked nether brick",
-		"soul soil",
-		"warped nylium",
-		"crimson nylium",
-		"nether sprouts",
-		"twisting vines",
-		"weeping vines"
+	"ancient debris",
+	"chiseled nether brick",
+	"cracked nether brick",
+	"soul soil",
+	"nether sprouts",
+	"twisting vines",
+	"weeping vines"
         // SHORTCUT TO MINERALS (QUARTZ/NETHERITE/ANCIENT DEBRIS/NETHER GOLD ORE)
         // SHORTCUT FROM SAND
-		// SHORTCUT TO CRYING OBSIDIAN
-		// SHORTCUT FROM SOIL
-		// SHORTCUT TO FUNGI
-		// SHORTCUT TO BASALT/BLACKSTONE
+	// SHORTCUT TO CRYING OBSIDIAN
+	// SHORTCUT FROM SOIL
+	// SHORTCUT TO FUNGI
+	// SHORTCUT TO BASALT/BLACKSTONE
       ],
       "end": [
         "endstone",
