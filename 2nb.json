@@ -1269,8 +1269,9 @@
 		"netherite boots"
       ],
       "horse": [
+	"leather horse armor",
         "iron horse armor",
-        "golden horse armor",
+        "gold horse armor",
         "diamond horse armor",
         "saddles"
       ]
