@@ -22,7 +22,9 @@
       "mineral blocks": [
         "coal blocks",
         "iron blocks",
+	"raw iron blocks",
         "gold blocks",
+	"raw gold blocks",
         "diamond blocks",
         "redstone blocks",
         "emerald blocks",
@@ -50,7 +52,8 @@
                 "cut waxed copper blocks",
                 "cut waxed exposed copper blocks",
                 "cut waxed weathered copper blocks",
-                "cut waxed oxidized copper blocks"
+                "cut waxed oxidized copper blocks",
+		"raw copper blocks"
             ]
         }
         // SHORTCUT FROM INPUT
