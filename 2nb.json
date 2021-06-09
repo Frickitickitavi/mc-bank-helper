@@ -58,12 +58,12 @@
         }
         // SHORTCUT FROM INPUT
       ],
-      "amethyst clusters": {
+      "amethyst clusters": [
             "small amethyst buds",
             "medium amethyst buds",
             "large amethyst buds",
             "amethyst clusters"
-      }
+      ]
       // SHORTCUT FROM NETHER
     },
     "rocks": {
