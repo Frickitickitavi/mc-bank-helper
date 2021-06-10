@@ -70,29 +70,30 @@
       "stone": {
 		"regular stone": [
 		    "cobblestone",
-			"stone",
-			"smooth stone",
-			"stone bricks",
-			"chiseled stone bricks",
-			"mossy stone bricks",
-			"cracked stone bricks",
-			"moss stone"
+		    "stone",
+		    "smooth stone",
+		    "stone bricks",
+		    "chiseled stone bricks",
+		    "mossy stone bricks",
+		    "cracked stone bricks",
+		    "moss stone"
 		],
 		"blackstone": [
-			"blackstone",
-			"gilded blackstone",
-			"polished blackstone",
-			"polished blackstone bricks",
-			"chiseled polished blackstone"
-			// SHORTCUT FROM NETHER
+		    "blackstone",
+		    "gilded blackstone",
+		    "polished blackstone",
+		    "polished blackstone bricks",
+		    "chiseled polished blackstone"
+		    // SHORTCUT FROM NETHER
 		],
 		"deepslate": [
 		    "cobbled deepslate",
-			"deepslate bricks",
-			"chiseled deepslate",
-			"deepslate tiles",
-			"cracked deepslate tiles",
-			"polished deepslate"
+	 	    "deepslate",
+		    "deepslate bricks",
+		    "chiseled deepslate",
+		    "deepslate tiles",
+		    "cracked deepslate tiles",
+		    "polished deepslate"
 		],
 		"rocks that end in -ite": [
 			"granite",
