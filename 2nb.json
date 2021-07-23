@@ -284,6 +284,24 @@
           "red sandstone stairs",
           "smooth red sandstone stairs"
         ],
+        "copper": [
+	  "copper stairs",
+  	  "exposed copper stairs",
+  	  "weathered copper stairs",
+	  "oxidized copper stairs",
+	  "waxed copper stairs",
+	  "waxed exposed copper stairs",
+	  "waxed weathered copper stairs",
+	  "waxed oxidized copper stairs",
+	  "cut copper stairs",
+	  "cut exposed copper stairs",
+	  "cut weathered copper stairs",
+	  "cut oxidized copper stairs",
+	  "cut waxed copper stairs",
+	  "cut waxed exposed copper stairs",
+	  "cut waxed weathered copper stairs",
+	  "cut waxed oxidized copper stairs"
+        ],
         "other": [
           "quartz stairs",
           "smooth quartz stairs",
@@ -335,6 +353,24 @@
           "smooth sandstone slabs",
           "red sandstone slabs",
           "smooth red sandstone slabs"
+        ],
+	"copper": [
+	  "copper slabs",
+  	  "exposed copper slabs",
+  	  "weathered copper slabs",
+	  "oxidized copper slabs",
+	  "waxed copper slabs",
+	  "waxed exposed copper slabs",
+	  "waxed weathered copper slabs",
+	  "waxed oxidized copper slabs",
+	  "cut copper slabs",
+	  "cut exposed copper slabs",
+	  "cut weathered copper slabs",
+	  "cut oxidized copper slabs",
+	  "cut waxed copper slabs",
+	  "cut waxed exposed copper slabs",
+	  "cut waxed weathered copper slabs",
+	  "cut waxed oxidized copper slabs"
         ],
         "other": [
           "quartz slabs",
