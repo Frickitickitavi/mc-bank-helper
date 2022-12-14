@@ -412,7 +412,8 @@
                       "name": "Calcite"
                     },
                     {
-                      "name": "Tuff"
+                      "name": "Tuff",
+                      "silo": 0
                     },
                     {
                       "name": "Dripstone Block",
