@@ -233,16 +233,16 @@
                       "signName": "Cut"
                     },
                     {
-                      "name": "Cut Exposed Copper",
-                      "signName": "Cut Exposed"
+                      "name": "Exposed Cut Copper",
+                      "signName": "Exposed Cut"
                     },
                     {
-                      "name": "Cut Weathered Copper",
-                      "signName": "Cut Weathered"
+                      "name": "Weathered Cut Copper",
+                      "signName": "Weathered Cut"
                     },
                     {
-                      "name": "Cut Oxidized Copper",
-                      "signName": "Cut Oxidized"
+                      "name": "Oxidized Cut Copper",
+                      "signName": "Oxidized Cut"
                     },
                     {
                       "name": "Waxed Cut Copper",
@@ -1102,52 +1102,20 @@
                   "upstreamName": "Copper",
                   "chests": [
                     {
-                      "name": "Copper Slab",
-                      "signName": "Regular"
-                    },
-                    {
-                      "name": "Exposed Copper Slab",
-                      "signName": "Exposed"
-                    },
-                    {
-                      "name": "Weathered Copper Slab",
-                      "signName": "Weathered"
-                    },
-                    {
-                      "name": "Oxidized Copper Slab",
-                      "signName": "Oxidized"
-                    },
-                    {
-                      "name": "Waxed Copper Slab",
-                      "signName": "Waxed"
-                    },
-                    {
-                      "name": "Waxed Exposed Copper Slab",
-                      "signName": "Waxed Exposed"
-                    },
-                    {
-                      "name": "Waxed Weathered Copper Slab",
-                      "signName": "Waxed Weathered"
-                    },
-                    {
-                      "name": "Waxed Oxidized Copper Slab",
-                      "signName": "Waxed Oxidized"
-                    },
-                    {
                       "name": "Cut Copper Slab",
                       "signName": "Cut"
                     },
                     {
-                      "name": "Cut Exposed Copper Slab",
-                      "signName": "Cut Exposed"
+                      "name": "Exposed Cut Copper Slab",
+                      "signName": "Exposed Cut"
                     },
                     {
-                      "name": "Cut Weathered Copper Slab",
-                      "signName": "Cut Weathered"
+                      "name": "Weathered Cut Copper Slab",
+                      "signName": "Weathered Cut"
                     },
                     {
-                      "name": "Cut Oxidized Copper Slab",
-                      "signName": "Cut Oxidized"
+                      "name": "Oxidized Cut Copper Slab",
+                      "signName": "Oxidized Cut"
                     },
                     {
                       "name": "Waxed Cut Copper Slab",
@@ -1346,52 +1314,20 @@
                   "upstreamName": "Copper",
                   "chests": [
                     {
-                      "name": "Copper Stairs",
-                      "signName": "Regular"
-                    },
-                    {
-                      "name": "Exposed Copper Stairs",
-                      "signName": "Exposed"
-                    },
-                    {
-                      "name": "Weathered Copper Stairs",
-                      "signName": "Weathered"
-                    },
-                    {
-                      "name": "Oxidized Copper Stairs",
-                      "signName": "Oxidized"
-                    },
-                    {
-                      "name": "Waxed Copper Stairs",
-                      "signName": "Waxed"
-                    },
-                    {
-                      "name": "Waxed Exposed Copper Stairs",
-                      "signName": "Waxed Exposed"
-                    },
-                    {
-                      "name": "Waxed Weathered Copper Stairs",
-                      "signName": "Waxed Weathered"
-                    },
-                    {
-                      "name": "Waxed Oxidized Copper Stairs",
-                      "signName": "Waxed Oxidized"
-                    },
-                    {
                       "name": "Cut Copper Stairs",
                       "signName": "Cut"
                     },
                     {
-                      "name": "Cut Exposed Copper Stairs",
-                      "signName": "Cut Exposed"
+                      "name": "Exposed Cut Copper Stairs",
+                      "signName": "Exposed Cut"
                     },
                     {
-                      "name": "Cut Weathered Copper Stairs",
-                      "signName": "Cut Weathered"
+                      "name": "Weathered Cut Copper Stairs",
+                      "signName": "Weathered Cut"
                     },
                     {
-                      "name": "Cut Oxidized Copper Stairs",
-                      "signName": "Cut Oxidized"
+                      "name": "Oxidized Cut Copper Stairs",
+                      "signName": "Oxidized Cut"
                     },
                     {
                       "name": "Waxed Cut Copper Stairs",
