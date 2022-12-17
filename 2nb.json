@@ -3684,6 +3684,10 @@
                   "signName": "Item Frames"
                 },
                 {
+                  "name": "Glow Item Frame",
+                  "signName": "Glow Item Frames"
+                },
+                {
                   "name": "Oak Sign",
                   "signName": "Oak Signs"
                 },
