@@ -5699,6 +5699,9 @@
           "name": "Other Items",
           "upstreamName": "Other",
           "downstreamName": "Other Items",
+          "utilities": [
+            "Crafting Table",
+          ],
           "subrooms": [
             {
               "name": "Mineral Items",
