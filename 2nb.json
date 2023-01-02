@@ -5351,7 +5351,7 @@
                   "signName": "Gold Helmets"
                 },
                 {
-                  "name": "Chainmail Helmet",
+                  "name": "Chain Helmet",
                   "signName": "Chainmail Helmets"
                 },
                 {
@@ -5380,7 +5380,7 @@
                   "signName": "Gold Chestplates"
                 },
                 {
-                  "name": "Chainmail Chestplate",
+                  "name": "Chain Chestplate",
                   "signName": "Chainmail Chestplates"
                 },
                 {
@@ -5409,7 +5409,8 @@
                   "name": "Gold Leggings"
                 },
                 {
-                  "name": "Chainmail Leggings"
+                  "name": "Chain Leggings",
+                  "signName": "Chainmail Leggings"
                 },
                 {
                   "name": "Diamond Leggings"
@@ -5432,7 +5433,8 @@
                   "name": "Gold Boots"
                 },
                 {
-                  "name": "Chainmail Boots"
+                  "name": "Chain Boots",
+                  "signName": "Chainmail Boots"
                 },
                 {
                   "name": "Diamond Boots"
