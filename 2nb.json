@@ -3783,6 +3783,10 @@
                 },
                 {
                   "name": "Crying Obsidian"
+                },
+                {
+                  "name": "Turtle Egg",
+                  "signName": "Turtle Eggs"
                 }
               ]
             }
@@ -6090,10 +6094,6 @@
                 {
                   "name": "Prismarine Crystal",
                   "signName": "Prismarine Crystals"
-                },
-                {
-                  "name": "Turtle Egg",
-                  "signName": "Turtle Eggs"
                 },
                 {
                   "name": "Scute",
