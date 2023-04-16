@@ -5789,7 +5789,9 @@
               "name": "Dyes",
               "utilities": [
                 "Water Source",
-                "Cauldron"
+                "Cauldron",
+                "Water Source",
+                "Crafting Table"
               ],
               "shortcuts": [
                 {
