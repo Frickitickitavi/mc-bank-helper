@@ -5787,6 +5787,10 @@
             },
             {
               "name": "Dyes",
+              "utilities": [
+                "Water Source",
+                "Cauldron"
+              ],
               "shortcuts": [
                 {
                   "room": "Miscellaneous Items",
