@@ -3204,6 +3204,15 @@
             {
               "name": "Misc. Aquatic Blocks",
               "upstreamName": "Other",
+              "shortcutName": "Misc. Aquatic",
+              "shortcuts": [
+                {
+                  "room": "Misc. Plants",
+                  "items": [
+                    "Sea Pickle"
+                  ]
+                },
+              ]
               "chests": [
                 {
                   "name": "Prismarine"
