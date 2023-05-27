@@ -1525,6 +1525,14 @@
           "subrooms": [
             {
               "name": "Saplings & Other Baby Trees",
+              "shortcutName": "Saplings",
+              "shortcuts": [
+                {
+                  "room": "Misc. Plants",
+                  "items": [
+                    "Bamboo"
+                  ]
+              ]
               "chests": [
                 {
                   "name": "Oak Sapling",
