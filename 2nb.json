@@ -534,27 +534,9 @@
         },
         {
           "name": "Wood",
-          "shortcuts": [
-            {
-              "room": "Nether Fungi",
-              "items": [
-                "Crimson Stems",
-                "Warped Stems",
-                "Stripped Crimson Stems",
-                "Stripped Warped Stems",
-                "Crimson Hyphae",
-                "Warped Hyphae",
-                "Stripped Crimson Hyphae",
-                "Stripped Warped Hyphae",
-                "Crimson Planks",
-                "Warped Planks"
-              ],
-              "description": "Nether Fungi"
-            }
-          ],
           "subrooms": [
             {
-              "name": "Logs",
+              "name": "Logs, Stems, & Bamboo Blocks",
               "chests": [
                 {
                   "name": "Oak Log",
@@ -583,11 +565,27 @@
                 {
                   "name": "Mangrove Log",
                   "signName": "Mangrove Logs"
+                },
+                {
+                  "name": "Cherry Log",
+                  "signName": "Cherry Logs"
+                },
+                {
+                  "name": "Crimson Stem",
+                  "signName": "Crimson Stems"
+                },
+                {
+                  "name": "Warped Stem",
+                  "signName": "Warped Stems"
+                },
+                {
+                  "name": "Block of Bamboo",
+                  "signName": "Bamboo Blocks"
                 }
               ]
             },
             {
-              "name": "Stripped Logs",
+              "name": "Stripped Logs, Stems, & Bamboo Blocks",
               "chests": [
                 {
                   "name": "Stripped Oak Log",
@@ -616,11 +614,27 @@
                 {
                   "name": "Stripped Mangrove Log",
                   "signName": "Stripped Mangrove Logs"
+                },
+                {
+                  "name": "Stripped Cherry Log",
+                  "signName": "Stripped Cherry Logs"
+                },
+                {
+                  "name": "Stripped Crimson Stem",
+                  "signName": "Stripped Crimson Stems"
+                },
+                {
+                  "name": "Stripped Warped Stem",
+                  "signName": "Stripped Warped Stems"
+                },
+                {
+                  "name": "Block of Stripped Bamboo",
+                  "signName": "Stripped Bamboo Blocks"
                 }
               ]
             },
             {
-              "name": "Planks",
+              "name": "Planks & Mosaics",
               "chests": [
                 {
                   "name": "Oak Planks"
@@ -642,12 +656,28 @@
                 },
                 {
                   "name": "Mangrove Planks"
+                },
+                {
+                  "name": "Cherry Planks"
+                },
+                {
+                  "name": "Crimson Planks"
+                },
+                {
+                  "name": "Warped Planks"
+                },
+                {
+                  "name": "Bamboo Planks"
+                },
+                {
+                  "name": "Bamboo Mosaic",
+                  "signName": "Bamboo Mosaics"
                 }
               ]
             },
             {
-              "name": "Wood Blocks",
-              "upstreamName": "Wood",
+              "name": "Wood Blocks and Hyphae",
+              "upstreamName": "Wood and Hyphae",
               "chests": [
                 {
                   "name": "Oak Wood"
@@ -669,6 +699,15 @@
                 },
                 {
                   "name": "Mangrove Wood"
+                },
+                {
+                  "name": "Cherry Wood"
+                },
+                {
+                  "name": "Crimson Hyphae"
+                },
+                {
+                  "name": "Warped Hyphae"
                 }
               ]
             },
@@ -695,6 +734,15 @@
                 },
                 {
                   "name": "Stripped Mangrove Wood"
+                },
+                {
+                  "name": "Stripped Cherry Wood"
+                },
+                {
+                  "name": "Stripped Crimson Hyphae"
+                },
+                {
+                  "name": "Stripped Warped Hyphae"
                 }
               ]
             }
@@ -839,6 +887,14 @@
                   "signName": "Mangrove Trapdoors"
                 },
                 {
+                  "name": "Cherry Trapdoor",
+                  "signName": "Cherry Trapdoors"
+                },
+                {
+                  "name": "Bamboo Trapdoor",
+                  "signName": "Bamboo Trapdoors"
+                },
+                {
                   "name": "Iron Trapdoor",
                   "signName": "Iron Trapdoors"
                 }
@@ -882,6 +938,14 @@
                 {
                   "name": "Mangrove Fence",
                   "signName": "Mangrove Fences"
+                },
+                {
+                  "name": "Cherry Fence",
+                  "signName": "Cherry Fences"
+                },
+                {
+                  "name": "Bamboo Fence",
+                  "signName": "Bamboo Fences"
                 },
                 {
                   "name": "Iron Fence",
@@ -936,6 +1000,14 @@
                   "signName": "Mangrove Doors"
                 },
                 {
+                  "name": "Cherry Door",
+                  "signName": "Cherry Doors"
+                },
+                {
+                  "name": "Bamboo Door",
+                  "signName": "Bamboo Doors"
+                },
+                {
                   "name": "Iron Door",
                   "signName": "Iron Doors"
                 }
@@ -979,6 +1051,14 @@
                 {
                   "name": "Mangrove Fence Gate",
                   "signName": "Mangrove Fence Gates"
+                },
+                {
+                  "name": "Cherry Fence Gate",
+                  "signName": "Cherry Fence Gates"
+                },
+                {
+                  "name": "Bamboo Fence Gate",
+                  "signName": "Bamboo Fence Gates"
                 }
               ]
             }
@@ -1174,6 +1254,14 @@
                     {
                       "name": "Mangrove Slab",
                       "signName": "Mangrove Slabs"
+                    },
+                    {
+                      "name": "Cherry Slab",
+                      "signName": "Cherry Slabs"
+                    },
+                    {
+                      "name": "Bamboo Slab",
+                      "signName": "Bamboo Slabs"
                     },
                     {
                       "name": "Wooden Slab",
@@ -1377,6 +1465,12 @@
                     },
                     {
                       "name": "Mangrove Stairs"
+                    },
+                    {
+                      "name": "Cherry Stairs"
+                    },
+                    {
+                      "name": "Bamboo Stairs"
                     }
                   ]
                 },
@@ -1430,7 +1524,7 @@
           ],
           "subrooms": [
             {
-              "name": "Saplings & Propagules",
+              "name": "Saplings & Other Baby Trees",
               "chests": [
                 {
                   "name": "Oak Sapling",
@@ -1459,11 +1553,41 @@
                 {
                   "name": "Mangrove Propagule",
                   "signName": "Mangrove Propagules"
+                },
+                {
+                  "name": "Crimson Fungus",
+                  "signName": "Crimson Fungi"
+                },
+                {
+                  "name": "Warped Fungus",
+                  "signName": "Warped Fungi"
+                },
+                {
+                  "name": "Cherry Sapling",
+                  "signName": "Cherry Saplings"
+                },
+                {
+                  "name": "Azalea",
+                  "signName": "Azaleas"
+                },
+                {
+                  "name": "Flowering Azalea",
+                  "signName": "Flowering Azaleas"
                 }
               ]
             },
             {
               "name": "Leaves",
+              "shortcuts": [
+                {
+                  "room": "Nether Fungi",
+                  "items": [
+                    "Nether Wart Block",
+                    "Warped Wart Block"
+                  ],
+                  "description": "Wart Blocks"
+                }
+              ],
               "chests": [
                 {
                   "name": "Oak Leaves"
@@ -1485,6 +1609,9 @@
                 },
                 {
                   "name": "Mangrove Leaves"
+                },
+                {
+                  "name": "Cherry Leaves"
                 },
                 {
                   "name": "Azalea Leaves"
@@ -1573,6 +1700,13 @@
                 {
                   "name": "Wither Rose",
                   "signName": "Wither Roses"
+                },
+                {
+                  "name": "Pink Petals"
+                },
+                {
+                  "name": "Torchflower",
+                  "signName": "Torchflowers"
                 }
               ]
             },
@@ -1641,29 +1775,33 @@
                   "name": "Nether Fungi",
                   "upstreamName": "Nether",
                   "shortcutName": "Nether Fungi",
+                  "shortcuts": [
+                    {
+                      "room": "Wood",
+                      "items": [
+                        "Crimson Stem",
+                        "Stripped Crimson Stem",
+                        "Crimson Hyphae",
+                        "Stripped Crimson Hyphae",
+                        "Crimson Planks",
+                        "Warped Stem",
+                        "Stripped Warped Stem",
+                        "Warped Hyphae",
+                        "Stripped Warped Hyphae",
+                        "Warped Planks"
+                      ],
+                      "description": "Crimson/Warped Wood"
+                    },
+                    {
+                      "room": "Saplings",
+                      "items": [
+                        "Crimson Fungus",
+                        "Warped Fungus"
+                      ],
+                      "description": "Crimson/Warped Sapling Fungi"
+                    }
+                  ],
                   "chests": [
-                    {
-                      "name": "Crimson Fungus"
-                    },
-                    {
-                      "name": "Warped Fungus"
-                    },
-                    {
-                      "name": "Crimson Stem",
-                      "signName": "Crimson Stems"
-                    },
-                    {
-                      "name": "Warped Stem",
-                      "signName": "Warped Stems"
-                    },
-                    {
-                      "name": "Stripped Crimson Stem",
-                      "signName": "Stripped Crimson Stems"
-                    },
-                    {
-                      "name": "Stripped Warped Stem",
-                      "signName": "Stripped Warped Stems"
-                    },
                     {
                       "name": "Crimson Roots"
                     },
@@ -1683,24 +1821,6 @@
                     },
                     {
                       "name": "Twisted Vines"
-                    },
-                    {
-                      "name": "Crimson Planks"
-                    },
-                    {
-                      "name": "Warped Planks"
-                    },
-                    {
-                      "name": "Crimson Hyphae"
-                    },
-                    {
-                      "name": "Warped Hyphae"
-                    },
-                    {
-                      "name": "Stripped Crimson Hyphae"
-                    },
-                    {
-                      "name": "Warped Crimson Hyphae"
                     },
                     {
                       "name": "Crimson Nylium"
@@ -1835,12 +1955,8 @@
                   "signName": "Big Dripleaves"
                 },
                 {
-                  "name": "Azalea",
-                  "signName": "Azaleas"
-                },
-                {
-                  "name": "Flowering Azalea",
-                  "signName": "Flowering Azaleas"
+                  "name": "Pitcher Plant",
+                  "signName": "Pitcher Plants"
                 }
               ]
             }
@@ -1858,30 +1974,42 @@
                 {
                   "room": "Nether Fungi",
                   "items": [
-                    "Crimson Fungus",
-                    "Warped Fungus",
-                    "Crimson Stem",
-                    "Warped Stem",
-                    "Stripped Crimson Stem",
-                    "Stripped Warped Stem",
                     "Crimson Roots",
                     "Warped Roots",
                     "Nether Wart Block",
                     "Warped Wart Block",
                     "Weeping Vines",
                     "Twisted Vines",
-                    "Crimson Planks",
-                    "Warped Planks",
-                    "Crimson Hyphae",
-                    "Warped Hyphae",
-                    "Stripped Crimson Hyphae",
-                    "Warped Crimson Hyphae",
                     "Crimson Nylium",
                     "Warped Nylium",
                     "Nether Sprout",
                     "Shroomlight"
                   ],
                   "description": "Fungi"
+                },
+                {
+                  "room": "Wood",
+                  "items": [
+                    "Crimson Stem",
+                    "Stripped Crimson Stem",
+                    "Crimson Hyphae",
+                    "Stripped Crimson Hyphae",
+                    "Crimson Planks",
+                    "Warped Stem",
+                    "Stripped Warped Stem",
+                    "Warped Hyphae",
+                    "Stripped Warped Hyphae",
+                    "Warped Planks"
+                  ],
+                  "description": "Crimson/Warped Wood"
+                },
+                {
+                  "room": "Saplings",
+                  "items": [
+                    "Crimson Fungus",
+                    "Warped Fungus"
+                  ],
+                  "description": "Crimson/Warped Sapling Fungi"
                 },
                 {
                   "room": "Minerals",
@@ -2938,6 +3066,14 @@
                       "signName": "Mangrove Buttons"
                     },
                     {
+                      "name": "Bamboo Button",
+                      "signName": "Bamboo Buttons"
+                    },
+                    {
+                      "name": "Cherry Button",
+                      "signName": "Cherry Buttons"
+                    },
+                    {
                       "name": "Stone Button",
                       "signName": "Stone Buttons"
                     },
@@ -2985,6 +3121,14 @@
                     {
                       "name": "Mangrove Pressure Plate",
                       "signName": "Mangrove Pressure Plates"
+                    },
+                    {
+                      "name": "Bamboo Pressure Plate",
+                      "signName": "Bamboo Pressure Plates"
+                    },
+                    {
+                      "name": "Cherry Pressure Plate",
+                      "signName": "Cherry Pressure Plates"
                     },
                     {
                       "name": "Stone Pressure Plate",
@@ -3211,8 +3355,8 @@
                   "items": [
                     "Sea Pickle"
                   ]
-                },
-              ]
+                }
+              ],
               "chests": [
                 {
                   "name": "Prismarine"
@@ -3350,6 +3494,10 @@
                 {
                   "name": "Cauldron",
                   "signName": "Cauldrons"
+                },
+                {
+                  "name": "Chiseled Bookshelf",
+                  "signName": "Chiseled Bookshelves"
                 }
               ]
             },
@@ -3448,7 +3596,7 @@
               ]
             },
             {
-              "name": "Boats",
+              "name": "Boats & Rafts",
               "chests": [
                 {
                   "name": "Oak Boat",
@@ -3521,6 +3669,22 @@
                 {
                   "name": "Mangrove Boat with Chest",
                   "signName": "Mangrove Boats with Chests"
+                },
+                {
+                  "name": "Cherry Boat",
+                  "signName": "Cherry Boats"
+                },
+                {
+                  "name": "Cherry Boat with Chest",
+                  "signName": "Cherry Boats with Chests"
+                },
+                {
+                  "name": "Bamboo Raft",
+                  "signName": "Bamboo Rafts"
+                },
+                {
+                  "name": "Bamboo Raft with Chest",
+                  "signName": "Bamboo Rafts with Chests"
                 }
               ]
             },
@@ -3599,6 +3763,10 @@
                 {
                   "name": "Wither Skeleton Skull",
                   "signName": "Wither Skeleton Heads"
+                },
+                {
+                  "name": "Piglin Head",
+                  "signName": "Piglin Heads"
                 }
               ]
             },
@@ -3641,6 +3809,10 @@
                 {
                   "name": "Sculk Shrieker",
                   "signName": "Sculk Shriekers"
+                },
+                {
+                  "name": "Calibrated Sculk Sensor",
+                  "signName": "Calibrated Sculk Sensors"
                 }
               ]
             },
@@ -3730,8 +3902,64 @@
                   "signName": "Warped Signs"
                 },
                 {
+                  "name": "Cherry Sign",
+                  "signName": "Cherry Signs"
+                },
+                {
+                  "name": "Bamboo Sign",
+                  "signName": "Bamboo Signs"
+                },
+                {
+                  "name": "Oak Hanging Sign",
+                  "signName": "Oak Hanging Signs"
+                },
+                {
+                  "name": "Birch Hanging Sign",
+                  "signName": "Birch Hanging Signs"
+                },
+                {
+                  "name": "Spruce Hanging Sign",
+                  "signName": "Spruce Hanging Signs"
+                },
+                {
+                  "name": "Acacia Hanging Sign",
+                  "signName": "Acacia Hanging Signs"
+                },
+                {
+                  "name": "Jungle Hanging Sign",
+                  "signName": "Jungle Hanging Signs"
+                },
+                {
+                  "name": "Dark Oak Hanging Sign",
+                  "signName": "Dark Oak Hanging Signs"
+                },
+                {
+                  "name": "Mangrove Hanging Sign",
+                  "signName": "Mangrove Hanging Signs"
+                },
+                {
+                  "name": "Crimson Hanging Sign",
+                  "signName": "Crimson Hanging Signs"
+                },
+                {
+                  "name": "Warped Hanging Sign",
+                  "signName": "Warped Hanging Signs"
+                },
+                {
+                  "name": "Cherry Hanging Sign",
+                  "signName": "Cherry Hanging Signs"
+                },
+                {
+                  "name": "Bamboo Hanging Sign",
+                  "signName": "Bamboo Hanging Signs"
+                },
+                {
                   "name": "Armor Stand",
                   "signName": "Armor Stands"
+                },
+                {
+                  "name": "Decorated Pot",
+                  "signName": "Decorated Pots"
                 }
               ]
             },
@@ -3794,6 +4022,10 @@
                   "name": "Crying Obsidian"
                 },
                 {
+                  "name": "Sniffer Egg",
+                  "signName": "Sniffer Eggs"
+                },
+                {
                   "name": "Turtle Egg",
                   "signName": "Turtle Eggs"
                 }
@@ -3810,7 +4042,7 @@
       ],
       "subrooms": [
         {
-          "name": "Food",
+          "name": "Food & Seeds",
           "subrooms": [
             {
               "name": "Meat",
@@ -3900,6 +4132,13 @@
                 },
                 {
                   "name": "Pumpkin Seeds"
+                },
+                {
+                  "name": "Torchflower Seeds"
+                },
+                {
+                  "name": "Pitcher Pod",
+                  "signName": "Pitcher Pods"
                 }
               ]
             },
@@ -5265,6 +5504,96 @@
               ]
             },
             {
+              "name": "Smithing Templates",
+              "chests": [
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Netherite Upgrade",
+                  "signName": "Netherite Upgrade"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Coast Armor Trim",
+                  "signName": "Coast Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Dune Armor Trim",
+                  "signName": "Dune Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Eye Armor Trim",
+                  "signName": "Eye Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Host Armor Trim",
+                  "signName": "Host Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Raiser Armor Trim",
+                  "signName": "Raiser Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Rib Armor Trim",
+                  "signName": "Rib Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Sentry Armor Trim",
+                  "signName": "Sentry Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Shaper Armor Trim",
+                  "signName": "Shaper Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Silence Armor Trim",
+                  "signName": "Silence Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Snout Armor Trim",
+                  "signName": "Snout Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Spire Armor Trim",
+                  "signName": "Spire Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Tide Armor Trim",
+                  "signName": "Tide Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Vex Armor Trim",
+                  "signName": "Vex Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Ward Armor Trim",
+                  "signName": "Ward Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Wayfinder Armor Trim",
+                  "signName": "Wayfinder Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Wild Armor Trim",
+                  "signName": "Wild Armor Trim"
+                }
+              ]
+            },
+            {
               "name": "Miscellaneous Equipment",
               "upstreamName": "Other",
               "chests": [
@@ -5306,6 +5635,10 @@
                 {
                   "name": "Shield",
                   "signName": "Shields"
+                },
+                {
+                  "name": "Brush",
+                  "signName": "Brushes"
                 }
               ]
             }
@@ -5712,7 +6045,7 @@
           "upstreamName": "Other",
           "downstreamName": "Other Items",
           "utilities": [
-            "Crafting Table",
+            "Crafting Table"
           ],
           "subrooms": [
             {
@@ -5954,6 +6287,11 @@
                   "signName": "otherside"
                 },
                 {
+                  "name": "Music Disc",
+                  "modifier": "Aaron Cherof - Relic",
+                  "signName": "Relic"
+                },
+                {
                   "name": "Disc Fragment",
                   "signName": "Disc Fragments"
                 }
@@ -6028,6 +6366,120 @@
                 }
               ]
             },
+            {
+              "name": "Pottery Shards",
+              "shortcuts": [
+                {
+                  "name": "Miscellaneous Items",
+                  "items": [
+                    "Brick"
+                  ],
+                  "description": "Bricks"
+                }
+              ],
+              "chests": [
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Angler",
+                  "signName": "Angler"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Archer",
+                  "signName": "Archer"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Arms up",
+                  "signName": "Arms Up"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Blade",
+                  "signName": "Blade"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Brewer",
+                  "signName": "Brewer"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Burn",
+                  "signName": "Burn"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Danger",
+                  "signName": "Danger"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Explorer",
+                  "signName": "Explorer"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Friend",
+                  "signName": "Friend"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Heart",
+                  "signName": "Heart"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Heartbreak",
+                  "signName": "Heartbreak"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Howl",
+                  "signName": "Howl"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Miner",
+                  "signName": "Miner"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Mourner",
+                  "signName": "Mourner"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Plenty",
+                  "signName": "Plenty"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Prize",
+                  "signName": "Prize"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Sheaf",
+                  "signName": "Sheaf"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Shelter",
+                  "signName": "Shelter"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Skull",
+                  "signName": "Skull"
+                },
+                {
+                  "name": "Pottery Shard",
+                  "modifier": "Snort",
+                  "signName": "Snort"
+                }
+              ]
+            }
             {
               "name": "Miscellaneous Items",
               "upstreamName": "Miscellaneous",
