@@ -1532,7 +1532,7 @@
                   "items": [
                     "Bamboo"
                   ]
-              ]
+              ],
               "chests": [
                 {
                   "name": "Oak Sapling",
@@ -3875,100 +3875,107 @@
                   "signName": "Glow Item Frames"
                 },
                 {
-                  "name": "Oak Sign",
-                  "signName": "Oak Signs"
-                },
-                {
-                  "name": "Birch Sign",
-                  "signName": "Birch Signs"
-                },
-                {
-                  "name": "Spruce Sign",
-                  "signName": "Spruce Signs"
-                },
-                {
-                  "name": "Acacia Sign",
-                  "signName": "Acacia Signs"
-                },
-                {
-                  "name": "Jungle Sign",
-                  "signName": "Jungle Signs"
-                },
-                {
-                  "name": "Dark Oak Sign",
-                  "signName": "Dark Oak Signs"
-                },
-                {
-                  "name": "Mangrove Sign",
-                  "signName": "Mangrove Signs"
-                },
-                {
-                  "name": "Crimson Sign",
-                  "signName": "Crimson Signs"
-                },
-                {
-                  "name": "Warped Sign",
-                  "signName": "Warped Signs"
-                },
-                {
-                  "name": "Cherry Sign",
-                  "signName": "Cherry Signs"
-                },
-                {
-                  "name": "Bamboo Sign",
-                  "signName": "Bamboo Signs"
-                },
-                {
-                  "name": "Oak Hanging Sign",
-                  "signName": "Oak Hanging Signs"
-                },
-                {
-                  "name": "Birch Hanging Sign",
-                  "signName": "Birch Hanging Signs"
-                },
-                {
-                  "name": "Spruce Hanging Sign",
-                  "signName": "Spruce Hanging Signs"
-                },
-                {
-                  "name": "Acacia Hanging Sign",
-                  "signName": "Acacia Hanging Signs"
-                },
-                {
-                  "name": "Jungle Hanging Sign",
-                  "signName": "Jungle Hanging Signs"
-                },
-                {
-                  "name": "Dark Oak Hanging Sign",
-                  "signName": "Dark Oak Hanging Signs"
-                },
-                {
-                  "name": "Mangrove Hanging Sign",
-                  "signName": "Mangrove Hanging Signs"
-                },
-                {
-                  "name": "Crimson Hanging Sign",
-                  "signName": "Crimson Hanging Signs"
-                },
-                {
-                  "name": "Warped Hanging Sign",
-                  "signName": "Warped Hanging Signs"
-                },
-                {
-                  "name": "Cherry Hanging Sign",
-                  "signName": "Cherry Hanging Signs"
-                },
-                {
-                  "name": "Bamboo Hanging Sign",
-                  "signName": "Bamboo Hanging Signs"
-                },
-                {
                   "name": "Armor Stand",
                   "signName": "Armor Stands"
                 },
                 {
                   "name": "Decorated Pot",
                   "signName": "Decorated Pots"
+                }
+              ],
+              "subrooms": [
+                {
+                  "name": "Signs",
+                  "chests": [
+                    {
+                      "name": "Oak Sign",
+                      "signName": "Oak Signs"
+                    },
+                    {
+                      "name": "Birch Sign",
+                      "signName": "Birch Signs"
+                    },
+                    {
+                      "name": "Spruce Sign",
+                      "signName": "Spruce Signs"
+                    },
+                    {
+                      "name": "Acacia Sign",
+                      "signName": "Acacia Signs"
+                    },
+                    {
+                      "name": "Jungle Sign",
+                      "signName": "Jungle Signs"
+                    },
+                    {
+                      "name": "Dark Oak Sign",
+                      "signName": "Dark Oak Signs"
+                    },
+                    {
+                      "name": "Mangrove Sign",
+                      "signName": "Mangrove Signs"
+                    },
+                    {
+                      "name": "Crimson Sign",
+                      "signName": "Crimson Signs"
+                    },
+                    {
+                      "name": "Warped Sign",
+                      "signName": "Warped Signs"
+                    },
+                    {
+                      "name": "Cherry Sign",
+                      "signName": "Cherry Signs"
+                    },
+                    {
+                      "name": "Bamboo Sign",
+                      "signName": "Bamboo Signs"
+                    },
+                    {
+                      "name": "Oak Hanging Sign",
+                      "signName": "Oak Hanging Signs"
+                    },
+                    {
+                      "name": "Birch Hanging Sign",
+                      "signName": "Birch Hanging Signs"
+                    },
+                    {
+                      "name": "Spruce Hanging Sign",
+                      "signName": "Spruce Hanging Signs"
+                    },
+                    {
+                      "name": "Acacia Hanging Sign",
+                      "signName": "Acacia Hanging Signs"
+                    },
+                    {
+                      "name": "Jungle Hanging Sign",
+                      "signName": "Jungle Hanging Signs"
+                    },
+                    {
+                      "name": "Dark Oak Hanging Sign",
+                      "signName": "Dark Oak Hanging Signs"
+                    },
+                    {
+                      "name": "Mangrove Hanging Sign",
+                      "signName": "Mangrove Hanging Signs"
+                    },
+                    {
+                      "name": "Crimson Hanging Sign",
+                      "signName": "Crimson Hanging Signs"
+                    },
+                    {
+                      "name": "Warped Hanging Sign",
+                      "signName": "Warped Hanging Signs"
+                    },
+                    {
+                      "name": "Cherry Hanging Sign",
+                      "signName": "Cherry Hanging Signs"
+                    },
+                    {
+                      "name": "Bamboo Hanging Sign",
+                      "signName": "Bamboo Hanging Signs"
+                    }
+                  ]
                 }
               ]
             },
@@ -6488,7 +6495,7 @@
                   "signName": "Snort"
                 }
               ]
-            }
+            },
             {
               "name": "Miscellaneous Items",
               "upstreamName": "Miscellaneous",
