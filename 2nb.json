@@ -6383,7 +6383,7 @@
               ]
             },
             {
-              "name": "Pottery Shards",
+              "name": "Pottery Sherds",
               "shortcuts": [
                 {
                   "name": "Miscellaneous Items",
@@ -6395,102 +6395,102 @@
               ],
               "chests": [
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Angler",
                   "signName": "Angler"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Archer",
                   "signName": "Archer"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Arms up",
                   "signName": "Arms Up"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Blade",
                   "signName": "Blade"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Brewer",
                   "signName": "Brewer"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Burn",
                   "signName": "Burn"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Danger",
                   "signName": "Danger"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Explorer",
                   "signName": "Explorer"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Friend",
                   "signName": "Friend"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Heart",
                   "signName": "Heart"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Heartbreak",
                   "signName": "Heartbreak"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Howl",
                   "signName": "Howl"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Miner",
                   "signName": "Miner"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Mourner",
                   "signName": "Mourner"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Plenty",
                   "signName": "Plenty"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Prize",
                   "signName": "Prize"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Sheaf",
                   "signName": "Sheaf"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Shelter",
                   "signName": "Shelter"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Skull",
                   "signName": "Skull"
                 },
                 {
-                  "name": "Pottery Shard",
+                  "name": "Pottery Sherd",
                   "modifier": "Snort",
                   "signName": "Snort"
                 }
