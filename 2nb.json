@@ -2976,7 +2976,8 @@
                 {
                   "room": "Sculks",
                   "items": [
-                    "Sculk Sensor"
+                    "Sculk Sensor",
+                    "Calibrated Sculk Sensor"
                   ],
                   "description": "Sculk Sensors"
                 },
