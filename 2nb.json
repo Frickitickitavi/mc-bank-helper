@@ -6384,6 +6384,9 @@
             },
             {
               "name": "Pottery Sherds",
+              "utilities": [
+                "Crafting Table"
+              ],
               "shortcuts": [
                 {
                   "name": "Miscellaneous Items",
