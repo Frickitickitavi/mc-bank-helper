@@ -284,7 +284,8 @@
                   ],
                   "chests": [
                     {
-                      "name": "Stone"
+                      "name": "Stone",
+                      "silo":  0
                     },
                     {
                       "name": "Cobblestone",
@@ -1532,6 +1533,7 @@
                   "items": [
                     "Bamboo"
                   ]
+                }
               ],
               "chests": [
                 {
