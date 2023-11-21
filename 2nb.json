@@ -1,34 +1,36 @@
 {
   "name": "Main Lobby",
   "utilities": [
-    "Ender Chest",
-    "Stonecutter",
-    "Grindstone",
     "Anvil",
-    "Cauldron",
+    "Blast Furnace",
+    "Blast Furnace",
+    "Blast Furnace",
     "Brewing Stand",
-    "Crafting Table",
-    "Smithing Table",
-    "Fletching Table",
     "Cartography Table",
-    "Loom",
+    "Cauldron",
     "Composter",
-    "Water Source",
-    "Furnace",
-    "Furnace",
-    "Furnace",
-    "Furnace",
-    "Furnace",
-    "Furnace",
-    "Smoker",
-    "Smoker",
-    "Smoker",
-    "Blast Furnace",
-    "Blast Furnace",
-    "Blast Furnace",
+    "Crafting Table",
     "Enchanting Table",
+    "End Portal",
+    "Ender Chest",
+    "Fletching Table",
+    "Furnace",
+    "Furnace",
+    "Furnace",
+    "Furnace",
+    "Furnace",
+    "Furnace",
+    "Grindstone",
+    "Jukebox",
+    "Lectern",
+    "Loom",
     "Nether Portal",
-    "End Portal"
+    "Smithing Table",
+    "Smoker",
+    "Smoker",
+    "Smoker",
+    "Stonecutter",
+    "Water Source"
   ],
   "subrooms": [
     {
@@ -173,6 +175,10 @@
                   "signName": "Pillar Quartz Blocks"
                 },
                 {
+                  "name": "Smooth Quartz Block",
+                  "signName": "Smooth Quartz Blocks"
+                },
+                {
                   "name": "Quartz Bricks"
                 },
                 {
@@ -285,7 +291,7 @@
                   "chests": [
                     {
                       "name": "Stone",
-                      "silo":  0
+                      "silo": 0
                     },
                     {
                       "name": "Cobblestone",
@@ -1529,7 +1535,7 @@
               "shortcutName": "Saplings",
               "shortcuts": [
                 {
-                  "room": "Misc. Plants",
+                  "room": "Other Plants",
                   "items": [
                     "Bamboo"
                   ]
@@ -2014,7 +2020,7 @@
                   "description": "Crimson/Warped Wood"
                 },
                 {
-                  "room": "Saplings",
+                  "room": "Saplings & Other Baby Trees",
                   "items": [
                     "Crimson Fungus",
                     "Warped Fungus"
@@ -2027,7 +2033,7 @@
                     "Block of Quartz",
                     "Smooth Quartz Block",
                     "Chiseled Quartz Block",
-                    "Quartz Pilalr",
+                    "Pillar Quartz Block",
                     "Quartz Bricks",
                     "Quartz Ore",
                     "Block of Netherite",
@@ -2962,7 +2968,7 @@
               "name": "Power Sources",
               "shortcuts": [
                 {
-                  "room": "Misc. Items",
+                  "room": "Miscellaneous Items",
                   "items": [
                     "String"
                   ],
@@ -3255,7 +3261,7 @@
                   "signName": "Bubble Coral Fans"
                 },
                 {
-                  "name": "Bubble Coral Fan",
+                  "name": "Dead Bubble Coral Fan",
                   "signName": "Dead Bubble Coral Fans"
                 },
                 {
@@ -3295,7 +3301,7 @@
                   "name": "Bubble Coral"
                 },
                 {
-                  "name": "Bubble Coral"
+                  "name": "Dead Bubble Coral"
                 },
                 {
                   "name": "Fire Coral"
@@ -3335,7 +3341,7 @@
                   "signName": "Bubble Coral Blocks"
                 },
                 {
-                  "name": "Bubble Coral Block",
+                  "name": "Dead Bubble Coral Block",
                   "signName": "Dead Bubble Coral Blocks"
                 },
                 {
@@ -3362,7 +3368,7 @@
               "shortcutName": "Misc. Aquatic",
               "shortcuts": [
                 {
-                  "room": "Misc. Plants",
+                  "room": "Other Plants",
                   "items": [
                     "Sea Pickle"
                   ]
@@ -3465,6 +3471,7 @@
                 {
                   "room": "Shulker Boxes",
                   "items": [
+                    "Shulker Box",
                     "White Shulker Box",
                     "Light Gray Shulker Box",
                     "Gray Shulker Box",
@@ -5243,22 +5250,70 @@
                   "room": "Firework Rockets",
                   "items": [
                     "Firework Rocket",
-                    "Firework Rocket [White]",
-                    "Firework Rocket [Light Gray]",
-                    "Firework Rocket [Gray]",
-                    "Firework Rocket [Black]",
-                    "Firework Rocket [Red]",
-                    "Firework Rocket [Orange]",
-                    "Firework Rocket [Yellow]",
-                    "Firework Rocket [Lime]",
-                    "Firework Rocket [Green]",
-                    "Firework Rocket [Blue]",
-                    "Firework Rocket [Light Blue]",
-                    "Firework Rocket [Cyan]",
-                    "Firework Rocket [Purple]",
-                    "Firework Rocket [Magenta]",
-                    "Firework Rocket [Pink]",
-                    "Firework Rocket [Brown]"
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "White"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Light Gray"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Gray"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Black"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Red"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Orange"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Yellow"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Lime"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Green"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Blue"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Light Blue"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Cyan"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Purple"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Magenta"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Pink"
+                    },
+                    {
+                      "name": "Firework Rocket",
+                      "modifier": "Brown"
+                    }
                   ],
                   "description": "Fireworks"
                 }
@@ -5839,6 +5894,10 @@
               "chests": [
                 {
                   "name": "Firework Rocket",
+                  "signName": "Fireworks"
+                },
+                {
+                  "name": "Firework Rocket",
                   "modifier": "White",
                   "signName": "White Fireworks"
                 },
@@ -6053,6 +6112,9 @@
                   "name": "Firework Star",
                   "modifier": "Brown",
                   "signName": "Brown Firework Stars"
+                },
+                {
+                  "name": "Gunpowder"
                 }
               ]
             }
@@ -6098,7 +6160,7 @@
                   "signName": "Iron Nuggets"
                 },
                 {
-                  "name": "Gold Nuggets",
+                  "name": "Gold Nugget",
                   "signName": "Gold Nuggets"
                 },
                 {
@@ -6157,7 +6219,7 @@
                 {
                   "room": "Miscellaneous Items",
                   "items": [
-                    "Bonemeal",
+                    "Bone Meal",
                     "Ink Sac"
                   ],
                   "description": "Bonemeal/Ink Sacs"
@@ -6391,7 +6453,7 @@
               ],
               "shortcuts": [
                 {
-                  "name": "Miscellaneous Items",
+                  "room": "Miscellaneous Items",
                   "items": [
                     "Brick"
                   ],
