@@ -18,10 +18,13 @@ namespace BankHelper
 
             ProcessOutboundShortcuts(mainLobby, mainLobby);
             ProcessInboundShortcuts(mainLobby, mainLobby);
+            ProcessPerimeters(mainLobby);
 
             Validator.Validate(mainLobby);
 
             watch.Stop();
+            Console.WriteLine(FloorSizeEstimator.Estimate(mainLobby).GetReadout());
+
             Console.WriteLine($"Time to process and validate: {watch.ElapsedMilliseconds}ms");
 
             Console.WriteLine("");
@@ -193,12 +196,22 @@ namespace BankHelper
             }
         }
 
+
         private static void ProcessInboundShortcuts(Room room, Room mainLobby)
         {
             FindInboundShortcuts(room, mainLobby, room.inboundShortcuts);
             foreach (var subroom in room.subrooms)
             {
                 ProcessInboundShortcuts(subroom, mainLobby);
+            }
+        }
+
+        private static void ProcessPerimeters(Room room) {
+            room.perimeter = room.EstimatePerimeter();
+            room.area = room.EstimateArea();
+            foreach (var subroom in room.subrooms)
+            {
+                ProcessPerimeters(subroom);
             }
         }
 

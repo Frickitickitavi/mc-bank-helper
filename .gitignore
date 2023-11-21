@@ -1,1 +1,17 @@
 obj/
+/.vs/BankHelper
+/.vs/BankHelper/DesignTimeBuild
+/.vs/BankHelper/DesignTimeBuild/.dtbcache.v2
+/.vs/BankHelper/FileContentIndex
+/.vs/BankHelper/FileContentIndex/b993017d-cfd1-478c-96e6-b7923fc9f563.vsidx
+/.vs/BankHelper/FileContentIndex/c06956fa-b83f-469a-8992-55426c8ed592.vsidx
+/.vs/BankHelper/FileContentIndex/f03e8a3e-7d2e-4096-b0f2-8c7c87228ef7.vsidx
+/.vs/BankHelper/FileContentIndex/read.lock
+/.vs/BankHelper/v17
+/.vs/BankHelper/v17/.suo
+/bin/Debug/net7.0
+/bin/Debug/net7.0/BankHelper.deps.json
+/bin/Debug/net7.0/BankHelper.dll
+/bin/Debug/net7.0/BankHelper.exe
+/bin/Debug/net7.0/BankHelper.pdb
+/bin/Debug/net7.0/BankHelper.runtimeconfig.json

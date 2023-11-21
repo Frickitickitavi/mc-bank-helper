@@ -8,6 +8,13 @@ namespace BankHelper
 {
     internal class Room
     {
+        private const int BASE_PERIMETER = 4;
+        private const int ODD_NUMBERED_CHEST_PERIMETER = 3;
+        private const int OUTBOUND_SHORTCUT_PERIMETER = 3;
+        private const int NONBIDIRECTIONAL_INBOUND_SHORTCUT_PERIMETER = 3;
+        private const int SUBROOM_PERIMETER = 4;
+        private const int CHEST_WITH_SILO_PERIMETER = 3;
+
         public Room(string _name)
         {
             name = _name;
@@ -27,14 +34,19 @@ namespace BankHelper
         public string? downstreamName { get; set; }
         public string? shortcutName { get; set; }
         public List<Room> subrooms { get; set; }
-        public List<Shortcut> outboundShortcuts { get; set; }
+        public List<Shortcut> outboundShortcuts { get; set; } = new List<Shortcut>();
         public List<Utility> utilities { get; set; }
-        public List<Chest> chests { get; set; }
+        public List<Chest> chests { get; set; } = new List<Chest>();
 
         // Derived fields; not explicit in JSON
         public List<Shortcut> inboundShortcuts { get; set; } = new List<Shortcut>();
 
         public List<Room> path { get; set; } = new List<Room>();
+
+        public int perimeter { get; set; } = 0;
+
+        public int area { get; set; } = 0;
+
         public Room getParent()
         {
             return path.Last();
@@ -60,6 +72,23 @@ namespace BankHelper
                     }
                     return $"{list}{path[path.Count - 1]}";
             }
+        }
+
+        public int EstimatePerimeter()
+        {
+            var perimeter = BASE_PERIMETER;
+            perimeter += (int)Decimal.Ceiling(Decimal.Divide(chests.Count, 2)) * ODD_NUMBERED_CHEST_PERIMETER;
+            perimeter += outboundShortcuts.Count * OUTBOUND_SHORTCUT_PERIMETER;
+            perimeter += inboundShortcuts.Count(i => i.reverse == null) * NONBIDIRECTIONAL_INBOUND_SHORTCUT_PERIMETER;
+            perimeter += subrooms.Count * SUBROOM_PERIMETER;
+            perimeter += chests.Count(c => c.silo != null && c.silo > 0) * CHEST_WITH_SILO_PERIMETER;
+
+            return perimeter;
+        }
+
+        public int EstimateArea()
+        {
+            return (int)Math.Pow((double)Decimal.Divide(perimeter, 4), 2);
         }
     }
 }
