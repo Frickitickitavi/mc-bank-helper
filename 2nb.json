@@ -286,7 +286,8 @@
                   "name": "Regular Stone",
                   "utilities": [
                     "Crafting Table",
-                    "Furnace"
+                    "Furnace",
+                    "Stonecutter"
                   ],
                   "chests": [
                     {
