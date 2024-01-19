@@ -5459,6 +5459,14 @@
                   "signName": "Empty Maps"
                 },
                 {
+                  "name": "Locator Map",
+                  "signName": "Locator Maps"
+                },
+                { 
+                  "name": "Empty Locator Map",
+                  "signName": "Empty Locator Maps"
+                },
+                {
                   "name": "Ocean Explorer Map",
                   "signName": "Ocean Explorer Maps"
                 },
