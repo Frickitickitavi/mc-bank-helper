@@ -6141,6 +6141,9 @@
               "name": "Mineral Items",
               "upstreamName": "Minerals",
               "shortcutName": "Minerals",
+              "utilities": [
+                "Crafting Table"
+              ],
               "shortcuts": [
                 {
                   "room": "Transmitters",
