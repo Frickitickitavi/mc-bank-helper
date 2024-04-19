@@ -1640,6 +1640,10 @@
             },
             {
               "name": "Flowers & Petals",
+              "utilities": [
+                "Composer with Storage",
+                "Dirt Field"
+              ],
               "shortcuts": [
                 {
                   "room": "End",
