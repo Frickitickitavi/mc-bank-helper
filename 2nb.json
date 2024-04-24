@@ -5877,7 +5877,7 @@
               ]
             },
             {
-              "name": "Horse",
+              "name": "Animal",
               "chests": [
                 {
                   "name": "Leather Horse Armor"
@@ -5890,6 +5890,9 @@
                 },
                 {
                   "name": "Diamond Horse Armor"
+                },
+                {
+                  "name": "Wolf Armor"
                 },
                 {
                   "name": "Saddle",
@@ -6663,8 +6666,8 @@
                   "signName": "Prismarine Crystals"
                 },
                 {
-                  "name": "Scute",
-                  "signName": "Scutes"
+                  "name": "Turtle Scute",
+                  "signName": "Turtle Scutes"
                 },
                 {
                   "name": "Name Tag",
@@ -6689,6 +6692,10 @@
                 {
                   "name": "Bone Meal",
                   "signName": "Bonemeal"
+                },
+                {
+                  "name": "Armadillo Scute",
+                  "signName": "Armadillo Scutes"
                 }
               ]
             }
