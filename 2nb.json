@@ -267,6 +267,38 @@
                       "signName": "Waxed Oxidized Cut"
                     },
                     {
+                      "name": "Chiseled Copper",
+                      "signName": "Chiseled"
+                    },
+                    {
+                      "name": "Exposed Chiseled Copper",
+                      "signName": "Exposed Chiseled"
+                    },
+                    {
+                      "name": "Weathered Chiseled Copper",
+                      "signName": "Weathered Chiseled"
+                    },
+                    {
+                      "name": "Oxidized Chiseled Copper",
+                      "signName": "Oxidized Chiseled"
+                    },
+                    {
+                      "name": "Waxed Chiseled Copper",
+                      "signName": "Waxed Chiseled"
+                    },
+                    {
+                      "name": "Waxed Exposed Chiseled Copper",
+                      "signName": "Waxed Exposed Chiseled"
+                    },
+                    {
+                      "name": "Waxed Weathered Chiseled Copper",
+                      "signName": "Waxed Weathered Chiseled"
+                    },
+                    {
+                      "name": "Waxed Oxidized Chiseled Copper",
+                      "signName": "Waxed Oxidized Chiseled"
+                    },
+                    {
                       "name": "Block of Raw Copper",
                       "signName": "Raw"
                     }
@@ -422,6 +454,18 @@
                     {
                       "name": "Tuff",
                       "silo": 0
+                    },
+                    {
+                      "name": "Chiseled Tuff"
+                    },
+                    {
+                      "name": "Polished Tuff"
+                    },
+                    {
+                      "name": "Tuff Bricks"
+                    },
+                    {
+                      "name": "Chiseled Tuff Bricks"
                     },
                     {
                       "name": "Dripstone Block",
@@ -852,62 +896,118 @@
                 {
                   "name": "Mossy Stone Brick Wall",
                   "signName": "Mossy Stone Brick Walls"
+                },
+                {
+                  "name": "Tuff Wall",
+                  "signName": "Tuff Walls"
+                },
+                {
+                  "name": "Polished Tuff Wall",
+                  "signName": "Polished Tuff Walls"
+                },
+                {
+                  "name": "Tuff Brick Wall",
+                  "signName": "Tuff Brick Walls"
                 }
               ]
             },
             {
               "name": "Trapdoors",
-              "chests": [
+              "subrooms": [
                 {
-                  "name": "Oak Trapdoor",
-                  "signName": "Oak Trapdoors"
+                  "name": "Wood & Fungus Trapdoors",
+                  "upstreamName": "Wood & Fungus",
+                  "chests": [
+                    {
+                      "name": "Oak Trapdoor",
+                      "signName": "Oak Trapdoors"
+                    },
+                    {
+                      "name": "Birch Trapdoor",
+                      "signName": "Birch Trapdoors"
+                    },
+                    {
+                      "name": "Spruce Trapdoor",
+                      "signName": "Spruce Trapdoors"
+                    },
+                    {
+                      "name": "Acacia Trapdoor",
+                      "signName": "Acacia Trapdoors"
+                    },
+                    {
+                      "name": "Jungle Trapdoor",
+                      "signName": "Jungle Trapdoors"
+                    },
+                    {
+                      "name": "Dark Oak Trapdoor",
+                      "signName": "Dark Oak Trapdoors"
+                    },
+                    {
+                      "name": "Crimson Trapdoor",
+                      "signName": "Crimson Trapdoors"
+                    },
+                    {
+                      "name": "Warped Trapdoor",
+                      "signName": "Warped Trapdoors"
+                    },
+                    {
+                      "name": "Mangrove Trapdoor",
+                      "signName": "Mangrove Trapdoors"
+                    },
+                    {
+                      "name": "Cherry Trapdoor",
+                      "signName": "Cherry Trapdoors"
+                    },
+                    {
+                      "name": "Bamboo Trapdoor",
+                      "signName": "Bamboo Trapdoors"
+                    }
+                  ]
                 },
                 {
-                  "name": "Birch Trapdoor",
-                  "signName": "Birch Trapdoors"
-                },
-                {
-                  "name": "Spruce Trapdoor",
-                  "signName": "Spruce Trapdoors"
-                },
-                {
-                  "name": "Acacia Trapdoor",
-                  "signName": "Acacia Trapdoors"
-                },
-                {
-                  "name": "Jungle Trapdoor",
-                  "signName": "Jungle Trapdoors"
-                },
-                {
-                  "name": "Dark Oak Trapdoor",
-                  "signName": "Dark Oak Trapdoors"
-                },
-                {
-                  "name": "Crimson Trapdoor",
-                  "signName": "Crimson Trapdoors"
-                },
-                {
-                  "name": "Warped Trapdoor",
-                  "signName": "Warped Trapdoors"
-                },
-                {
-                  "name": "Mangrove Trapdoor",
-                  "signName": "Mangrove Trapdoors"
-                },
-                {
-                  "name": "Cherry Trapdoor",
-                  "signName": "Cherry Trapdoors"
-                },
-                {
-                  "name": "Bamboo Trapdoor",
-                  "signName": "Bamboo Trapdoors"
-                },
-                {
-                  "name": "Iron Trapdoor",
-                  "signName": "Iron Trapdoors"
+                  "name": "Metal Trapdoors",
+                  "upstreamName": "Metal",
+                  "chests": [
+                    {
+                      "name": "Iron Trapdoor",
+                      "signName": "Iron Trapdoors"
+                    },
+                    {
+                      "name": "Copper Trapdoor",
+                      "signName": "Copper Trapdoors"
+                    },
+                    {
+                      "name": "Exposed Copper Trapdoor",
+                      "signName": "Exposed Copper Trapdoors"
+                    },
+                    {
+                      "name": "Weathered Copper Trapdoor",
+                      "signName": "Weathered Copper Trapdoors"
+                    },
+                    {
+                      "name": "Oxidized Copper Trapdoor",
+                      "signName": "Oxidized Copper Trapdoors"
+                    },
+                    {
+                      "name": "Waxed Copper Trapdoor",
+                      "signName": "Waxed Copper Trapdoors"
+                    },
+                    {
+                      "name": "Waxed Exposed Copper Trapdoor",
+                      "signName": "Waxed Exposed Copper Trapdoors"
+                    },
+                    {
+                      "name": "Waxed Weathered Copper Trapdoor",
+                      "signName": "Waxed Weathered Copper Trapdoors"
+                    },
+                    {
+                      "name": "Waxed Oxidized Copper Trapdoor",
+                      "signName": "Waxed Oxidized Copper Trapdoors"
+                    }
+                  ]
                 }
               ]
-            },
+                },
             {
               "name": "Fences & Bars",
               "chests": [
@@ -970,56 +1070,100 @@
             },
             {
               "name": "Doors",
-              "chests": [
+              "subrooms": [
                 {
-                  "name": "Oak Door",
-                  "signName": "Oak Doors"
+                  "name": "Wood & Fungus Doors",
+                  "upstreamName": "Wood & Fungus",
+                  "chests": [
+                    {
+                      "name": "Oak Door",
+                      "signName": "Oak Doors"
+                    },
+                    {
+                      "name": "Birch Door",
+                      "signName": "Birch Doors"
+                    },
+                    {
+                      "name": "Spruce Door",
+                      "signName": "Spruce Doors"
+                    },
+                    {
+                      "name": "Acacia Door",
+                      "signName": "Acacia Doors"
+                    },
+                    {
+                      "name": "Jungle Door",
+                      "signName": "Jungle Doors"
+                    },
+                    {
+                      "name": "Dark Oak Door",
+                      "signName": "Dark Oak Doors"
+                    },
+                    {
+                      "name": "Crimson Door",
+                      "signName": "Crimson Doors"
+                    },
+                    {
+                      "name": "Warped Door",
+                      "signName": "Warped Doors"
+                    },
+                    {
+                      "name": "Mangrove Door",
+                      "signName": "Mangrove Doors"
+                    },
+                    {
+                      "name": "Cherry Door",
+                      "signName": "Cherry Doors"
+                    },
+                    {
+                      "name": "Bamboo Door",
+                      "signName": "Bamboo Doors"
+                    }
+                  ]
                 },
                 {
-                  "name": "Birch Door",
-                  "signName": "Birch Doors"
-                },
-                {
-                  "name": "Spruce Door",
-                  "signName": "Spruce Doors"
-                },
-                {
-                  "name": "Acacia Door",
-                  "signName": "Acacia Doors"
-                },
-                {
-                  "name": "Jungle Door",
-                  "signName": "Jungle Doors"
-                },
-                {
-                  "name": "Dark Oak Door",
-                  "signName": "Dark Oak Doors"
-                },
-                {
-                  "name": "Crimson Door",
-                  "signName": "Crimson Doors"
-                },
-                {
-                  "name": "Warped Door",
-                  "signName": "Warped Doors"
-                },
-                {
-                  "name": "Mangrove Door",
-                  "signName": "Mangrove Doors"
-                },
-                {
-                  "name": "Cherry Door",
-                  "signName": "Cherry Doors"
-                },
-                {
-                  "name": "Bamboo Door",
-                  "signName": "Bamboo Doors"
-                },
-                {
-                  "name": "Iron Door",
-                  "signName": "Iron Doors"
+                  "name": "Metal Doors",
+                  "upstreamName": "Metal",
+                  "chests": [
+                    {
+                      "name": "Iron Door",
+                      "signName": "Iron Doors"
+                    },
+                    {
+                      "name": "Copper Door",
+                      "signName": "Copper Doors"
+                    },
+                    {
+                      "name": "Exposed Copper Door",
+                      "signName": "Exposed Copper Doors"
+                    },
+                    {
+                      "name": "Weathered Copper Door",
+                      "signName": "Weathered Copper Doors"
+                    },
+                    {
+                      "name": "Oxidized Copper Door",
+                      "signName": "Oxidized Copper Doors"
+                    },
+                    {
+                      "name": "Waxed Copper Door",
+                      "signName": "Waxed Copper Doors"
+                    },
+                    {
+                      "name": "Waxed Exposed Copper Door",
+                      "signName": "Waxed Exposed Copper Doors"
+                    },
+                    {
+                      "name": "Waxed Weathered Copper Door",
+                      "signName": "Waxed Weathered Copper Doors"
+                    },
+                    {
+                      "name": "Waxed Oxidized Copper Door",
+                      "signName": "Waxed Oxidized Copper Doors"
+                    }
+                  ]
                 }
-              ]
+              ]              
             },
             {
               "name": "Fence Gates",
@@ -1067,6 +1211,45 @@
                 {
                   "name": "Bamboo Fence Gate",
                   "signName": "Bamboo Fence Gates"
+                }
+              ]
+            },
+            {
+              "name": "Copper Grates",
+              "chests": [
+                {
+                  {
+                    "name": "Copper Grate",
+                    "signName": "Regular"
+                  },
+                  {
+                    "name": "Exposed Copper Grate",
+                    "signName": "Exposed"
+                  },
+                  {
+                    "name": "Weathered Copper Grate",
+                    "signName": "Weathered"
+                  },
+                  {
+                    "name": "Oxidized Copper Grate",
+                    "signName": "Oxidized"
+                  },
+                  {
+                    "name": "Waxed Copper Grate",
+                    "signName": "Waxed"
+                  },
+                  {
+                    "name": "Waxed Exposed Copper Grate",
+                    "signName": "Waxed Exposed"
+                  },
+                  {
+                    "name": "Waxed Weathered Copper Grate",
+                    "signName": "Waxed Weathered"
+                  },
+                  {
+                    "name": "Waxed Oxidized Copper Grate",
+                    "signName": "Waxed Oxidized"
+                  }
                 }
               ]
             }
@@ -1152,6 +1335,18 @@
                     {
                       "name": "Polished Blackstone Brick Slab",
                       "signName": "Polished Blackstone Brick Slabs"
+                    },
+                    {
+                      "name": "Tuff Slab",
+                      "signName": "Tuff Slabs"
+                    },
+                    {
+                      "name": "Polished Tuff Slab",
+                      "signName": "Polished Tuff Slabs"
+                    },
+                    {
+                      "name": "Tuff Brick Slab",
+                      "signName": "Tuff Brick Slabs"
                     }
                   ]
                 },
@@ -1384,6 +1579,15 @@
                     },
                     {
                       "name": "Polished Blackstone Brick Stairs"
+                    },
+                    {
+                      "name": "Tuff Stairs"
+                    },
+                    {
+                      "name": "Polished Tuff Stairs"
+                    },
+                    {
+                      "name": "Tuff Brick Stairs"
                     }
                   ]
                 },
@@ -3231,8 +3435,51 @@
                   "signName": "Note Blocks"
                 },
                 {
-                  "name": "Redstone Lamp",
-                  "signName": "Redstone Lamps"
+                  "crafter": "Crafter",
+                  "signName": "Crafters"
+                }
+              ],
+              "subrooms": [
+                {
+                  "name": "Lights",
+                  "chests": [
+                    {
+                      "name": "Redstone Lamp",
+                      "signName": "Redstone Lamps"
+                    },
+                    {
+                      "name": "Copper Bulb",
+                      "signName": "Copper Bulbs"
+                    },
+                    {
+                      "name": "Exposed Copper Bulb",
+                      "signName": "Exposed Copper Bulbs"
+                    },
+                    {
+                      "name": "Weathered Copper Bulb",
+                      "signName": "Weathered Copper Bulbs"
+                    },
+                    {
+                      "name": "Oxidized Copper Bulb",
+                      "signName": "Oxidized Copper Bulbs"
+                    },
+                    {
+                      "name": "Waxed Copper Bulb",
+                      "signName": "Waxed Copper Bulbs"
+                    },
+                    {
+                      "name": "Waxed Exposed Copper Bulb",
+                      "signName": "Waxed Exposed Copper Bulbs"
+                    },
+                    {
+                      "name": "Waxed Weathered Copper Bulb",
+                      "signName": "Waxed Weathered Copper Bulbs"
+                    },
+                    {
+                      "name": "Waxed Oxidized Copper Bulb",
+                      "signName": "Waxed Oxidized Copper Bulbs"
+                    }
+                  ]
                 }
               ]
             }
@@ -4328,9 +4575,10 @@
             {
               "room": "Miscellaneous Items",
               "items": [
-                "Bottle o' Enchanting"
+                "Bottle o' Enchanting",
+                "Ominous Bottle"
               ],
-              "description": "Bottles o' Enchanting"
+              "description": "Bottles o' Enchanting or Ominous Bottles"
             }
           ],
           "subrooms": [
@@ -4491,6 +4739,22 @@
                       "name": "Potion of the Turtle Master",
                       "modifier": "Slowness VI (0:20)\\nResistance IV (0:20)",
                       "signName": "Turtle Master II"
+                    },
+                    {
+                      "name": "Potion of Infestation",
+                      "signName": "Infestation"
+                    },
+                    {
+                      "name": "Potion of Oozing",
+                      "signName": "Oozing"
+                    },
+                    {
+                      "name": "Potion of Weaving",
+                      "signName": "Weaving"
+                    },
+                    {
+                      "name": "Potion of Wind Charging",
+                      "signName": "Wind Charging"
                     }
                   ]
                 },
@@ -4712,6 +4976,22 @@
                       "name": "Splash Potion of the Turtle Master",
                       "modifier": "Slowness VI (0:15)\\nResistance IV (0:15)",
                       "signName": "Turtle Master II"
+                    },
+                    {
+                      "name": "Splash Potion of Infestation",
+                      "signName": "Infestation"
+                    },
+                    {
+                      "name": "Splash Potion of Oozing",
+                      "signName": "Oozing"
+                    },
+                    {
+                      "name": "Splash Potion of Weaving",
+                      "signName": "Weaving"
+                    },
+                    {
+                      "name": "Splash Potion of Wind Charging",
+                      "signName": "Wind Charging"
                     }
                   ]
                 },
@@ -4933,6 +5213,22 @@
                       "name": "Lingering Potion of the Turtle Master",
                       "modifier": "Slowness VI (0:05)\\nResistance IV (0:05)",
                       "signName": "Turtle Master II"
+                    },
+                    {
+                      "name": "Lingering Potion of Infestation",
+                      "signName": "Infestation"
+                    },
+                    {
+                      "name": "Lingering Potion of Oozing",
+                      "signName": "Oozing"
+                    },
+                    {
+                      "name": "Lingering Potion of Weaving",
+                      "signName": "Weaving"
+                    },
+                    {
+                      "name": "Lingering Potion of Wind Charging",
+                      "signName": "Wind Charging"
                     }
                   ]
                 },
@@ -5079,6 +5375,10 @@
                 {
                   "name": "Ghast Tear",
                   "signName": "Ghast Tears"
+                },
+                {
+                  "name": "Breeze Rod",
+                  "signName": "Breeze Rods"
                 }
               ]
             }
@@ -5351,6 +5651,10 @@
                 {
                   "name": "Fire Charge",
                   "signName": "Fire Charges"
+                },
+                {
+                  "name": "Wind Charge",
+                  "signName": "Wind Charges"
                 }
               ],
               "subrooms": [
@@ -5358,12 +5662,6 @@
                   "name": "Tipped Arrows",
                   "utilities": [
                     "Cauldron"
-                  ],
-                  "chests": [
-                    {
-                      "name": "Arrow of the Turtle Master",
-                      "signName": "Turtle Master"
-                    }
                   ],
                   "subrooms": [
                     {
@@ -5408,6 +5706,31 @@
                         {
                           "name": "Arrow of Slow Falling",
                           "signName": "Slow Falling"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mixed/Neutral Tipped Arrows",
+                      "chests": [
+                        {
+                          "name": "Arrow of the Turtle Master",
+                          "signName": "Turtle Master"
+                        },
+                        {
+                          "name": "Arrow of Infestation",
+                          "signName": "Infestation"
+                        },
+                        {
+                          "name": "Arrow of Oozing",
+                          "signName": "Oozing"
+                        },
+                        {
+                          "name": "Arrow of Weaving",
+                          "signName": "Weaving"
+                        },
+                        {
+                          "name": "Arrow of Wind Charging",
+                          "signName": "Wind Charging"
                         }
                       ]
                     },
@@ -5481,6 +5804,10 @@
                 {
                   "name": "Treasure Map",
                   "signName": "Buried Treasure Explorer Maps"
+                },
+                {
+                  "name": "Trial Explorer Map",
+                  "signName": "Trial Explorer Maps"
                 },
                 {
                   "name": "Spyglass",
@@ -5676,6 +6003,16 @@
                   "name": "Smithing Template",
                   "modifier": "Wild Armor Trim",
                   "signName": "Wild Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Bolt Armor Trim",
+                  "signName": "Bolt Armor Trim"
+                },
+                {
+                  "name": "Smithing Template",
+                  "modifier": "Flow Armor Trim",
+                  "signName": "Flow Armor Trim"
                 }
               ]
             },
@@ -5725,6 +6062,10 @@
                 {
                   "name": "Brush",
                   "signName": "Brushes"
+                },
+                {
+                  "name": "Mace",
+                  "signName": "Maces"
                 }
               ]
             }
@@ -6392,6 +6733,21 @@
                   "signName": "Relic"
                 },
                 {
+                  "name": "Music Disc",
+                  "modifier": "Aaron Cherof - Relic",
+                  "signName": "Precipice"
+                },
+                {
+                  "name": "Music Disc",
+                  "modifier": "Aaron Cherof - Relic",
+                  "signName": "Creator"
+                },
+                {
+                  "name": "Music Disc",
+                  "modifier": "Aaron Cherof - Relic",
+                  "signName": "Creator (Music Box)"
+                },
+                {
                   "name": "Disc Fragment",
                   "signName": "Disc Fragments"
                 }
@@ -6463,6 +6819,16 @@
                   "name": "Banner Pattern",
                   "modifier": "Bordure Indented",
                   "signName": "Bordure Indented"
+                },
+                {
+                  "name": "Banner Pattern",
+                  "modifier": "Flow",
+                  "signName": "Flow"
+                },
+                {
+                  "name": "Banner Pattern",
+                  "modifier": "Guster",
+                  "signName": "Guster"
                 }
               ]
             },
@@ -6580,6 +6946,21 @@
                   "name": "Pottery Sherd",
                   "modifier": "Snort",
                   "signName": "Snort"
+                },
+                {
+                  "name": "Pottery Sherd",
+                  "modifier": "Flow",
+                  "signName": "Flow"
+                },
+                {
+                  "name": "Pottery Sherd",
+                  "modifier": "Guster",
+                  "signName": "Guster"
+                },
+                {
+                  "name": "Pottery Sherd",
+                  "modifier": "Scrape",
+                  "signName": "Scrape"
                 }
               ]
             },
@@ -6696,6 +7077,18 @@
                 {
                   "name": "Armadillo Scute",
                   "signName": "Armadillo Scutes"
+                },
+                {
+                  "name": "Ominous Bottle",
+                  "signName": "Ominous Bottles"
+                },
+                {
+                  "name": "Trial Key",
+                  "signName": "Trial Keys"
+                },
+                {
+                  "name": "Ominous Trial Key",
+                  "signName": "Ominous Trial Keys"
                 }
               ]
             }
