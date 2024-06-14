@@ -445,12 +445,8 @@
                   ]
                 },
                 {
-                  "name": "Other Rocks",
-                  "upstreamName": "Other",
+                  "name": "Tuff",
                   "chests": [
-                    {
-                      "name": "Calcite"
-                    },
                     {
                       "name": "Tuff",
                       "silo": 0
@@ -466,6 +462,16 @@
                     },
                     {
                       "name": "Chiseled Tuff Bricks"
+                    }
+
+                  ]
+                },
+                {
+                  "name": "Other Rocks",
+                  "upstreamName": "Other",
+                  "chests": [
+                    {
+                      "name": "Calcite"
                     },
                     {
                       "name": "Dripstone Block",
@@ -970,39 +976,39 @@
                   "chests": [
                     {
                       "name": "Iron Trapdoor",
-                      "signName": "Iron Trapdoors"
+                      "signName": "Iron"
                     },
                     {
                       "name": "Copper Trapdoor",
-                      "signName": "Copper Trapdoors"
+                      "signName": "Copper"
                     },
                     {
                       "name": "Exposed Copper Trapdoor",
-                      "signName": "Exposed Copper Trapdoors"
+                      "signName": "Exposed Copper"
                     },
                     {
                       "name": "Weathered Copper Trapdoor",
-                      "signName": "Weathered Copper Trapdoors"
+                      "signName": "Weathered Copper"
                     },
                     {
                       "name": "Oxidized Copper Trapdoor",
-                      "signName": "Oxidized Copper Trapdoors"
+                      "signName": "Oxidized Copper"
                     },
                     {
                       "name": "Waxed Copper Trapdoor",
-                      "signName": "Waxed Copper Trapdoors"
+                      "signName": "Waxed Copper"
                     },
                     {
                       "name": "Waxed Exposed Copper Trapdoor",
-                      "signName": "Waxed Exposed Copper Trapdoors"
+                      "signName": "Waxed Exposed Copper"
                     },
                     {
                       "name": "Waxed Weathered Copper Trapdoor",
-                      "signName": "Waxed Weathered Copper Trapdoors"
+                      "signName": "Waxed Weathered Copper"
                     },
                     {
                       "name": "Waxed Oxidized Copper Trapdoor",
-                      "signName": "Waxed Oxidized Copper Trapdoors"
+                      "signName": "Waxed Oxidized Copper"
                     }
                   ]
                 }
@@ -1213,45 +1219,6 @@
                   "signName": "Bamboo Fence Gates"
                 }
               ]
-            },
-            {
-              "name": "Copper Grates",
-              "chests": [
-                {
-                  {
-                    "name": "Copper Grate",
-                    "signName": "Regular"
-                  },
-                  {
-                    "name": "Exposed Copper Grate",
-                    "signName": "Exposed"
-                  },
-                  {
-                    "name": "Weathered Copper Grate",
-                    "signName": "Weathered"
-                  },
-                  {
-                    "name": "Oxidized Copper Grate",
-                    "signName": "Oxidized"
-                  },
-                  {
-                    "name": "Waxed Copper Grate",
-                    "signName": "Waxed"
-                  },
-                  {
-                    "name": "Waxed Exposed Copper Grate",
-                    "signName": "Waxed Exposed"
-                  },
-                  {
-                    "name": "Waxed Weathered Copper Grate",
-                    "signName": "Waxed Weathered"
-                  },
-                  {
-                    "name": "Waxed Oxidized Copper Grate",
-                    "signName": "Waxed Oxidized"
-                  }
-                }
-              ]
             }
           ]
         },
@@ -1268,6 +1235,10 @@
                   "name": "Stone Slabs",
                   "upstreamName": "Stone",
                   "chests": [
+                    {
+                      "name": "Cobbled Deepslate Slab",
+                      "signName": "Cobbled Deepslate Slabs"
+                    },
                     {
                       "name": "Polished Deepslate Slab",
                       "signName": "Polished Deepslate Slabs"
@@ -1531,6 +1502,9 @@
                   "name": "Stone Stairs",
                   "upstreamName": "Stone",
                   "chests": [
+                    {
+                      "name": "Cobbled Deepslate Stairs"
+                    },
                     {
                       "name": "Polished Deepslate Stairs"
                     },
@@ -3396,6 +3370,7 @@
             {
               "name": "Devices",
               "shortcutName": "Redstone Devices",
+              "downstreamName": "Redstone Devices",
               "shortcuts": [
                 {
                   "room": "Rails",
@@ -4237,6 +4212,45 @@
                       "signName": "Bamboo Hanging Signs"
                     }
                   ]
+                },
+                {
+                  "name": "Copper Grates",
+                  "chests": [
+                    {
+                      {
+                        "name": "Copper Grate",
+                        "signName": "Regular"
+                      },
+                      {
+                        "name": "Exposed Copper Grate",
+                        "signName": "Exposed"
+                      },
+                      {
+                        "name": "Weathered Copper Grate",
+                        "signName": "Weathered"
+                      },
+                      {
+                        "name": "Oxidized Copper Grate",
+                        "signName": "Oxidized"
+                      },
+                      {
+                        "name": "Waxed Copper Grate",
+                        "signName": "Waxed"
+                      },
+                      {
+                        "name": "Waxed Exposed Copper Grate",
+                        "signName": "Waxed Exposed"
+                      },
+                      {
+                        "name": "Waxed Weathered Copper Grate",
+                        "signName": "Waxed Weathered"
+                      },
+                      {
+                        "name": "Waxed Oxidized Copper Grate",
+                        "signName": "Waxed Oxidized"
+                      }
+                    }
+                  ]
                 }
               ]
             },
@@ -4578,7 +4592,7 @@
                 "Bottle o' Enchanting",
                 "Ominous Bottle"
               ],
-              "description": "Bottles o' Enchanting or Ominous Bottles"
+              "description": "Bottles o' Enchanting/Ominous Bottles"
             }
           ],
           "subrooms": [
