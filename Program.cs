@@ -12,7 +12,7 @@ namespace BankHelper
             var watch = new Stopwatch();
             watch.Start();
 
-            var doc = JsonDocument.Parse(File.ReadAllText("C:\\Users\\willf\\source\\repos\\BankHelper\\2nb.json"));
+            var doc = JsonDocument.Parse(File.ReadAllText("C:\\Users\\willf\\source\\repos\\mc-bank\\cad\\public\\2nb.json"));
             var root = doc.RootElement;
             var mainLobby = ProcessRoom(root, null);
 
